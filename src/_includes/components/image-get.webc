@@ -1,0 +1,30 @@
+<script webc:type="render" webc:is="template">
+  const path = require("path");
+  const Image = require("@11ty/eleventy-img");
+  module.exports = async function () {
+    const aspectRatio = this.height / this.width;
+    const meta = this.meta ? `&${this.meta}` : '';
+    let options = await Image(this.src, {
+      formats: ["avif", "webp"],
+      urlPath: '/img/',
+      outputDir: `./dist/img/`,
+      widths: this.widths ? this.widths.split(', ').map(i => Number(i)) : [null],
+      filenameFormat: function (id, src, width, format, options) {
+        const extension = path.extname(src);
+        const name = path.basename(src, extension);
+        return `${name}-${width}w.${format}`;
+      },
+    });
+
+    const response = Image.generateHTML(options, {
+      alt: this.alt,
+      class: this.class,
+      decoding: "async",
+      fetchpriority: "high",
+      loading: this.loading ? this.loading : 'eager',
+      sizes: this.sizes,
+    });
+
+    return response;
+  }
+</script>

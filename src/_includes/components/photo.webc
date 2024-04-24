@@ -1,0 +1,82 @@
+<div class="photo" :style="`--bg: ${photo.palette.lightmuted.colorString}`">
+  <button class="radius__m" :popovertarget="`${photo.directory}-${index}`" popovertargetaction="show">
+    <figure class="photo__preview flow__grid flow__align--block-center flow__align--inline-center">
+      <image-get :alt="`${photo.directory} photo #${index}`" class="radius__m shadow" :directory="photo.directory"
+        :src="photo.file" sizes="(min-width: 640px) 640px, 320px" widths="320, 640" loading="lazy"
+        webc:nokeep></image-get>
+    </figure>
+  </button>
+  <dialog :id="`${photo.directory}-${index}`" class="photo__details" popover>
+    <section class="flow__grid flow__gap--l overflow__hidden padding__m width__xl">
+      <nav class="photo__nav flow__grid padding__m position__absolute">
+        <button class="flow__inline flow__align--block-center flow__align--inline-center" title="Close open photo"
+          :popovertarget="`${photo.directory}-${index}`" popovertargetaction="hide">
+          <icon name="cancel" webc:nokeep></icon>
+        </button>
+        <section class="flow__flex flow__align--block-center flow__align--inline-between">
+          <button class="flow__inline flow__align--block-center flow__align--inline-center" data-target="prev"
+            title="Choose previous photo" :disabled="prevdisabled" onclick="handlePrev()">
+            <icon name="left" webc:nokeep></icon>
+          </button>
+          <button class="flow__inline flow__align--block-center flow__align--inline-center" data-target="next"
+            title="Choose next photo" :disabled="nextdisabled" onclick="handleNext()">
+            <icon name="right" webc:nokeep></icon>
+          </button>
+        </section>
+      </nav>
+      <image-get :alt="`${photo.directory} photo #${index}`" class="radius__m shadow" :directory="photo.directory"
+        :src="photo.file" sizes="(min-width: 640px) 640px, (min-width:800px) 960px, (min-width: 1008px) 1280px, 320px"
+        widths="320, 640, 960, 1280" loading="lazy" webc:nokeep></image-get>
+      <figcaption class="photo__meta">
+        <p class="padding__inline--l type__size--s-m"
+          @text="`${photo.exif.Make} ${photo.exif.Model.replace(photo.exif.Make, '')} • ${new Date(photo.exif.CreateDate).toLocaleDateString('en-US', {year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric'})} • ƒ${photo.exif.FNumber} • ISO ${photo.exif.ISO} • ${Math.round(photo.exif.FocalLength)}mm`">
+        </p>
+      </figcaption>
+    </section>
+  </dialog>
+</div>
+
+<script>
+  const getPopovers = () => {
+    const popovers = Array.from(document.querySelectorAll('[popover]')).map((popover) => popover);
+    const popoversMapped = popovers.map((popover, index) => ({ el: popover, i: index }));
+    const found = popoversMapped.filter(popover => popover.el.matches(":popover-open")).shift();
+    const next = (found.i + 1) <= popovers.length ? popovers[found.i + 1] : null;
+    const prev = (found.i - 1) >= 0 ? popovers[found.i - 1] : null;
+
+    return {
+      next,
+      prev,
+      found
+    }
+  }
+
+  const handleEscape = () => {
+    const { found } = getPopovers();
+    const id = found.el.getAttribute('id');
+    const ref = document.querySelector(`[popovertarget="${id}"]`);
+    ref.focus();
+  }
+
+  const handleNext = () => {
+    const { next } = getPopovers();
+    next && next.showPopover();
+  }
+
+  const handlePrev = () => {
+    const { prev } = getPopovers();
+    prev && prev.showPopover();
+  }
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      handleEscape();
+    }
+    if (event.key === "ArrowLeft") {
+      handlePrev();
+    }
+    if (event.key === "ArrowRight") {
+      handleNext();
+    }
+  });
+</script>

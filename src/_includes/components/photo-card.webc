@@ -1,0 +1,19 @@
+<figure class="photo__card flow__grid">
+  <img :alt="`Primary photo for ${album.directory}`" class="radius__m"
+    :src="`${album.file}${header ? '1280x360':'480x480'}@2x?access_token=${token}`" />
+  <figcaption
+    class="flow__grid flow__align--block-center flow__align--inline-center flow__gap--m padding__m radius__bl--m radius__br--m">
+    <h1 webc:if="header" @text="album.name"></h1>
+    <h2 webc:else @text="album.name"></h2>
+    <section class="flow__flex flow__align--inline-center flow__flex--wrap flow__gap--m">
+      <p class="flow__flex flow__align--block-center flow__align--inline-center flow__gap--s">
+        <icon name="calendar" size="24" webc:nokeep></icon>
+        <span @text="album.dates"></span>
+      </p>
+      <p class="flow__flex flow__align--block-center flow__align--inline-center flow__gap--s flow__flex--wrap">
+        <icon name="pin" size="24" webc:nokeep></icon>
+        <span webc:for="location of album.locations" @text="location"></span>
+      </p>
+    </section>
+  </figcaption>
+</figure>

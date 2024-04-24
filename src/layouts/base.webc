@@ -1,0 +1,50 @@
+---
+layout: root.webc
+---
+
+<main :class="pageClass">
+  <template @html="content" webc:nokeep></template>
+</main>
+<script>
+  const getTheme = (fn) => {
+    if (!window.matchMedia) {
+      return;
+    }
+
+    const query = window.matchMedia('(prefers-color-scheme: dark)');
+
+    fn(query.matches);
+
+    query.addEventListener('change', (event) => fn(event.matches));
+  }
+
+  function toggleTheme() {
+    if (sessionStorage.getItem("theme") === null) {
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        sessionStorage.setItem("theme", "dark");
+      } else {
+        sessionStorage.setItem("theme", "light");
+      }
+      document.documentElement.setAttribute(
+        "data-theme",
+        sessionStorage.getItem("theme")
+      );
+    }
+    if (document.documentElement.getAttribute("data-theme") === "dark") {
+      sessionStorage.setItem("theme", "light");
+    } else {
+      sessionStorage.setItem("theme", "dark");
+    }
+    document.documentElement.setAttribute(
+      "data-theme",
+      sessionStorage.getItem("theme")
+    );
+  }
+
+  getTheme((isDark) => {
+    document.documentElement.setAttribute(
+      "data-theme",
+      sessionStorage.getItem("theme") ? sessionStorage.getItem("theme") : (isDark ? 'dark' : 'light')
+    )
+  })
+</script>

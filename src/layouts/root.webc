@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title @html="title"></title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="author" content="Jared Pendergraft" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" :content="description" />
+  <meta name="keywords"
+    content="jared pendergraft, jared pendergraft designs, design, website, graphic design hawaii, web design hawaii, graphic design maui, web design maui" />
+  <meta name="theme-color" content="hsl(158, 32%, 38%)" />
+  <meta name="twitter:card" content="photo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta property="og:description" :content="description" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image" content="https://jaredpendergraft.com/img/social.jpg" />
+  <meta property="og:site_name" content="Jared Pendergraft" />
+  <meta property="og:title" :content="title" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" :content="`https://jaredpendergraft.com${ page.url }`" />
+  <link rel="canonical" :href="`https://jaredpendergraft.com${ page.url }`" />
+  <link rel="icon" href="/favicon.ico" alternate />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#428069">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-orientations" content="portrait-any">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/icons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/icons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/icons/apple-touch-icon-60x60.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="preconnect" href="https://use.typekit.net" />
+  <link rel="preconnect" href="https://p.typekit.net" />
+  <link webc:keep rel="preload" href="https://use.typekit.net/wqt4jel.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'" rel="stylesheet">
+  <noscript webc:keep>
+    <link href="https://use.typekit.net/wqt4jel.css" rel="stylesheet">
+  </noscript>
+  <link rel="stylesheet" href="/style.css" webc:raw />
+  <style webc:keep @html="getCSS(page.url)"></style>
+  <script webc:keep @html="getJS(page.url)"></script>
+</head>
+
+<body @html="content"></body>
+
+</html>

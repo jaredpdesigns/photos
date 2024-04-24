@@ -1,0 +1,301 @@
+@layer pasta, project, components, pages;
+
+@import url("https://unpkg.com/@jaredpdesigns/pasta") layer(pasta);
+
+@layer project {
+  :root {
+    --outline__offset: var(--size__xs);
+    --outline__size: calc(var(--size__xxs) * 2);
+    --outline__style: dotted;
+    --type__family--primary: "degular-variable", sans-serif;
+  }
+
+  strong,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-weight: 600;
+    font-variation-settings: 'opsz' 6, 'wght' 600;
+
+    em {
+      font-variation-settings: 'opsz' 6, 'wght' 600, 'ital' 1;
+    }
+  }
+
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-variation-settings: 'opsz' 12, 'wght' 600;
+  }
+
+  h1 {
+    font-size: var(--type__size--xxxl);
+    font-weight: 700;
+    font-variation-settings: 'opsz' 24, 'wght' 700;
+    line-height: var(--type__lineheight--xxxl);
+
+    @media (min-width: 79rem) {
+      font-size: var(--type__size--xxxxl);
+      line-height: var(--type__lineheight--xxxxl);
+    }
+  }
+
+  a {
+    color: var(--color__base);
+    text-decoration: none;
+    transition: 0.375s ease-in;
+    transition-property: color, opacity;
+
+    &:focus,
+    &:hover {
+      color: var(--color__base--ish);
+    }
+  }
+
+  p:empty {
+    display: none;
+  }
+
+  body:has([popover]:popover-open) {
+    overflow: hidden;
+  }
+
+  header {
+
+    a,
+    button {
+      --outline__offset: calc(var(--size__xxs) * -1);
+      block-size: var(--size__xl);
+      border-radius: 50%;
+      inline-size: var(--size__xl);
+      transition: 0.375s ease-in;
+      transition-property: color, opacity;
+      z-index: 2;
+
+      &:focus-visible {
+        background-color: unset;
+      }
+    }
+
+    a {
+      place-self: start;
+    }
+
+    button {
+      align-self: start;
+      background-color: unset;
+      border: unset;
+      justify-self: end;
+
+      [data-theme="light"] & {
+        svg:last-child {
+          display: none;
+        }
+      }
+
+      [data-theme="dark"] & {
+        svg:first-child {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@layer components {
+  .photo {
+    button {
+      background-color: unset;
+      border: unset;
+    }
+
+    &__card {
+      >* {
+        grid-area: 1/1;
+      }
+
+      img {
+        aspect-ratio: 1;
+        background-color: var(--color__base--ghost);
+        inline-size: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      figcaption {
+        background-color: color-mix(in srgb, var(--color__set--contrast) 75%, transparent);
+        backdrop-filter: blur(32px);
+        align-self: end;
+        justify-content: center;
+
+        svg {
+          flex-shrink: 0;
+          margin-block-start: calc(var(--size__xs) * -1);
+        }
+
+        >* {
+          margin-inline: auto;
+        }
+
+        section {
+          flex-direction: column;
+          row-gap: 0;
+        }
+
+        p {
+          row-gap: 0;
+
+          span:not(:last-child):after {
+            content: ', ';
+          }
+        }
+      }
+    }
+
+    &__header {
+      inset-block-start: 0;
+      position: sticky;
+      padding-block-end: 0;
+
+      >* {
+        grid-area: 1/1;
+      }
+
+      a,
+      button {
+        color: var(--color__contrast--fixed);
+
+        &:focus,
+        &:hover {
+          opacity: 0.75;
+        }
+      }
+
+      figure {
+        inline-size: 100%;
+      }
+
+      img {
+        @media(min-width: 600px) {
+          aspect-ratio: 16/4.5;
+        }
+      }
+
+      figcaption section {
+        flex-direction: row;
+      }
+    }
+
+    &__preview img {
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    &__details {
+      --background: color-mix(in oklab, hsl(var(--bg)) 25%, var(--color__set--contrast));
+      --color: color-mix(in oklab, hsl(var(--bg)) 50%, var(--color__base));
+      display: none;
+
+      &::backdrop {
+        background-color: var(--background);
+        backdrop-filter: unset;
+      }
+
+      &:popover-open {
+        background: unset;
+        border: unset;
+        align-items: center;
+        block-size: 100vh;
+        display: grid;
+        inline-size: 100%;
+        inset: 0;
+
+        @media(min-width: 80rem) {
+          padding: var(--size__m);
+        }
+
+        >section {
+          block-size: 100vh;
+          grid-template-rows: 1fr auto;
+          place-items: center;
+          position: relative;
+
+          @media(min-width: 80rem) {
+            block-size: calc(100vh - var(--size__l));
+            max-inline-size: calc(var(--width__xl) - var(--size__l));
+          }
+
+          nav {
+            @media(min-width: 80rem) {
+              padding: unset;
+            }
+          }
+
+          img {
+            inline-size: auto;
+            max-block-size: calc(100vh - (var(--size__l) * 2) - 64px);
+          }
+
+          figcaption {
+            color: var(--color);
+          }
+        }
+      }
+    }
+
+    &__nav {
+      grid-template-rows: auto 1fr;
+      inset: 0;
+
+      button {
+        --outline__offset: 0;
+        background-color: var(--background);
+        block-size: var(--size__xl);
+        border-radius: 50%;
+        color: var(--color);
+        inline-size: var(--size__xl);
+        transition: color 0.375s ease-in;
+
+        &[disabled] {
+          --color: color-mix(in oklab, hsl(var(--bg)) 75%, var(--color__base));
+          cursor: not-allowed;
+        }
+
+        &:focus,
+        &:not([disabled]):hover {
+          --color: color-mix(in oklab, hsl(var(--bg)) 25%, var(--color__base));
+        }
+      }
+    }
+  }
+}
+
+@layer pages {
+  .overview article {
+    header button {
+      color: var(--color__base--mid);
+
+      &:focus,
+      &:hover {
+        color: var(--color__base--ish);
+      }
+    }
+
+    >section {
+      align-items: start;
+      display: grid;
+      gap: var(--size__m);
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      padding: var(--size__m);
+    }
+  }
+
+  .detail article>section {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    position: relative;
+  }
+}

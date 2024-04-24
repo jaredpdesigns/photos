@@ -1,0 +1,11 @@
+<header class="photo__header flow__grid padding__m">
+  <a class="flow__inline flow__align--block-center flow__align--inline-center" href="/" title="Return to overview">
+    <icon name="cancel" webc:nokeep></icon>
+  </a>
+  <button class="flow__inline flow__align--block-center flow__align--inline-center" onclick="toggleTheme()"
+    title="Toggle website theme">
+    <icon name="moon" size="24" webc:nokeep></icon>
+    <icon name="sun" size="24" webc:nokeep></icon>
+  </button>
+  <photo-card :token="token" :album="album" :header="true" webc:nokeep></photo-card>
+</header>
