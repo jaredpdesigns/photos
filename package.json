@@ -1,13 +1,12 @@
 {
-  "name": "jpd",
-  "version": "5.0.0",
-  "description": "The personal website of Jared Pendergraft",
+  "name": "photos",
+  "version": "1.0.0",
+  "description": "Photos from my trips around the world",
   "author": "Jared Pendergraft <jaredpdesigns@gmail.com>",
   "license": "ISC",
   "scripts": {
     "build": "eleventy",
     "buildPhotos": "node buildPhotos.js --input=img --output=src/data",
-    "clean": "rm -rf dist",
     "dev": "eleventy --serve"
   },
   "dependencies": {
@@ -27,6 +26,7 @@
     "postcss-nested": "^6.0.1"
   },
   "devDependencies": {
+    "contentful-management": "^11.25.1",
     "dotenv": "^16.4.5",
     "exifr": "^7.1.3",
     "node-vibrant": "^3.2.1-alpha.1"

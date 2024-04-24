@@ -5,19 +5,5 @@
     "dates": "March 17–26, 2024",
     "file": "https://api.mapbox.com/styles/v1/mapbox/outdoors-v12/static/138.2519,36.2089,6,0/",
     "locations": ["Tokyo", "Kyoto", "Nara", "Hiroshima", "Osaka"]
-  },
-  {
-    "name": "Alaska & Vancouver",
-    "directory": "alaska-vancouver",
-    "dates": "May 27–April 3, 2023",
-    "file": "https://api.mapbox.com/styles/v1/mapbox/outdoors-v12/static/-136.3165,55.9378,3,0/",
-    "locations": ["Alaska", "Vancouver"]
-  },
-  {
-    "name": "Vancouver",
-    "directory": "vancouver",
-    "dates": "October 1–7, 2022",
-    "file": "https://api.mapbox.com/styles/v1/mapbox/outdoors-v12/static/-123.1215,49.3091,10,0/",
-    "locations": ["Vancouver", "Squamish"]
   }
 ]

@@ -6,21 +6,18 @@
     const meta = this.meta ? `&${this.meta}` : '';
     let options = await Image(this.src, {
       formats: ["avif", "webp"],
-      urlPath: '/img/',
-      outputDir: `./dist/img/`,
-      widths: this.widths ? this.widths.split(', ').map(i => Number(i)) : [null],
-      filenameFormat: function (id, src, width, format, options) {
-        const extension = path.extname(src);
-        const name = path.basename(src, extension);
-        return `${name}-${width}w.${format}`;
+      urlFormat: function ({ src, width, format }) {
+        return `${src}?w=${width}&fm=${format}${meta}`;
       },
+      outputDir: 'dist',
+      widths: this.widths ? this.widths.split(', ').map(i => Number(i)) : [null],
     });
 
     const response = Image.generateHTML(options, {
       alt: this.alt,
       class: this.class,
       decoding: "async",
-      fetchpriority: "high",
+      fetchpriority: this.fetchpriority ? this.fetchpriority : "low",
       loading: this.loading ? this.loading : 'eager',
       sizes: this.sizes,
     });

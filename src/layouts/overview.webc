@@ -1,0 +1,18 @@
+---
+layout: base.webc
+---
+
+<header class="flow__flex flow__align--block-center flow__align--inline-between padding__m">
+  <p class="flow__inline flow__align--block-center flow__gap--s">
+    <icon name="camera" size="24" webc:nokeep></icon><strong>from Around the World</strong>
+  </p>
+  <button class="flow__inline flow__align--block-center flow__align--inline-center" onclick="toggleTheme()"
+    title="Toggle website theme">
+    <icon name="moon" size="24" webc:nokeep></icon>
+    <icon name="sun" size="24" webc:nokeep></icon>
+  </button>
+</header>
+<section>
+  <template @html="content" webc:nokeep></template>
+</section>
+<site-footer webc:nokeep></site-footer>

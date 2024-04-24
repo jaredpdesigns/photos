@@ -1,7 +1,17 @@
-const { access, mkdir, readdir, writeFile } = require("fs/promises");
+require("dotenv").config();
+const { access, mkdir, readdir, readFile, writeFile } = require("fs/promises");
 const { promisify } = require("util");
-const Vibrant = require("node-vibrant");
+const contentful = require("contentful-management");
 const exifr = require("exifr");
+const Vibrant = require("node-vibrant");
+const existing = require("./src/data/photoData.json");
+
+const client = contentful.createClient(
+  {
+    accessToken: process.env.CTF_CDA_ACCESS_TOKEN
+  },
+  { type: "plain" }
+);
 
 const getFileList = async (dirName) => {
   let files = [];
@@ -39,41 +49,113 @@ const buildPhotoData = async () => {
   const arr = [];
 
   for (const file of files) {
-    const palette = await Vibrant.from(file)
-      .maxColorCount(256)
-      .getSwatches()
-      .then((palette) => {
-        const paletteObj = {};
-        for (let color in palette) {
-          const colorName = color.toLowerCase();
-          const hsl = palette[color].getHsl().map((i) => Math.round(i * 100));
-          paletteObj[colorName] = {
-            colorArray: hsl,
-            colorString: `${hsl[0]}deg ${hsl[1]}% ${hsl[2]}%`
-          };
-        }
-        return paletteObj;
+    const fileNameCleaned = file.split("/").pop().replace(".jpeg", "");
+    const existingData = existing.find((img) =>
+      img.file.includes(fileNameCleaned)
+    );
+    if (!existingData) {
+      const fileLoaded = await readFile(file);
+      const upload = await client.upload
+        .create(
+          {
+            spaceId: process.env.CTF_SPACE_ID,
+            environmentId: "master"
+          },
+          {
+            file: fileLoaded
+          }
+        )
+        .then((uploadedFile) =>
+          client.asset.create(
+            {
+              spaceId: process.env.CTF_SPACE_ID,
+              environmentId: "master"
+            },
+            {
+              fields: {
+                title: {
+                  "en-US": fileNameCleaned
+                },
+                file: {
+                  "en-US": {
+                    contentType: "application/jpeg",
+                    fileName: file,
+                    uploadFrom: {
+                      sys: {
+                        type: "Link",
+                        linkType: "Upload",
+                        id: uploadedFile.sys.id
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          )
+        )
+        .then((createdAsset) =>
+          client.asset.processForLocale(
+            {
+              spaceId: process.env.CTF_SPACE_ID,
+              environmentId: "master"
+            },
+            createdAsset,
+            "en-US"
+          )
+        );
+      const publish = await client.asset.publish(
+        {
+          spaceId: process.env.CTF_SPACE_ID,
+          environmentId: "master",
+          assetId: upload.sys.id
+        },
+        upload
+      );
+      const fileName = await upload.fields.file["en-US"].url;
+      console.log(`⬆️ Uploaded: https${filename}`);
+
+      const palette = await Vibrant.from(file)
+        .maxColorCount(256)
+        .getSwatches()
+        .then((palette) => {
+          const paletteObj = {};
+          for (let color in palette) {
+            const colorName = color.toLowerCase();
+            const hsl = palette[color].getHsl().map((i) => Math.round(i * 100));
+            paletteObj[colorName] = {
+              colorArray: hsl,
+              colorString: `${hsl[0]}deg ${hsl[1]}% ${hsl[2]}%`
+            };
+          }
+          return paletteObj;
+        });
+      console.log("🎨 Extracted palette");
+
+      const exifOptions = [
+        "Make",
+        "Model",
+        "CreateDate",
+        "FNumber",
+        "ISO",
+        "FocalLength"
+      ];
+
+      const exif = await exifr.parse(file, exifOptions);
+
+      console.log("📷 Extracted exif data");
+
+      arr.push({
+        directory: file.split("/")[1],
+        file: `https:${fileName}`,
+        palette: palette,
+        exif: exif
       });
-
-    const exifOptions = [
-      "Make",
-      "Model",
-      "CreateDate",
-      "FNumber",
-      "ISO",
-      "FocalLength"
-    ];
-
-    const exif = await exifr.parse(file, exifOptions);
-
-    arr.push({
-      directory: file.split("/")[1],
-      file: file,
-      palette: palette,
-      exif: exif
-    });
+    } else {
+      arr.push(existingData);
+    }
   }
   writeFile(`${output || "."}/photoData.json`, JSON.stringify(arr, null, 2));
+  console.log(`🖼️ Built ${arr.length} photos`);
 };
 
 buildPhotoData();

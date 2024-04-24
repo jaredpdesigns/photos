@@ -1,7 +1,0 @@
----
-layout: base.webc
----
-
-<article class="width__xl">
-  <template @html="content" webc:nokeep></template>
-</article>

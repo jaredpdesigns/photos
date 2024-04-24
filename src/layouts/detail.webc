@@ -1,0 +1,19 @@
+---
+layout: base.webc
+---
+
+<header class="photo__header flow__grid padding__m">
+  <a class="flow__inline flow__align--block-center flow__align--inline-center" href="/" title="Return to overview">
+    <icon name="cancel" webc:nokeep></icon>
+  </a>
+  <button class="flow__inline flow__align--block-center flow__align--inline-center" onclick="toggleTheme()"
+    title="Toggle website theme">
+    <icon name="moon" size="24" webc:nokeep></icon>
+    <icon name="sun" size="24" webc:nokeep></icon>
+  </button>
+  <photo-card :token="this.mapbox" :album="album" :header="true" webc:nokeep></photo-card>
+</header>
+<section class="color__bg--contrast flow__grid flow__gap--m padding__m">
+  <template @html="content" webc:nokeep></template>
+</section>
+<site-footer webc:nokeep></site-footer>

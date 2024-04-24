@@ -1,0 +1,5 @@
+<footer class="flow__flex flow__align--block-center flow__align--inline-center padding__m">
+  <p class="type__size--s-m">&copy; <span @text="new Date().getFullYear()"></span> <a
+      href="https://jaredpendergraft.com" target="_blank" rel="nofollow">Jared
+      Pendergraft</a></p>
+</footer>

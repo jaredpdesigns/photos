@@ -43,7 +43,7 @@
     }
   }
 
-  a {
+  a[class] {
     color: var(--color__base);
     text-decoration: none;
     transition: 0.375s ease-in;
@@ -55,8 +55,15 @@
     }
   }
 
-  p:empty {
-    display: none;
+  p {
+    svg {
+      flex-shrink: 0;
+      margin-block-start: calc(var(--size__xs) * -1);
+    }
+
+    &:empty {
+      display: none;
+    }
   }
 
   body:has([popover]:popover-open) {
@@ -131,11 +138,6 @@
         align-self: end;
         justify-content: center;
 
-        svg {
-          flex-shrink: 0;
-          margin-block-start: calc(var(--size__xs) * -1);
-        }
-
         >* {
           margin-inline: auto;
         }
@@ -151,6 +153,10 @@
           span:not(:last-child):after {
             content: ', ';
           }
+        }
+
+        svg {
+          color: var(--color__base--ish);
         }
       }
     }
@@ -236,6 +242,7 @@
           }
 
           img {
+            background-color: var(--color__contrast);
             inline-size: auto;
             max-block-size: calc(100vh - (var(--size__l) * 2) - 64px);
           }
@@ -275,7 +282,13 @@
 }
 
 @layer pages {
-  .overview article {
+
+  .overview article,
+  .error article {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-block-size: 100vh;
+
     header button {
       color: var(--color__base--mid);
 
@@ -289,13 +302,36 @@
       align-items: start;
       display: grid;
       gap: var(--size__m);
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      padding: var(--size__m);
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      justify-items: center;
+      padding-inline: var(--size__m);
+
+      >* {
+        min-inline-size: 0;
+      }
     }
   }
 
-  .detail article>section {
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-    position: relative;
+  .error article>section {
+    align-content: center;
+    align-items: center;
+    background-color: var(--color__base--ghost);
+    border-radius: var(--size__m);
+    grid-template-columns: unset;
+  }
+
+  .detail article {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-block-size: 100vh;
+
+    >section {
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      position: relative;
+
+      >* {
+        min-inline-size: 0;
+      }
+    }
   }
 }
