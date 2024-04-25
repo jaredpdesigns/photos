@@ -10,19 +10,19 @@
   <meta name="description" :content="description" />
   <meta name="keywords"
     content="jared pendergraft, jared pendergraft designs, design, website, graphic design hawaii, web design hawaii, graphic design maui, web design maui" />
-  <meta name="theme-color" content="hsl(158, 32%, 38%)" />
+  <meta name="theme-color" content="#6BBD94" />
   <meta name="twitter:card" content="photo" />
   <meta name="viewport"
     content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
   <meta property="og:description" :content="description" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:width" content="1200" />
-  <meta property="og:image" content="https://jaredpendergraft.com/img/social.jpg" />
+  <meta property="og:image" content="https://photos.jaredpendergraft.com/img/social.jpg" />
   <meta property="og:site_name" content="Jared Pendergraft" />
   <meta property="og:title" :content="title" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" :content="`https://jaredpendergraft.com${ page.url }`" />
-  <link rel="canonical" :href="`https://jaredpendergraft.com${ page.url }`" />
+  <meta property="og:url" :content="`https://photos.jaredpendergraft.com${ page.url }`" />
+  <link rel="canonical" :href="`https://photos.jaredpendergraft.com${ page.url }`" />
   <link rel="icon" href="/favicon.ico" alternate />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#428069">

@@ -2,7 +2,7 @@
   <button class="radius__m" :popovertarget="`${photo.directory}-${index}`" popovertargetaction="show">
     <figure class="photo__preview flow__grid flow__align--block-center flow__align--inline-center">
       <image-get :alt="`${photo.directory} photo #${index}`" class="radius__m shadow" :src="photo.file"
-        sizes="(min-width: 640px) 640px, 320px" widths="320, 640" fetchpriority="high" loading="lazy" :square="true"
+        sizes="(min-width: 640px) 320px, 160px" widths="160, 320" fetchpriority="high" loading="lazy" :square="true"
         meta="&f=face&fit=fill" webc:nokeep></image-get>
     </figure>
   </button>
