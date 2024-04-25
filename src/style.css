@@ -162,9 +162,14 @@
     }
 
     &__header {
-      inset-block-start: 0;
-      position: sticky;
       padding-block-end: 0;
+      padding-inline-start: calc(var(--size__m) + env(safe-area-inset-left));
+      padding-inline-end: calc(var(--size__m) + env(safe-area-inset-right));
+
+      @media (hover: hover) {
+        inset-block-start: 0;
+        position: sticky;
+      }
 
       >* {
         grid-area: 1/1;
@@ -215,7 +220,7 @@
         background: unset;
         border: unset;
         align-items: center;
-        block-size: 100vh;
+        block-size: 100dvh;
         display: grid;
         inline-size: 100%;
         inset: 0;
@@ -225,26 +230,29 @@
         }
 
         >section {
-          block-size: 100vh;
+          block-size: 100dvh;
           grid-template-rows: 1fr auto;
           place-items: center;
           position: relative;
 
           @media(min-width: 80rem) {
-            block-size: calc(100vh - var(--size__l));
+            block-size: calc(100dvh - var(--size__l));
             max-inline-size: calc(var(--width__xl) - var(--size__l));
           }
 
           nav {
+            padding-inline-start: calc(var(--size__m) + env(safe-area-inset-left));
+            padding-inline-end: calc(var(--size__m) + env(safe-area-inset-right));
+
             @media(min-width: 80rem) {
               padding: unset;
             }
           }
 
           img {
-            background-color: var(--color__contrast);
+            background-color: color-mix(in oklab, hsl(var(--bg)) 38%, var(--color__set--contrast));
             inline-size: auto;
-            max-block-size: calc(100vh - (var(--size__l) * 2) - 64px);
+            max-block-size: calc(100dvh - (var(--size__l) * 2) - 64px);
           }
 
           figcaption {
@@ -287,14 +295,19 @@
   .error article {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    min-block-size: 100vh;
+    min-block-size: 100dvh;
 
-    header button {
-      color: var(--color__base--mid);
+    header {
+      padding-inline-start: calc(var(--size__m) + env(safe-area-inset-left));
+      padding-inline-end: calc(var(--size__m) + env(safe-area-inset-right));
 
-      &:focus,
-      &:hover {
-        color: var(--color__base--ish);
+      button {
+        color: var(--color__base--mid);
+
+        &:focus,
+        &:hover {
+          color: var(--color__base--ish);
+        }
       }
     }
 
@@ -304,7 +317,8 @@
       gap: var(--size__m);
       grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
       justify-items: center;
-      padding-inline: var(--size__m);
+      padding-inline-start: calc(var(--size__m) + env(safe-area-inset-left));
+      padding-inline-end: calc(var(--size__m) + env(safe-area-inset-right));
 
       >* {
         min-inline-size: 0;
@@ -322,11 +336,12 @@
 
   .detail article {
     display: grid;
-    grid-template-rows: auto 1fr auto;
-    min-block-size: 100vh;
+    min-block-size: 100dvh;
 
     >section {
       grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      padding-inline-start: calc(var(--size__m) + env(safe-area-inset-left));
+      padding-inline-end: calc(var(--size__m) + env(safe-area-inset-right));
       position: relative;
 
       >* {

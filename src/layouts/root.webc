@@ -12,7 +12,8 @@
     content="jared pendergraft, jared pendergraft designs, design, website, graphic design hawaii, web design hawaii, graphic design maui, web design maui" />
   <meta name="theme-color" content="hsl(158, 32%, 38%)" />
   <meta name="twitter:card" content="photo" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
   <meta property="og:description" :content="description" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:width" content="1200" />

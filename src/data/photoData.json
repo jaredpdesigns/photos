@@ -4,27 +4,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5ymmQjiC9j6ZkusVAsYpcG/7026b25844f8b6913cf6cd04297b2ae4/img_japan_japan-2024-00001.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [57, 37, 42],
+        "colorArray": [
+          57,
+          37,
+          42
+        ],
         "colorString": "57deg 37% 42%"
       },
       "darkvibrant": {
-        "colorArray": [57, 44, 31],
+        "colorArray": [
+          57,
+          44,
+          31
+        ],
         "colorString": "57deg 44% 31%"
       },
       "lightvibrant": {
-        "colorArray": [10, 44, 71],
+        "colorArray": [
+          10,
+          44,
+          71
+        ],
         "colorString": "10deg 44% 71%"
       },
       "muted": {
-        "colorArray": [57, 28, 50],
+        "colorArray": [
+          57,
+          28,
+          50
+        ],
         "colorString": "57deg 28% 50%"
       },
       "darkmuted": {
-        "colorArray": [57, 26, 25],
+        "colorArray": [
+          57,
+          26,
+          25
+        ],
         "colorString": "57deg 26% 25%"
       },
       "lightmuted": {
-        "colorArray": [58, 25, 69],
+        "colorArray": [
+          58,
+          25,
+          69
+        ],
         "colorString": "58deg 25% 69%"
       }
     },
@@ -42,27 +66,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/4jwy461jCnPaJCAeR7be3T/11e9eb44b8c409e83f731383f597ed5a/img_japan_japan-2024-00002.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [10, 38, 54],
+        "colorArray": [
+          10,
+          38,
+          54
+        ],
         "colorString": "10deg 38% 54%"
       },
       "darkvibrant": {
-        "colorArray": [7, 50, 22],
+        "colorArray": [
+          7,
+          50,
+          22
+        ],
         "colorString": "7deg 50% 22%"
       },
       "lightvibrant": {
-        "colorArray": [6, 74, 83],
+        "colorArray": [
+          6,
+          74,
+          83
+        ],
         "colorString": "6deg 74% 83%"
       },
       "muted": {
-        "colorArray": [11, 30, 53],
+        "colorArray": [
+          11,
+          30,
+          53
+        ],
         "colorString": "11deg 30% 53%"
       },
       "darkmuted": {
-        "colorArray": [0, 27, 24],
+        "colorArray": [
+          0,
+          27,
+          24
+        ],
         "colorString": "0deg 27% 24%"
       },
       "lightmuted": {
-        "colorArray": [6, 29, 76],
+        "colorArray": [
+          6,
+          29,
+          76
+        ],
         "colorString": "6deg 29% 76%"
       }
     },
@@ -80,27 +128,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/287pcgQuiW4O62CwuPprIN/0c3bc19a6ce55ce9698bb436b00d4fb4/img_japan_japan-2024-00003.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [100, 62, 45],
+        "colorArray": [
+          100,
+          62,
+          45
+        ],
         "colorString": "100deg 62% 45%"
       },
       "darkvibrant": {
-        "colorArray": [56, 80, 31],
+        "colorArray": [
+          56,
+          80,
+          31
+        ],
         "colorString": "56deg 80% 31%"
       },
       "lightvibrant": {
-        "colorArray": [6, 36, 84],
+        "colorArray": [
+          6,
+          36,
+          84
+        ],
         "colorString": "6deg 36% 84%"
       },
       "muted": {
-        "colorArray": [6, 25, 55],
+        "colorArray": [
+          6,
+          25,
+          55
+        ],
         "colorString": "6deg 25% 55%"
       },
       "darkmuted": {
-        "colorArray": [8, 17, 25],
+        "colorArray": [
+          8,
+          17,
+          25
+        ],
         "colorString": "8deg 17% 25%"
       },
       "lightmuted": {
-        "colorArray": [7, 25, 80],
+        "colorArray": [
+          7,
+          25,
+          80
+        ],
         "colorString": "7deg 25% 80%"
       }
     },
@@ -118,27 +190,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/1YC0unDGC7E90bnEckam4k/b6a3943f68572fa5953454fef4253406/img_japan_japan-2024-00004.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [1, 46, 52],
+        "colorArray": [
+          1,
+          46,
+          52
+        ],
         "colorString": "1deg 46% 52%"
       },
       "darkvibrant": {
-        "colorArray": [12, 65, 25],
+        "colorArray": [
+          12,
+          65,
+          25
+        ],
         "colorString": "12deg 65% 25%"
       },
       "lightvibrant": {
-        "colorArray": [2, 46, 73],
+        "colorArray": [
+          2,
+          46,
+          73
+        ],
         "colorString": "2deg 46% 73%"
       },
       "muted": {
-        "colorArray": [58, 22, 53],
+        "colorArray": [
+          58,
+          22,
+          53
+        ],
         "colorString": "58deg 22% 53%"
       },
       "darkmuted": {
-        "colorArray": [8, 20, 24],
+        "colorArray": [
+          8,
+          20,
+          24
+        ],
         "colorString": "8deg 20% 24%"
       },
       "lightmuted": {
-        "colorArray": [57, 21, 73],
+        "colorArray": [
+          57,
+          21,
+          73
+        ],
         "colorString": "57deg 21% 73%"
       }
     },
@@ -156,27 +252,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5Iujl4EQPe7G7x2yEVqwYj/3ac24922b00ef87fd133bfdbdf94f1ea/img_japan_japan-2024-00005.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [55, 59, 42],
+        "colorArray": [
+          55,
+          59,
+          42
+        ],
         "colorString": "55deg 59% 42%"
       },
       "darkvibrant": {
-        "colorArray": [2, 62, 27],
+        "colorArray": [
+          2,
+          62,
+          27
+        ],
         "colorString": "2deg 62% 27%"
       },
       "lightvibrant": {
-        "colorArray": [8, 35, 69],
+        "colorArray": [
+          8,
+          35,
+          69
+        ],
         "colorString": "8deg 35% 69%"
       },
       "muted": {
-        "colorArray": [57, 28, 49],
+        "colorArray": [
+          57,
+          28,
+          49
+        ],
         "colorString": "57deg 28% 49%"
       },
       "darkmuted": {
-        "colorArray": [59, 34, 27],
+        "colorArray": [
+          59,
+          34,
+          27
+        ],
         "colorString": "59deg 34% 27%"
       },
       "lightmuted": {
-        "colorArray": [9, 17, 78],
+        "colorArray": [
+          9,
+          17,
+          78
+        ],
         "colorString": "9deg 17% 78%"
       }
     },
@@ -194,27 +314,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/LjltYg05mxkCwfUPdHk2E/217a894bf3b2f134f3d5b785e73f916c/img_japan_japan-2024-00006.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [2, 65, 49],
+        "colorArray": [
+          2,
+          65,
+          49
+        ],
         "colorString": "2deg 65% 49%"
       },
       "darkvibrant": {
-        "colorArray": [1, 64, 24],
+        "colorArray": [
+          1,
+          64,
+          24
+        ],
         "colorString": "1deg 64% 24%"
       },
       "lightvibrant": {
-        "colorArray": [5, 79, 72],
+        "colorArray": [
+          5,
+          79,
+          72
+        ],
         "colorString": "5deg 79% 72%"
       },
       "muted": {
-        "colorArray": [56, 36, 52],
+        "colorArray": [
+          56,
+          36,
+          52
+        ],
         "colorString": "56deg 36% 52%"
       },
       "darkmuted": {
-        "colorArray": [58, 26, 27],
+        "colorArray": [
+          58,
+          26,
+          27
+        ],
         "colorString": "58deg 26% 27%"
       },
       "lightmuted": {
-        "colorArray": [0, 36, 71],
+        "colorArray": [
+          0,
+          36,
+          71
+        ],
         "colorString": "0deg 36% 71%"
       }
     },
@@ -232,27 +376,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/oEPxH8fHg1tT4iO8bLPhC/08920b91ae59934c896bdd12e226d939/img_japan_japan-2024-00007.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [3, 90, 42],
+        "colorArray": [
+          3,
+          90,
+          42
+        ],
         "colorString": "3deg 90% 42%"
       },
       "darkvibrant": {
-        "colorArray": [3, 91, 30],
+        "colorArray": [
+          3,
+          91,
+          30
+        ],
         "colorString": "3deg 91% 30%"
       },
       "lightvibrant": {
-        "colorArray": [96, 79, 74],
+        "colorArray": [
+          96,
+          79,
+          74
+        ],
         "colorString": "96deg 79% 74%"
       },
       "muted": {
-        "colorArray": [74, 29, 49],
+        "colorArray": [
+          74,
+          29,
+          49
+        ],
         "colorString": "74deg 29% 49%"
       },
       "darkmuted": {
-        "colorArray": [92, 25, 23],
+        "colorArray": [
+          92,
+          25,
+          23
+        ],
         "colorString": "92deg 25% 23%"
       },
       "lightmuted": {
-        "colorArray": [91, 19, 73],
+        "colorArray": [
+          91,
+          19,
+          73
+        ],
         "colorString": "91deg 19% 73%"
       }
     },
@@ -270,27 +438,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/HZseNBHMAqPkzqKfqG2TP/ded2126dc8a5d1aad21a33969925519c/img_japan_japan-2024-00008.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [9, 37, 51],
+        "colorArray": [
+          9,
+          37,
+          51
+        ],
         "colorString": "9deg 37% 51%"
       },
       "darkvibrant": {
-        "colorArray": [2, 70, 16],
+        "colorArray": [
+          2,
+          70,
+          16
+        ],
         "colorString": "2deg 70% 16%"
       },
       "lightvibrant": {
-        "colorArray": [13, 81, 90],
+        "colorArray": [
+          13,
+          81,
+          90
+        ],
         "colorString": "13deg 81% 90%"
       },
       "muted": {
-        "colorArray": [5, 23, 48],
+        "colorArray": [
+          5,
+          23,
+          48
+        ],
         "colorString": "5deg 23% 48%"
       },
       "darkmuted": {
-        "colorArray": [4, 31, 28],
+        "colorArray": [
+          4,
+          31,
+          28
+        ],
         "colorString": "4deg 31% 28%"
       },
       "lightmuted": {
-        "colorArray": [60, 28, 72],
+        "colorArray": [
+          60,
+          28,
+          72
+        ],
         "colorString": "60deg 28% 72%"
       }
     },
@@ -308,27 +500,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/AS1iLMGBJFv6Z107UKA20/2508db43ecfc4f2a1173a6a75b86c37b/img_japan_japan-2024-00009.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [99, 65, 50],
+        "colorArray": [
+          99,
+          65,
+          50
+        ],
         "colorString": "99deg 65% 50%"
       },
       "darkvibrant": {
-        "colorArray": [99, 84, 29],
+        "colorArray": [
+          99,
+          84,
+          29
+        ],
         "colorString": "99deg 84% 29%"
       },
       "lightvibrant": {
-        "colorArray": [99, 84, 74],
+        "colorArray": [
+          99,
+          84,
+          74
+        ],
         "colorString": "99deg 84% 74%"
       },
       "muted": {
-        "colorArray": [2, 33, 52],
+        "colorArray": [
+          2,
+          33,
+          52
+        ],
         "colorString": "2deg 33% 52%"
       },
       "darkmuted": {
-        "colorArray": [39, 27, 28],
+        "colorArray": [
+          39,
+          27,
+          28
+        ],
         "colorString": "39deg 27% 28%"
       },
       "lightmuted": {
-        "colorArray": [75, 27, 77],
+        "colorArray": [
+          75,
+          27,
+          77
+        ],
         "colorString": "75deg 27% 77%"
       }
     },
@@ -346,27 +562,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/3JFHwgLIKRJZQRQu0HJVWO/a3b2cdb4c17458e04d682b98e4156b18/img_japan_japan-2024-00010.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [0, 55, 51],
+        "colorArray": [
+          0,
+          55,
+          51
+        ],
         "colorString": "0deg 55% 51%"
       },
       "darkvibrant": {
-        "colorArray": [58, 87, 24],
+        "colorArray": [
+          58,
+          87,
+          24
+        ],
         "colorString": "58deg 87% 24%"
       },
       "lightvibrant": {
-        "colorArray": [11, 91, 78],
+        "colorArray": [
+          11,
+          91,
+          78
+        ],
         "colorString": "11deg 91% 78%"
       },
       "muted": {
-        "colorArray": [99, 31, 50],
+        "colorArray": [
+          99,
+          31,
+          50
+        ],
         "colorString": "99deg 31% 50%"
       },
       "darkmuted": {
-        "colorArray": [7, 28, 24],
+        "colorArray": [
+          7,
+          28,
+          24
+        ],
         "colorString": "7deg 28% 24%"
       },
       "lightmuted": {
-        "colorArray": [6, 31, 75],
+        "colorArray": [
+          6,
+          31,
+          75
+        ],
         "colorString": "6deg 31% 75%"
       }
     },
@@ -384,27 +624,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/3szOdpxGc5mn7eYfqBFlcl/f506d4495f3990ad170c40bbc0f124a2/img_japan_japan-2024-00011.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [11, 47, 57],
+        "colorArray": [
+          11,
+          47,
+          57
+        ],
         "colorString": "11deg 47% 57%"
       },
       "darkvibrant": {
-        "colorArray": [100, 90, 20],
+        "colorArray": [
+          100,
+          90,
+          20
+        ],
         "colorString": "100deg 90% 20%"
       },
       "lightvibrant": {
-        "colorArray": [0, 43, 60],
+        "colorArray": [
+          0,
+          43,
+          60
+        ],
         "colorString": "0deg 43% 60%"
       },
       "muted": {
-        "colorArray": [1, 34, 51],
+        "colorArray": [
+          1,
+          34,
+          51
+        ],
         "colorString": "1deg 34% 51%"
       },
       "darkmuted": {
-        "colorArray": [44, 30, 27],
+        "colorArray": [
+          44,
+          30,
+          27
+        ],
         "colorString": "44deg 30% 27%"
       },
       "lightmuted": {
-        "colorArray": [1, 32, 71],
+        "colorArray": [
+          1,
+          32,
+          71
+        ],
         "colorString": "1deg 32% 71%"
       }
     },
@@ -422,27 +686,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/1e2inIjmBCvbTfTjkbxEEu/e5e99cc3c1d11e75f8812effc5a2114a/img_japan_japan-2024-00012.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [4, 65, 41],
+        "colorArray": [
+          4,
+          65,
+          41
+        ],
         "colorString": "4deg 65% 41%"
       },
       "darkvibrant": {
-        "colorArray": [99, 81, 20],
+        "colorArray": [
+          99,
+          81,
+          20
+        ],
         "colorString": "99deg 81% 20%"
       },
       "lightvibrant": {
-        "colorArray": [4, 65, 74],
+        "colorArray": [
+          4,
+          65,
+          74
+        ],
         "colorString": "4deg 65% 74%"
       },
       "muted": {
-        "colorArray": [7, 34, 49],
+        "colorArray": [
+          7,
+          34,
+          49
+        ],
         "colorString": "7deg 34% 49%"
       },
       "darkmuted": {
-        "colorArray": [3, 31, 28],
+        "colorArray": [
+          3,
+          31,
+          28
+        ],
         "colorString": "3deg 31% 28%"
       },
       "lightmuted": {
-        "colorArray": [1, 23, 74],
+        "colorArray": [
+          1,
+          23,
+          74
+        ],
         "colorString": "1deg 23% 74%"
       }
     },
@@ -460,27 +748,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/4RyGn06apJA86iEL7BR6Qc/509b1c5f57aa9bb9177ef269ea1de77e/img_japan_japan-2024-00013.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [1, 52, 49],
+        "colorArray": [
+          1,
+          52,
+          49
+        ],
         "colorString": "1deg 52% 49%"
       },
       "darkvibrant": {
-        "colorArray": [98, 56, 25],
+        "colorArray": [
+          98,
+          56,
+          25
+        ],
         "colorString": "98deg 56% 25%"
       },
       "lightvibrant": {
-        "colorArray": [2, 39, 78],
+        "colorArray": [
+          2,
+          39,
+          78
+        ],
         "colorString": "2deg 39% 78%"
       },
       "muted": {
-        "colorArray": [0, 33, 55],
+        "colorArray": [
+          0,
+          33,
+          55
+        ],
         "colorString": "0deg 33% 55%"
       },
       "darkmuted": {
-        "colorArray": [97, 33, 26],
+        "colorArray": [
+          97,
+          33,
+          26
+        ],
         "colorString": "97deg 33% 26%"
       },
       "lightmuted": {
-        "colorArray": [3, 9, 75],
+        "colorArray": [
+          3,
+          9,
+          75
+        ],
         "colorString": "3deg 9% 75%"
       }
     },
@@ -498,27 +810,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/6RI5ztGzFsiecVwOThAjER/3f127722681a64123c867bd19befd39e/img_japan_japan-2024-00014.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [5, 48, 53],
+        "colorArray": [
+          5,
+          48,
+          53
+        ],
         "colorString": "5deg 48% 53%"
       },
       "darkvibrant": {
-        "colorArray": [2, 63, 28],
+        "colorArray": [
+          2,
+          63,
+          28
+        ],
         "colorString": "2deg 63% 28%"
       },
       "lightvibrant": {
-        "colorArray": [10, 68, 73],
+        "colorArray": [
+          10,
+          68,
+          73
+        ],
         "colorString": "10deg 68% 73%"
       },
       "muted": {
-        "colorArray": [9, 35, 50],
+        "colorArray": [
+          9,
+          35,
+          50
+        ],
         "colorString": "9deg 35% 50%"
       },
       "darkmuted": {
-        "colorArray": [6, 20, 26],
+        "colorArray": [
+          6,
+          20,
+          26
+        ],
         "colorString": "6deg 20% 26%"
       },
       "lightmuted": {
-        "colorArray": [6, 14, 73],
+        "colorArray": [
+          6,
+          14,
+          73
+        ],
         "colorString": "6deg 14% 73%"
       }
     },
@@ -536,27 +872,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/2XHGvMSxUePnFxv8fMqiWY/29d5009bccdc730c40456b48ecbe7cb2/img_japan_japan-2024-00015.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [9, 57, 53],
+        "colorArray": [
+          9,
+          57,
+          53
+        ],
         "colorString": "9deg 57% 53%"
       },
       "darkvibrant": {
-        "colorArray": [0, 83, 23],
+        "colorArray": [
+          0,
+          83,
+          23
+        ],
         "colorString": "0deg 83% 23%"
       },
       "lightvibrant": {
-        "colorArray": [2, 88, 77],
+        "colorArray": [
+          2,
+          88,
+          77
+        ],
         "colorString": "2deg 88% 77%"
       },
       "muted": {
-        "colorArray": [3, 25, 50],
+        "colorArray": [
+          3,
+          25,
+          50
+        ],
         "colorString": "3deg 25% 50%"
       },
       "darkmuted": {
-        "colorArray": [0, 33, 26],
+        "colorArray": [
+          0,
+          33,
+          26
+        ],
         "colorString": "0deg 33% 26%"
       },
       "lightmuted": {
-        "colorArray": [11, 29, 72],
+        "colorArray": [
+          11,
+          29,
+          72
+        ],
         "colorString": "11deg 29% 72%"
       }
     },
@@ -574,27 +934,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/1Jf3k7wnUHP2d04cVcf5Cb/459d22535a634d00466b0f92c1810a78/img_japan_japan-2024-00016.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [99, 68, 54],
+        "colorArray": [
+          99,
+          68,
+          54
+        ],
         "colorString": "99deg 68% 54%"
       },
       "darkvibrant": {
-        "colorArray": [100, 68, 23],
+        "colorArray": [
+          100,
+          68,
+          23
+        ],
         "colorString": "100deg 68% 23%"
       },
       "lightvibrant": {
-        "colorArray": [100, 83, 68],
+        "colorArray": [
+          100,
+          83,
+          68
+        ],
         "colorString": "100deg 83% 68%"
       },
       "muted": {
-        "colorArray": [4, 34, 47],
+        "colorArray": [
+          4,
+          34,
+          47
+        ],
         "colorString": "4deg 34% 47%"
       },
       "darkmuted": {
-        "colorArray": [2, 31, 31],
+        "colorArray": [
+          2,
+          31,
+          31
+        ],
         "colorString": "2deg 31% 31%"
       },
       "lightmuted": {
-        "colorArray": [6, 22, 71],
+        "colorArray": [
+          6,
+          22,
+          71
+        ],
         "colorString": "6deg 22% 71%"
       }
     },
@@ -612,27 +996,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/9cghYtx7o90iBoxqcVBeS/05d70c844dbe4e07a5bc88cd81582df3/img_japan_japan-2024-00017.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [0, 62, 46],
+        "colorArray": [
+          0,
+          62,
+          46
+        ],
         "colorString": "0deg 62% 46%"
       },
       "darkvibrant": {
-        "colorArray": [100, 92, 25],
+        "colorArray": [
+          100,
+          92,
+          25
+        ],
         "colorString": "100deg 92% 25%"
       },
       "lightvibrant": {
-        "colorArray": [6, 63, 80],
+        "colorArray": [
+          6,
+          63,
+          80
+        ],
         "colorString": "6deg 63% 80%"
       },
       "muted": {
-        "colorArray": [3, 33, 51],
+        "colorArray": [
+          3,
+          33,
+          51
+        ],
         "colorString": "3deg 33% 51%"
       },
       "darkmuted": {
-        "colorArray": [8, 29, 28],
+        "colorArray": [
+          8,
+          29,
+          28
+        ],
         "colorString": "8deg 29% 28%"
       },
       "lightmuted": {
-        "colorArray": [7, 24, 74],
+        "colorArray": [
+          7,
+          24,
+          74
+        ],
         "colorString": "7deg 24% 74%"
       }
     },
@@ -650,27 +1058,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/3bv76pxuC8UHuvka4hDLIK/0f88293305144889d52e5e7099c82a19/img_japan_japan-2024-00018.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [1, 75, 42],
+        "colorArray": [
+          1,
+          75,
+          42
+        ],
         "colorString": "1deg 75% 42%"
       },
       "darkvibrant": {
-        "colorArray": [13, 90, 21],
+        "colorArray": [
+          13,
+          90,
+          21
+        ],
         "colorString": "13deg 90% 21%"
       },
       "lightvibrant": {
-        "colorArray": [11, 48, 74],
+        "colorArray": [
+          11,
+          48,
+          74
+        ],
         "colorString": "11deg 48% 74%"
       },
       "muted": {
-        "colorArray": [8, 31, 48],
+        "colorArray": [
+          8,
+          31,
+          48
+        ],
         "colorString": "8deg 31% 48%"
       },
       "darkmuted": {
-        "colorArray": [7, 34, 27],
+        "colorArray": [
+          7,
+          34,
+          27
+        ],
         "colorString": "7deg 34% 27%"
       },
       "lightmuted": {
-        "colorArray": [11, 28, 75],
+        "colorArray": [
+          11,
+          28,
+          75
+        ],
         "colorString": "11deg 28% 75%"
       }
     },
@@ -688,27 +1120,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/1rPEejPmbMFjb0kMYuuqeP/c897f76eb2b4fcaedeaab5e0dadf0bf2/img_japan_japan-2024-00019.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [13, 86, 64],
+        "colorArray": [
+          13,
+          86,
+          64
+        ],
         "colorString": "13deg 86% 64%"
       },
       "darkvibrant": {
-        "colorArray": [13, 93, 23],
+        "colorArray": [
+          13,
+          93,
+          23
+        ],
         "colorString": "13deg 93% 23%"
       },
       "lightvibrant": {
-        "colorArray": [11, 70, 74],
+        "colorArray": [
+          11,
+          70,
+          74
+        ],
         "colorString": "11deg 70% 74%"
       },
       "muted": {
-        "colorArray": [8, 28, 52],
+        "colorArray": [
+          8,
+          28,
+          52
+        ],
         "colorString": "8deg 28% 52%"
       },
       "darkmuted": {
-        "colorArray": [14, 31, 27],
+        "colorArray": [
+          14,
+          31,
+          27
+        ],
         "colorString": "14deg 31% 27%"
       },
       "lightmuted": {
-        "colorArray": [10, 33, 75],
+        "colorArray": [
+          10,
+          33,
+          75
+        ],
         "colorString": "10deg 33% 75%"
       }
     },
@@ -726,27 +1182,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/7A36qUiDzDsJ48wTSS5Yl9/36a82c1b4b5f9aa12529bd479363abe0/img_japan_japan-2024-00020.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [12, 76, 45],
+        "colorArray": [
+          12,
+          76,
+          45
+        ],
         "colorString": "12deg 76% 45%"
       },
       "darkvibrant": {
-        "colorArray": [1, 82, 19],
+        "colorArray": [
+          1,
+          82,
+          19
+        ],
         "colorString": "1deg 82% 19%"
       },
       "lightvibrant": {
-        "colorArray": [10, 82, 73],
+        "colorArray": [
+          10,
+          82,
+          73
+        ],
         "colorString": "10deg 82% 73%"
       },
       "muted": {
-        "colorArray": [1, 28, 54],
+        "colorArray": [
+          1,
+          28,
+          54
+        ],
         "colorString": "1deg 28% 54%"
       },
       "darkmuted": {
-        "colorArray": [5, 25, 27],
+        "colorArray": [
+          5,
+          25,
+          27
+        ],
         "colorString": "5deg 25% 27%"
       },
       "lightmuted": {
-        "colorArray": [94, 17, 75],
+        "colorArray": [
+          94,
+          17,
+          75
+        ],
         "colorString": "94deg 17% 75%"
       }
     },
@@ -764,27 +1244,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/513wvAGsuUekbnUlDUtleL/21fc2625ab0f1d8dd58ee4a9a3807ba4/img_japan_japan-2024-00021.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [1, 78, 49],
+        "colorArray": [
+          1,
+          78,
+          49
+        ],
         "colorString": "1deg 78% 49%"
       },
       "darkvibrant": {
-        "colorArray": [11, 57, 25],
+        "colorArray": [
+          11,
+          57,
+          25
+        ],
         "colorString": "11deg 57% 25%"
       },
       "lightvibrant": {
-        "colorArray": [8, 37, 66],
+        "colorArray": [
+          8,
+          37,
+          66
+        ],
         "colorString": "8deg 37% 66%"
       },
       "muted": {
-        "colorArray": [9, 28, 50],
+        "colorArray": [
+          9,
+          28,
+          50
+        ],
         "colorString": "9deg 28% 50%"
       },
       "darkmuted": {
-        "colorArray": [8, 31, 25],
+        "colorArray": [
+          8,
+          31,
+          25
+        ],
         "colorString": "8deg 31% 25%"
       },
       "lightmuted": {
-        "colorArray": [1, 21, 73],
+        "colorArray": [
+          1,
+          21,
+          73
+        ],
         "colorString": "1deg 21% 73%"
       }
     },
@@ -802,27 +1306,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/7ocI53pvU3r06xFCLoFigI/248c7d69bf1e2301ce6e91bfa0a4cd9c/img_japan_japan-2024-00022.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [8, 35, 55],
+        "colorArray": [
+          8,
+          35,
+          55
+        ],
         "colorString": "8deg 35% 55%"
       },
       "darkvibrant": {
-        "colorArray": [10, 58, 19],
+        "colorArray": [
+          10,
+          58,
+          19
+        ],
         "colorString": "10deg 58% 19%"
       },
       "lightvibrant": {
-        "colorArray": [10, 63, 84],
+        "colorArray": [
+          10,
+          63,
+          84
+        ],
         "colorString": "10deg 63% 84%"
       },
       "muted": {
-        "colorArray": [8, 15, 51],
+        "colorArray": [
+          8,
+          15,
+          51
+        ],
         "colorString": "8deg 15% 51%"
       },
       "darkmuted": {
-        "colorArray": [8, 22, 25],
+        "colorArray": [
+          8,
+          22,
+          25
+        ],
         "colorString": "8deg 22% 25%"
       },
       "lightmuted": {
-        "colorArray": [8, 24, 74],
+        "colorArray": [
+          8,
+          24,
+          74
+        ],
         "colorString": "8deg 24% 74%"
       }
     },
@@ -840,27 +1368,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/4JoS2kIRPprC2b9MUmPGK0/053932067f3da70bc8395c472f7f958c/img_japan_japan-2024-00023.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [3, 61, 45],
+        "colorArray": [
+          3,
+          61,
+          45
+        ],
         "colorString": "3deg 61% 45%"
       },
       "darkvibrant": {
-        "colorArray": [57, 85, 31],
+        "colorArray": [
+          57,
+          85,
+          31
+        ],
         "colorString": "57deg 85% 31%"
       },
       "lightvibrant": {
-        "colorArray": [11, 38, 67],
+        "colorArray": [
+          11,
+          38,
+          67
+        ],
         "colorString": "11deg 38% 67%"
       },
       "muted": {
-        "colorArray": [7, 21, 50],
+        "colorArray": [
+          7,
+          21,
+          50
+        ],
         "colorString": "7deg 21% 50%"
       },
       "darkmuted": {
-        "colorArray": [6, 35, 27],
+        "colorArray": [
+          6,
+          35,
+          27
+        ],
         "colorString": "6deg 35% 27%"
       },
       "lightmuted": {
-        "colorArray": [10, 21, 75],
+        "colorArray": [
+          10,
+          21,
+          75
+        ],
         "colorString": "10deg 21% 75%"
       }
     },
@@ -878,27 +1430,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/6YZNF4FFQHiFNT9h9TzOL0/7e539ae16763160fc32e92000d519ba0/img_japan_japan-2024-00024.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [8, 66, 50],
+        "colorArray": [
+          8,
+          66,
+          50
+        ],
         "colorString": "8deg 66% 50%"
       },
       "darkvibrant": {
-        "colorArray": [57, 94, 28],
+        "colorArray": [
+          57,
+          94,
+          28
+        ],
         "colorString": "57deg 94% 28%"
       },
       "lightvibrant": {
-        "colorArray": [99, 96, 71],
+        "colorArray": [
+          99,
+          96,
+          71
+        ],
         "colorString": "99deg 96% 71%"
       },
       "muted": {
-        "colorArray": [12, 31, 50],
+        "colorArray": [
+          12,
+          31,
+          50
+        ],
         "colorString": "12deg 31% 50%"
       },
       "darkmuted": {
-        "colorArray": [5, 29, 28],
+        "colorArray": [
+          5,
+          29,
+          28
+        ],
         "colorString": "5deg 29% 28%"
       },
       "lightmuted": {
-        "colorArray": [5, 37, 74],
+        "colorArray": [
+          5,
+          37,
+          74
+        ],
         "colorString": "5deg 37% 74%"
       }
     },
@@ -916,27 +1492,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/6CBkIMqZsaQKZdKbbSC1Mb/c316e60ad244330a969e67f1704a14be/img_japan_japan-2024-00025.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [5, 46, 41],
+        "colorArray": [
+          5,
+          46,
+          41
+        ],
         "colorString": "5deg 46% 41%"
       },
       "darkvibrant": {
-        "colorArray": [5, 47, 26],
+        "colorArray": [
+          5,
+          47,
+          26
+        ],
         "colorString": "5deg 47% 26%"
       },
       "lightvibrant": {
-        "colorArray": [7, 65, 75],
+        "colorArray": [
+          7,
+          65,
+          75
+        ],
         "colorString": "7deg 65% 75%"
       },
       "muted": {
-        "colorArray": [5, 30, 46],
+        "colorArray": [
+          5,
+          30,
+          46
+        ],
         "colorString": "5deg 30% 46%"
       },
       "darkmuted": {
-        "colorArray": [4, 29, 25],
+        "colorArray": [
+          4,
+          29,
+          25
+        ],
         "colorString": "4deg 29% 25%"
       },
       "lightmuted": {
-        "colorArray": [10, 21, 76],
+        "colorArray": [
+          10,
+          21,
+          76
+        ],
         "colorString": "10deg 21% 76%"
       }
     },
@@ -954,27 +1554,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/7e5yJFMbanrBIQLII86Hmz/b270d02e47c7e8f37e65aea7f5db5674/img_japan_japan-2024-00026.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [13, 45, 49],
+        "colorArray": [
+          13,
+          45,
+          49
+        ],
         "colorString": "13deg 45% 49%"
       },
       "darkvibrant": {
-        "colorArray": [99, 70, 26],
+        "colorArray": [
+          99,
+          70,
+          26
+        ],
         "colorString": "99deg 70% 26%"
       },
       "lightvibrant": {
-        "colorArray": [13, 68, 84],
+        "colorArray": [
+          13,
+          68,
+          84
+        ],
         "colorString": "13deg 68% 84%"
       },
       "muted": {
-        "colorArray": [12, 30, 49],
+        "colorArray": [
+          12,
+          30,
+          49
+        ],
         "colorString": "12deg 30% 49%"
       },
       "darkmuted": {
-        "colorArray": [7, 23, 25],
+        "colorArray": [
+          7,
+          23,
+          25
+        ],
         "colorString": "7deg 23% 25%"
       },
       "lightmuted": {
-        "colorArray": [11, 15, 75],
+        "colorArray": [
+          11,
+          15,
+          75
+        ],
         "colorString": "11deg 15% 75%"
       }
     },
@@ -992,27 +1616,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/ZCoNC9YxFj79XkkfZUGHq/d01c1b79027d11b5a9a5aaf6172b4fdf/img_japan_japan-2024-00027.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [5, 47, 46],
+        "colorArray": [
+          5,
+          47,
+          46
+        ],
         "colorString": "5deg 47% 46%"
       },
       "darkvibrant": {
-        "colorArray": [11, 91, 27],
+        "colorArray": [
+          11,
+          91,
+          27
+        ],
         "colorString": "11deg 91% 27%"
       },
       "lightvibrant": {
-        "colorArray": [2, 56, 63],
+        "colorArray": [
+          2,
+          56,
+          63
+        ],
         "colorString": "2deg 56% 63%"
       },
       "muted": {
-        "colorArray": [94, 28, 50],
+        "colorArray": [
+          94,
+          28,
+          50
+        ],
         "colorString": "94deg 28% 50%"
       },
       "darkmuted": {
-        "colorArray": [11, 26, 25],
+        "colorArray": [
+          11,
+          26,
+          25
+        ],
         "colorString": "11deg 26% 25%"
       },
       "lightmuted": {
-        "colorArray": [99, 27, 73],
+        "colorArray": [
+          99,
+          27,
+          73
+        ],
         "colorString": "99deg 27% 73%"
       }
     },
@@ -1030,27 +1678,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/43QCFpxa1tepvMVkwAD3Vf/eef8a72bf68a0730555db20405c3e126/img_japan_japan-2024-00028.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [50, 1, 50],
+        "colorArray": [
+          50,
+          1,
+          50
+        ],
         "colorString": "50deg 1% 50%"
       },
       "darkvibrant": {
-        "colorArray": [50, 1, 26],
+        "colorArray": [
+          50,
+          1,
+          26
+        ],
         "colorString": "50deg 1% 26%"
       },
       "lightvibrant": {
-        "colorArray": [50, 1, 74],
+        "colorArray": [
+          50,
+          1,
+          74
+        ],
         "colorString": "50deg 1% 74%"
       },
       "muted": {
-        "colorArray": [67, 1, 47],
+        "colorArray": [
+          67,
+          1,
+          47
+        ],
         "colorString": "67deg 1% 47%"
       },
       "darkmuted": {
-        "colorArray": [67, 1, 27],
+        "colorArray": [
+          67,
+          1,
+          27
+        ],
         "colorString": "67deg 1% 27%"
       },
       "lightmuted": {
-        "colorArray": [50, 1, 74],
+        "colorArray": [
+          50,
+          1,
+          74
+        ],
         "colorString": "50deg 1% 74%"
       }
     },
@@ -1068,27 +1740,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/1dg0QVUmS0cZpfkv62Q1Nk/0505ef639d4be7c175bc084b4d564200/img_japan_japan-2024-00029.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [3, 80, 54],
+        "colorArray": [
+          3,
+          80,
+          54
+        ],
         "colorString": "3deg 80% 54%"
       },
       "darkvibrant": {
-        "colorArray": [1, 72, 24],
+        "colorArray": [
+          1,
+          72,
+          24
+        ],
         "colorString": "1deg 72% 24%"
       },
       "lightvibrant": {
-        "colorArray": [14, 94, 75],
+        "colorArray": [
+          14,
+          94,
+          75
+        ],
         "colorString": "14deg 94% 75%"
       },
       "muted": {
-        "colorArray": [5, 36, 48],
+        "colorArray": [
+          5,
+          36,
+          48
+        ],
         "colorString": "5deg 36% 48%"
       },
       "darkmuted": {
-        "colorArray": [3, 33, 28],
+        "colorArray": [
+          3,
+          33,
+          28
+        ],
         "colorString": "3deg 33% 28%"
       },
       "lightmuted": {
-        "colorArray": [7, 36, 76],
+        "colorArray": [
+          7,
+          36,
+          76
+        ],
         "colorString": "7deg 36% 76%"
       }
     },
@@ -1106,27 +1802,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/3sqIP5csMjvzPhAc498Y3L/2526947b4a33e0f5725233fbca51ac41/img_japan_japan-2024-00030.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [4, 76, 45],
+        "colorArray": [
+          4,
+          76,
+          45
+        ],
         "colorString": "4deg 76% 45%"
       },
       "darkvibrant": {
-        "colorArray": [2, 93, 28],
+        "colorArray": [
+          2,
+          93,
+          28
+        ],
         "colorString": "2deg 93% 28%"
       },
       "lightvibrant": {
-        "colorArray": [5, 82, 72],
+        "colorArray": [
+          5,
+          82,
+          72
+        ],
         "colorString": "5deg 82% 72%"
       },
       "muted": {
-        "colorArray": [4, 29, 48],
+        "colorArray": [
+          4,
+          29,
+          48
+        ],
         "colorString": "4deg 29% 48%"
       },
       "darkmuted": {
-        "colorArray": [13, 26, 22],
+        "colorArray": [
+          13,
+          26,
+          22
+        ],
         "colorString": "13deg 26% 22%"
       },
       "lightmuted": {
-        "colorArray": [57, 19, 75],
+        "colorArray": [
+          57,
+          19,
+          75
+        ],
         "colorString": "57deg 19% 75%"
       }
     },
@@ -1144,27 +1864,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/4zSlDIT1czMTjydgsXVDfY/aa44dd4efabedcb1f45b2acb2dd73eaa/img_japan_japan-2024-00031.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [3, 55, 47],
+        "colorArray": [
+          3,
+          55,
+          47
+        ],
         "colorString": "3deg 55% 47%"
       },
       "darkvibrant": {
-        "colorArray": [54, 90, 31],
+        "colorArray": [
+          54,
+          90,
+          31
+        ],
         "colorString": "54deg 90% 31%"
       },
       "lightvibrant": {
-        "colorArray": [6, 37, 59],
+        "colorArray": [
+          6,
+          37,
+          59
+        ],
         "colorString": "6deg 37% 59%"
       },
       "muted": {
-        "colorArray": [4, 31, 50],
+        "colorArray": [
+          4,
+          31,
+          50
+        ],
         "colorString": "4deg 31% 50%"
       },
       "darkmuted": {
-        "colorArray": [8, 21, 26],
+        "colorArray": [
+          8,
+          21,
+          26
+        ],
         "colorString": "8deg 21% 26%"
       },
       "lightmuted": {
-        "colorArray": [5, 22, 75],
+        "colorArray": [
+          5,
+          22,
+          75
+        ],
         "colorString": "5deg 22% 75%"
       }
     },
@@ -1182,27 +1926,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5uRZ2xstAGn0pEyzCtBRKz/a14007aaf54ff86be46428fe931e3d55/img_japan_japan-2024-00032.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [4, 71, 48],
+        "colorArray": [
+          4,
+          71,
+          48
+        ],
         "colorString": "4deg 71% 48%"
       },
       "darkvibrant": {
-        "colorArray": [1, 93, 24],
+        "colorArray": [
+          1,
+          93,
+          24
+        ],
         "colorString": "1deg 93% 24%"
       },
       "lightvibrant": {
-        "colorArray": [4, 96, 73],
+        "colorArray": [
+          4,
+          96,
+          73
+        ],
         "colorString": "4deg 96% 73%"
       },
       "muted": {
-        "colorArray": [5, 29, 51],
+        "colorArray": [
+          5,
+          29,
+          51
+        ],
         "colorString": "5deg 29% 51%"
       },
       "darkmuted": {
-        "colorArray": [2, 15, 28],
+        "colorArray": [
+          2,
+          15,
+          28
+        ],
         "colorString": "2deg 15% 28%"
       },
       "lightmuted": {
-        "colorArray": [8, 32, 69],
+        "colorArray": [
+          8,
+          32,
+          69
+        ],
         "colorString": "8deg 32% 69%"
       }
     },
@@ -1220,27 +1988,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/LZRnTyyHfxThMQrg5h4Tt/d69979a8781b504c6ca0cc64ffd660c4/img_japan_japan-2024-00033.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [2, 88, 41],
+        "colorArray": [
+          2,
+          88,
+          41
+        ],
         "colorString": "2deg 88% 41%"
       },
       "darkvibrant": {
-        "colorArray": [1, 94, 28],
+        "colorArray": [
+          1,
+          94,
+          28
+        ],
         "colorString": "1deg 94% 28%"
       },
       "lightvibrant": {
-        "colorArray": [9, 83, 75],
+        "colorArray": [
+          9,
+          83,
+          75
+        ],
         "colorString": "9deg 83% 75%"
       },
       "muted": {
-        "colorArray": [5, 17, 50],
+        "colorArray": [
+          5,
+          17,
+          50
+        ],
         "colorString": "5deg 17% 50%"
       },
       "darkmuted": {
-        "colorArray": [4, 21, 26],
+        "colorArray": [
+          4,
+          21,
+          26
+        ],
         "colorString": "4deg 21% 26%"
       },
       "lightmuted": {
-        "colorArray": [5, 24, 74],
+        "colorArray": [
+          5,
+          24,
+          74
+        ],
         "colorString": "5deg 24% 74%"
       }
     },
@@ -1258,27 +2050,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/6NVZfBwKf80wj5uQaFg2lM/dfe4a994f8aa7d0e1de8da86532d4ac3/img_japan_japan-2024-00034.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [3, 67, 51],
+        "colorArray": [
+          3,
+          67,
+          51
+        ],
         "colorString": "3deg 67% 51%"
       },
       "darkvibrant": {
-        "colorArray": [1, 83, 28],
+        "colorArray": [
+          1,
+          83,
+          28
+        ],
         "colorString": "1deg 83% 28%"
       },
       "lightvibrant": {
-        "colorArray": [3, 83, 70],
+        "colorArray": [
+          3,
+          83,
+          70
+        ],
         "colorString": "3deg 83% 70%"
       },
       "muted": {
-        "colorArray": [5, 19, 47],
+        "colorArray": [
+          5,
+          19,
+          47
+        ],
         "colorString": "5deg 19% 47%"
       },
       "darkmuted": {
-        "colorArray": [5, 24, 25],
+        "colorArray": [
+          5,
+          24,
+          25
+        ],
         "colorString": "5deg 24% 25%"
       },
       "lightmuted": {
-        "colorArray": [4, 22, 73],
+        "colorArray": [
+          4,
+          22,
+          73
+        ],
         "colorString": "4deg 22% 73%"
       }
     },
@@ -1296,27 +2112,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/6be6RW2ysbrLWeScupEVcP/a7015a961744ae50671f5dcddba7a55c/img_japan_japan-2024-00035.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [4, 79, 46],
+        "colorArray": [
+          4,
+          79,
+          46
+        ],
         "colorString": "4deg 79% 46%"
       },
       "darkvibrant": {
-        "colorArray": [13, 89, 18],
+        "colorArray": [
+          13,
+          89,
+          18
+        ],
         "colorString": "13deg 89% 18%"
       },
       "lightvibrant": {
-        "colorArray": [5, 82, 59],
+        "colorArray": [
+          5,
+          82,
+          59
+        ],
         "colorString": "5deg 82% 59%"
       },
       "muted": {
-        "colorArray": [7, 24, 50],
+        "colorArray": [
+          7,
+          24,
+          50
+        ],
         "colorString": "7deg 24% 50%"
       },
       "darkmuted": {
-        "colorArray": [11, 28, 22],
+        "colorArray": [
+          11,
+          28,
+          22
+        ],
         "colorString": "11deg 28% 22%"
       },
       "lightmuted": {
-        "colorArray": [7, 28, 65],
+        "colorArray": [
+          7,
+          28,
+          65
+        ],
         "colorString": "7deg 28% 65%"
       }
     },
@@ -1334,27 +2174,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5s3dKxos8ZJpvZRKFXMDQP/ebe3c814e3c2a476cee48685b2e5f618/img_japan_japan-2024-00036.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [2, 61, 51],
+        "colorArray": [
+          2,
+          61,
+          51
+        ],
         "colorString": "2deg 61% 51%"
       },
       "darkvibrant": {
-        "colorArray": [0, 84, 29],
+        "colorArray": [
+          0,
+          84,
+          29
+        ],
         "colorString": "0deg 84% 29%"
       },
       "lightvibrant": {
-        "colorArray": [4, 79, 78],
+        "colorArray": [
+          4,
+          79,
+          78
+        ],
         "colorString": "4deg 79% 78%"
       },
       "muted": {
-        "colorArray": [8, 19, 53],
+        "colorArray": [
+          8,
+          19,
+          53
+        ],
         "colorString": "8deg 19% 53%"
       },
       "darkmuted": {
-        "colorArray": [8, 24, 28],
+        "colorArray": [
+          8,
+          24,
+          28
+        ],
         "colorString": "8deg 24% 28%"
       },
       "lightmuted": {
-        "colorArray": [10, 22, 76],
+        "colorArray": [
+          10,
+          22,
+          76
+        ],
         "colorString": "10deg 22% 76%"
       }
     },
@@ -1372,27 +2236,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/57jrRKdP2NUpXP6jlLyWz8/379105c429f29b57398284beeef25db2/img_japan_japan-2024-00037.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [5, 79, 46],
+        "colorArray": [
+          5,
+          79,
+          46
+        ],
         "colorString": "5deg 79% 46%"
       },
       "darkvibrant": {
-        "colorArray": [3, 93, 28],
+        "colorArray": [
+          3,
+          93,
+          28
+        ],
         "colorString": "3deg 93% 28%"
       },
       "lightvibrant": {
-        "colorArray": [5, 89, 69],
+        "colorArray": [
+          5,
+          89,
+          69
+        ],
         "colorString": "5deg 89% 69%"
       },
       "muted": {
-        "colorArray": [13, 6, 50],
+        "colorArray": [
+          13,
+          6,
+          50
+        ],
         "colorString": "13deg 6% 50%"
       },
       "darkmuted": {
-        "colorArray": [7, 25, 23],
+        "colorArray": [
+          7,
+          25,
+          23
+        ],
         "colorString": "7deg 25% 23%"
       },
       "lightmuted": {
-        "colorArray": [12, 23, 76],
+        "colorArray": [
+          12,
+          23,
+          76
+        ],
         "colorString": "12deg 23% 76%"
       }
     },
@@ -1410,27 +2298,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/6m6nhqqaobI7A8RnxJvntl/0317be2c8ee512e05cfd1f432069ad75/img_japan_japan-2024-00038.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [5, 79, 50],
+        "colorArray": [
+          5,
+          79,
+          50
+        ],
         "colorString": "5deg 79% 50%"
       },
       "darkvibrant": {
-        "colorArray": [1, 83, 27],
+        "colorArray": [
+          1,
+          83,
+          27
+        ],
         "colorString": "1deg 83% 27%"
       },
       "lightvibrant": {
-        "colorArray": [11, 84, 74],
+        "colorArray": [
+          11,
+          84,
+          74
+        ],
         "colorString": "11deg 84% 74%"
       },
       "muted": {
-        "colorArray": [16, 28, 52],
+        "colorArray": [
+          16,
+          28,
+          52
+        ],
         "colorString": "16deg 28% 52%"
       },
       "darkmuted": {
-        "colorArray": [18, 28, 26],
+        "colorArray": [
+          18,
+          28,
+          26
+        ],
         "colorString": "18deg 28% 26%"
       },
       "lightmuted": {
-        "colorArray": [59, 24, 74],
+        "colorArray": [
+          59,
+          24,
+          74
+        ],
         "colorString": "59deg 24% 74%"
       }
     },
@@ -1448,27 +2360,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/25asQnMSGRkflavKWcDPla/f03ef0dec1c8c1e3205976b017e04dc2/img_japan_japan-2024-00039.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [6, 52, 42],
+        "colorArray": [
+          6,
+          52,
+          42
+        ],
         "colorString": "6deg 52% 42%"
       },
       "darkvibrant": {
-        "colorArray": [4, 56, 25],
+        "colorArray": [
+          4,
+          56,
+          25
+        ],
         "colorString": "4deg 56% 25%"
       },
       "lightvibrant": {
-        "colorArray": [12, 39, 72],
+        "colorArray": [
+          12,
+          39,
+          72
+        ],
         "colorString": "12deg 39% 72%"
       },
       "muted": {
-        "colorArray": [5, 31, 49],
+        "colorArray": [
+          5,
+          31,
+          49
+        ],
         "colorString": "5deg 31% 49%"
       },
       "darkmuted": {
-        "colorArray": [6, 30, 25],
+        "colorArray": [
+          6,
+          30,
+          25
+        ],
         "colorString": "6deg 30% 25%"
       },
       "lightmuted": {
-        "colorArray": [12, 29, 74],
+        "colorArray": [
+          12,
+          29,
+          74
+        ],
         "colorString": "12deg 29% 74%"
       }
     },
@@ -1486,27 +2422,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/zHei3EyFZPjZvTnSlIRvG/f0d36bb1f48669a5c9b9a11654ec8171/img_japan_japan-2024-00040.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [56, 38, 33],
+        "colorArray": [
+          56,
+          38,
+          33
+        ],
         "colorString": "56deg 38% 33%"
       },
       "darkvibrant": {
-        "colorArray": [43, 48, 25],
+        "colorArray": [
+          43,
+          48,
+          25
+        ],
         "colorString": "43deg 48% 25%"
       },
       "lightvibrant": {
-        "colorArray": [56, 38, 74],
+        "colorArray": [
+          56,
+          38,
+          74
+        ],
         "colorString": "56deg 38% 74%"
       },
       "muted": {
-        "colorArray": [10, 23, 51],
+        "colorArray": [
+          10,
+          23,
+          51
+        ],
         "colorString": "10deg 23% 51%"
       },
       "darkmuted": {
-        "colorArray": [42, 19, 25],
+        "colorArray": [
+          42,
+          19,
+          25
+        ],
         "colorString": "42deg 19% 25%"
       },
       "lightmuted": {
-        "colorArray": [12, 15, 74],
+        "colorArray": [
+          12,
+          15,
+          74
+        ],
         "colorString": "12deg 15% 74%"
       }
     },
@@ -1524,27 +2484,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/6xNqLIqdx6QdlRn6O5zSPa/e7b42e327d00be5a37da94dd99a4982a/img_japan_japan-2024-00041.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [26, 49, 55],
+        "colorArray": [
+          26,
+          49,
+          55
+        ],
         "colorString": "26deg 49% 55%"
       },
       "darkvibrant": {
-        "colorArray": [38, 56, 25],
+        "colorArray": [
+          38,
+          56,
+          25
+        ],
         "colorString": "38deg 56% 25%"
       },
       "lightvibrant": {
-        "colorArray": [18, 67, 78],
+        "colorArray": [
+          18,
+          67,
+          78
+        ],
         "colorString": "18deg 67% 78%"
       },
       "muted": {
-        "colorArray": [19, 25, 51],
+        "colorArray": [
+          19,
+          25,
+          51
+        ],
         "colorString": "19deg 25% 51%"
       },
       "darkmuted": {
-        "colorArray": [42, 25, 26],
+        "colorArray": [
+          42,
+          25,
+          26
+        ],
         "colorString": "42deg 25% 26%"
       },
       "lightmuted": {
-        "colorArray": [58, 31, 72],
+        "colorArray": [
+          58,
+          31,
+          72
+        ],
         "colorString": "58deg 31% 72%"
       }
     },
@@ -1562,27 +2546,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/46OpKhuPSivUKGf5QQP4hA/02a11aebc6ab310e8f1044f69c720a11/img_japan_japan-2024-00042.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [2, 52, 49],
+        "colorArray": [
+          2,
+          52,
+          49
+        ],
         "colorString": "2deg 52% 49%"
       },
       "darkvibrant": {
-        "colorArray": [1, 86, 31],
+        "colorArray": [
+          1,
+          86,
+          31
+        ],
         "colorString": "1deg 86% 31%"
       },
       "lightvibrant": {
-        "colorArray": [12, 56, 77],
+        "colorArray": [
+          12,
+          56,
+          77
+        ],
         "colorString": "12deg 56% 77%"
       },
       "muted": {
-        "colorArray": [12, 22, 52],
+        "colorArray": [
+          12,
+          22,
+          52
+        ],
         "colorString": "12deg 22% 52%"
       },
       "darkmuted": {
-        "colorArray": [53, 27, 23],
+        "colorArray": [
+          53,
+          27,
+          23
+        ],
         "colorString": "53deg 27% 23%"
       },
       "lightmuted": {
-        "colorArray": [14, 28, 73],
+        "colorArray": [
+          14,
+          28,
+          73
+        ],
         "colorString": "14deg 28% 73%"
       }
     },
@@ -1600,27 +2608,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5e2VakTfo4tdY6L8qNIDXj/77388d9851bc6534982befe2300b5f11/img_japan_japan-2024-00043.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [47, 40, 50],
+        "colorArray": [
+          47,
+          40,
+          50
+        ],
         "colorString": "47deg 40% 50%"
       },
       "darkvibrant": {
-        "colorArray": [47, 40, 24],
+        "colorArray": [
+          47,
+          40,
+          24
+        ],
         "colorString": "47deg 40% 24%"
       },
       "lightvibrant": {
-        "colorArray": [9, 54, 78],
+        "colorArray": [
+          9,
+          54,
+          78
+        ],
         "colorString": "9deg 54% 78%"
       },
       "muted": {
-        "colorArray": [9, 29, 50],
+        "colorArray": [
+          9,
+          29,
+          50
+        ],
         "colorString": "9deg 29% 50%"
       },
       "darkmuted": {
-        "colorArray": [47, 24, 27],
+        "colorArray": [
+          47,
+          24,
+          27
+        ],
         "colorString": "47deg 24% 27%"
       },
       "lightmuted": {
-        "colorArray": [10, 25, 71],
+        "colorArray": [
+          10,
+          25,
+          71
+        ],
         "colorString": "10deg 25% 71%"
       }
     },
@@ -1638,27 +2670,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/1poy053KIzvhWaUwvacfWB/ee51067c27809d2b9fe74c0ba3e817ff/img_japan_japan-2024-00044.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [19, 38, 43],
+        "colorArray": [
+          19,
+          38,
+          43
+        ],
         "colorString": "19deg 38% 43%"
       },
       "darkvibrant": {
-        "colorArray": [38, 47, 27],
+        "colorArray": [
+          38,
+          47,
+          27
+        ],
         "colorString": "38deg 47% 27%"
       },
       "lightvibrant": {
-        "colorArray": [19, 55, 76],
+        "colorArray": [
+          19,
+          55,
+          76
+        ],
         "colorString": "19deg 55% 76%"
       },
       "muted": {
-        "colorArray": [20, 28, 49],
+        "colorArray": [
+          20,
+          28,
+          49
+        ],
         "colorString": "20deg 28% 49%"
       },
       "darkmuted": {
-        "colorArray": [17, 31, 25],
+        "colorArray": [
+          17,
+          31,
+          25
+        ],
         "colorString": "17deg 31% 25%"
       },
       "lightmuted": {
-        "colorArray": [19, 30, 71],
+        "colorArray": [
+          19,
+          30,
+          71
+        ],
         "colorString": "19deg 30% 71%"
       }
     },
@@ -1676,27 +2732,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5Fz0RJjjlyAsrto18Z6bdS/f9573ab6f2684317e14fa7a7ff11ded6/img_japan_japan-2024-00045.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [2, 76, 33],
+        "colorArray": [
+          2,
+          76,
+          33
+        ],
         "colorString": "2deg 76% 33%"
       },
       "darkvibrant": {
-        "colorArray": [54, 67, 24],
+        "colorArray": [
+          54,
+          67,
+          24
+        ],
         "colorString": "54deg 67% 24%"
       },
       "lightvibrant": {
-        "colorArray": [17, 45, 72],
+        "colorArray": [
+          17,
+          45,
+          72
+        ],
         "colorString": "17deg 45% 72%"
       },
       "muted": {
-        "colorArray": [1, 20, 50],
+        "colorArray": [
+          1,
+          20,
+          50
+        ],
         "colorString": "1deg 20% 50%"
       },
       "darkmuted": {
-        "colorArray": [46, 33, 26],
+        "colorArray": [
+          46,
+          33,
+          26
+        ],
         "colorString": "46deg 33% 26%"
       },
       "lightmuted": {
-        "colorArray": [51, 19, 72],
+        "colorArray": [
+          51,
+          19,
+          72
+        ],
         "colorString": "51deg 19% 72%"
       }
     },
@@ -1714,27 +2794,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/59F2RYsyQC6V7g7uU7jW2U/5efad35468ccc616ea972a1f58c88105/img_japan_japan-2024-00046.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [100, 60, 55],
+        "colorArray": [
+          100,
+          60,
+          55
+        ],
         "colorString": "100deg 60% 55%"
       },
       "darkvibrant": {
-        "colorArray": [98, 62, 21],
+        "colorArray": [
+          98,
+          62,
+          21
+        ],
         "colorString": "98deg 62% 21%"
       },
       "lightvibrant": {
-        "colorArray": [11, 96, 71],
+        "colorArray": [
+          11,
+          96,
+          71
+        ],
         "colorString": "11deg 96% 71%"
       },
       "muted": {
-        "colorArray": [31, 29, 50],
+        "colorArray": [
+          31,
+          29,
+          50
+        ],
         "colorString": "31deg 29% 50%"
       },
       "darkmuted": {
-        "colorArray": [5, 26, 26],
+        "colorArray": [
+          5,
+          26,
+          26
+        ],
         "colorString": "5deg 26% 26%"
       },
       "lightmuted": {
-        "colorArray": [59, 31, 76],
+        "colorArray": [
+          59,
+          31,
+          76
+        ],
         "colorString": "59deg 31% 76%"
       }
     },
@@ -1752,27 +2856,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/4PT6lXrulZBo0zpIdUBz0Z/6afb3462868bb5ecdf5eff643173a0a0/img_japan_japan-2024-00047.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [8, 72, 48],
+        "colorArray": [
+          8,
+          72,
+          48
+        ],
         "colorString": "8deg 72% 48%"
       },
       "darkvibrant": {
-        "colorArray": [99, 83, 27],
+        "colorArray": [
+          99,
+          83,
+          27
+        ],
         "colorString": "99deg 83% 27%"
       },
       "lightvibrant": {
-        "colorArray": [99, 85, 69],
+        "colorArray": [
+          99,
+          85,
+          69
+        ],
         "colorString": "99deg 85% 69%"
       },
       "muted": {
-        "colorArray": [8, 29, 50],
+        "colorArray": [
+          8,
+          29,
+          50
+        ],
         "colorString": "8deg 29% 50%"
       },
       "darkmuted": {
-        "colorArray": [56, 31, 25],
+        "colorArray": [
+          56,
+          31,
+          25
+        ],
         "colorString": "56deg 31% 25%"
       },
       "lightmuted": {
-        "colorArray": [12, 31, 77],
+        "colorArray": [
+          12,
+          31,
+          77
+        ],
         "colorString": "12deg 31% 77%"
       }
     },
@@ -1790,27 +2918,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/10WY9J7AhnD59umvesIGJD/8297fc28cae23e6b3a013234c835f3e4/img_japan_japan-2024-00048.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [9, 89, 60],
+        "colorArray": [
+          9,
+          89,
+          60
+        ],
         "colorString": "9deg 89% 60%"
       },
       "darkvibrant": {
-        "colorArray": [100, 77, 22],
+        "colorArray": [
+          100,
+          77,
+          22
+        ],
         "colorString": "100deg 77% 22%"
       },
       "lightvibrant": {
-        "colorArray": [8, 84, 74],
+        "colorArray": [
+          8,
+          84,
+          74
+        ],
         "colorString": "8deg 84% 74%"
       },
       "muted": {
-        "colorArray": [4, 31, 50],
+        "colorArray": [
+          4,
+          31,
+          50
+        ],
         "colorString": "4deg 31% 50%"
       },
       "darkmuted": {
-        "colorArray": [6, 27, 22],
+        "colorArray": [
+          6,
+          27,
+          22
+        ],
         "colorString": "6deg 27% 22%"
       },
       "lightmuted": {
-        "colorArray": [8, 31, 75],
+        "colorArray": [
+          8,
+          31,
+          75
+        ],
         "colorString": "8deg 31% 75%"
       }
     },
@@ -1828,27 +2980,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/7elWgPNuJQk6GzA0hmGZmi/f7e6b9f8fbafadb7dc5fdf4d1b097382/img_japan_japan-2024-00049.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [7, 57, 51],
+        "colorArray": [
+          7,
+          57,
+          51
+        ],
         "colorString": "7deg 57% 51%"
       },
       "darkvibrant": {
-        "colorArray": [6, 83, 25],
+        "colorArray": [
+          6,
+          83,
+          25
+        ],
         "colorString": "6deg 83% 25%"
       },
       "lightvibrant": {
-        "colorArray": [9, 88, 76],
+        "colorArray": [
+          9,
+          88,
+          76
+        ],
         "colorString": "9deg 88% 76%"
       },
       "muted": {
-        "colorArray": [6, 30, 51],
+        "colorArray": [
+          6,
+          30,
+          51
+        ],
         "colorString": "6deg 30% 51%"
       },
       "darkmuted": {
-        "colorArray": [3, 36, 29],
+        "colorArray": [
+          3,
+          36,
+          29
+        ],
         "colorString": "3deg 36% 29%"
       },
       "lightmuted": {
-        "colorArray": [9, 26, 70],
+        "colorArray": [
+          9,
+          26,
+          70
+        ],
         "colorString": "9deg 26% 70%"
       }
     },
@@ -1866,27 +3042,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/3yF7eoVaUkOa5hQLTGtbWn/2fd47dceb04a897eb962fb6ba1b76c03/img_japan_japan-2024-00050.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [98, 52, 53],
+        "colorArray": [
+          98,
+          52,
+          53
+        ],
         "colorString": "98deg 52% 53%"
       },
       "darkvibrant": {
-        "colorArray": [9, 76, 20],
+        "colorArray": [
+          9,
+          76,
+          20
+        ],
         "colorString": "9deg 76% 20%"
       },
       "lightvibrant": {
-        "colorArray": [57, 60, 95],
+        "colorArray": [
+          57,
+          60,
+          95
+        ],
         "colorString": "57deg 60% 95%"
       },
       "muted": {
-        "colorArray": [7, 28, 51],
+        "colorArray": [
+          7,
+          28,
+          51
+        ],
         "colorString": "7deg 28% 51%"
       },
       "darkmuted": {
-        "colorArray": [9, 39, 28],
+        "colorArray": [
+          9,
+          39,
+          28
+        ],
         "colorString": "9deg 39% 28%"
       },
       "lightmuted": {
-        "colorArray": [7, 25, 71],
+        "colorArray": [
+          7,
+          25,
+          71
+        ],
         "colorString": "7deg 25% 71%"
       }
     },
@@ -1904,27 +3104,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/3d4DCgAkz9bBpdmBEv1hiK/d8e43630ce4acc2508f946f25e6e3c57/img_japan_japan-2024-00051.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [12, 40, 49],
+        "colorArray": [
+          12,
+          40,
+          49
+        ],
         "colorString": "12deg 40% 49%"
       },
       "darkvibrant": {
-        "colorArray": [12, 60, 24],
+        "colorArray": [
+          12,
+          60,
+          24
+        ],
         "colorString": "12deg 60% 24%"
       },
       "lightvibrant": {
-        "colorArray": [13, 55, 62],
+        "colorArray": [
+          13,
+          55,
+          62
+        ],
         "colorString": "13deg 55% 62%"
       },
       "muted": {
-        "colorArray": [7, 33, 52],
+        "colorArray": [
+          7,
+          33,
+          52
+        ],
         "colorString": "7deg 33% 52%"
       },
       "darkmuted": {
-        "colorArray": [11, 15, 27],
+        "colorArray": [
+          11,
+          15,
+          27
+        ],
         "colorString": "11deg 15% 27%"
       },
       "lightmuted": {
-        "colorArray": [8, 28, 77],
+        "colorArray": [
+          8,
+          28,
+          77
+        ],
         "colorString": "8deg 28% 77%"
       }
     },
@@ -1942,27 +3166,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/7pFDtQw1yIOZHw0UGNF098/427db74caddadf34b0fdee641f5ad891/img_japan_japan-2024-00052.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [13, 60, 32],
+        "colorArray": [
+          13,
+          60,
+          32
+        ],
         "colorString": "13deg 60% 32%"
       },
       "darkvibrant": {
-        "colorArray": [12, 73, 23],
+        "colorArray": [
+          12,
+          73,
+          23
+        ],
         "colorString": "12deg 73% 23%"
       },
       "lightvibrant": {
-        "colorArray": [13, 60, 74],
+        "colorArray": [
+          13,
+          60,
+          74
+        ],
         "colorString": "13deg 60% 74%"
       },
       "muted": {
-        "colorArray": [4, 28, 50],
+        "colorArray": [
+          4,
+          28,
+          50
+        ],
         "colorString": "4deg 28% 50%"
       },
       "darkmuted": {
-        "colorArray": [8, 27, 26],
+        "colorArray": [
+          8,
+          27,
+          26
+        ],
         "colorString": "8deg 27% 26%"
       },
       "lightmuted": {
-        "colorArray": [58, 12, 74],
+        "colorArray": [
+          58,
+          12,
+          74
+        ],
         "colorString": "58deg 12% 74%"
       }
     },
@@ -1980,27 +3228,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/N0UHYrHOTyCHbQipSItpB/8a0456e309157f20bd17eeb8735ade78/img_japan_japan-2024-00053.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [6, 38, 31],
+        "colorArray": [
+          6,
+          38,
+          31
+        ],
         "colorString": "6deg 38% 31%"
       },
       "darkvibrant": {
-        "colorArray": [13, 75, 17],
+        "colorArray": [
+          13,
+          75,
+          17
+        ],
         "colorString": "13deg 75% 17%"
       },
       "lightvibrant": {
-        "colorArray": [6, 38, 74],
+        "colorArray": [
+          6,
+          38,
+          74
+        ],
         "colorString": "6deg 38% 74%"
       },
       "muted": {
-        "colorArray": [10, 28, 45],
+        "colorArray": [
+          10,
+          28,
+          45
+        ],
         "colorString": "10deg 28% 45%"
       },
       "darkmuted": {
-        "colorArray": [7, 32, 25],
+        "colorArray": [
+          7,
+          32,
+          25
+        ],
         "colorString": "7deg 32% 25%"
       },
       "lightmuted": {
-        "colorArray": [12, 29, 63],
+        "colorArray": [
+          12,
+          29,
+          63
+        ],
         "colorString": "12deg 29% 63%"
       }
     },
@@ -2018,27 +3290,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/3Kp0EiULc3pH59NbKX9JF7/3dd7d4448cb1224a85a2b8c9236cda1b/img_japan_japan-2024-00054.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [8, 39, 52],
+        "colorArray": [
+          8,
+          39,
+          52
+        ],
         "colorString": "8deg 39% 52%"
       },
       "darkvibrant": {
-        "colorArray": [10, 62, 27],
+        "colorArray": [
+          10,
+          62,
+          27
+        ],
         "colorString": "10deg 62% 27%"
       },
       "lightvibrant": {
-        "colorArray": [9, 61, 74],
+        "colorArray": [
+          9,
+          61,
+          74
+        ],
         "colorString": "9deg 61% 74%"
       },
       "muted": {
-        "colorArray": [9, 33, 50],
+        "colorArray": [
+          9,
+          33,
+          50
+        ],
         "colorString": "9deg 33% 50%"
       },
       "darkmuted": {
-        "colorArray": [10, 38, 26],
+        "colorArray": [
+          10,
+          38,
+          26
+        ],
         "colorString": "10deg 38% 26%"
       },
       "lightmuted": {
-        "colorArray": [8, 33, 67],
+        "colorArray": [
+          8,
+          33,
+          67
+        ],
         "colorString": "8deg 33% 67%"
       }
     },
@@ -2056,27 +3352,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/18RcBlGbDimGmFSACvjB4y/b6467af9966a6983e6a032e03fc73334/img_japan_japan-2024-00055.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [6, 53, 51],
+        "colorArray": [
+          6,
+          53,
+          51
+        ],
         "colorString": "6deg 53% 51%"
       },
       "darkvibrant": {
-        "colorArray": [6, 89, 15],
+        "colorArray": [
+          6,
+          89,
+          15
+        ],
         "colorString": "6deg 89% 15%"
       },
       "lightvibrant": {
-        "colorArray": [8, 80, 74],
+        "colorArray": [
+          8,
+          80,
+          74
+        ],
         "colorString": "8deg 80% 74%"
       },
       "muted": {
-        "colorArray": [7, 33, 49],
+        "colorArray": [
+          7,
+          33,
+          49
+        ],
         "colorString": "7deg 33% 49%"
       },
       "darkmuted": {
-        "colorArray": [6, 36, 28],
+        "colorArray": [
+          6,
+          36,
+          28
+        ],
         "colorString": "6deg 36% 28%"
       },
       "lightmuted": {
-        "colorArray": [8, 31, 72],
+        "colorArray": [
+          8,
+          31,
+          72
+        ],
         "colorString": "8deg 31% 72%"
       }
     },
@@ -2094,27 +3414,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/EkVL05xuQHQ75CC0u1i75/1d6307d175f32a9bb48c25aa46322119/img_japan_japan-2024-00056.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [7, 36, 50],
+        "colorArray": [
+          7,
+          36,
+          50
+        ],
         "colorString": "7deg 36% 50%"
       },
       "darkvibrant": {
-        "colorArray": [7, 77, 24],
+        "colorArray": [
+          7,
+          77,
+          24
+        ],
         "colorString": "7deg 77% 24%"
       },
       "lightvibrant": {
-        "colorArray": [3, 60, 74],
+        "colorArray": [
+          3,
+          60,
+          74
+        ],
         "colorString": "3deg 60% 74%"
       },
       "muted": {
-        "colorArray": [8, 32, 48],
+        "colorArray": [
+          8,
+          32,
+          48
+        ],
         "colorString": "8deg 32% 48%"
       },
       "darkmuted": {
-        "colorArray": [7, 32, 24],
+        "colorArray": [
+          7,
+          32,
+          24
+        ],
         "colorString": "7deg 32% 24%"
       },
       "lightmuted": {
-        "colorArray": [59, 24, 74],
+        "colorArray": [
+          59,
+          24,
+          74
+        ],
         "colorString": "59deg 24% 74%"
       }
     },
@@ -2132,27 +3476,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/2eQl3buPnScOAod4EdXOtu/eae57fee0fa3678d835a92311859c5b9/img_japan_japan-2024-00057.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [1, 62, 53],
+        "colorArray": [
+          1,
+          62,
+          53
+        ],
         "colorString": "1deg 62% 53%"
       },
       "darkvibrant": {
-        "colorArray": [1, 70, 23],
+        "colorArray": [
+          1,
+          70,
+          23
+        ],
         "colorString": "1deg 70% 23%"
       },
       "lightvibrant": {
-        "colorArray": [8, 69, 83],
+        "colorArray": [
+          8,
+          69,
+          83
+        ],
         "colorString": "8deg 69% 83%"
       },
       "muted": {
-        "colorArray": [9, 25, 52],
+        "colorArray": [
+          9,
+          25,
+          52
+        ],
         "colorString": "9deg 25% 52%"
       },
       "darkmuted": {
-        "colorArray": [14, 27, 26],
+        "colorArray": [
+          14,
+          27,
+          26
+        ],
         "colorString": "14deg 27% 26%"
       },
       "lightmuted": {
-        "colorArray": [8, 29, 72],
+        "colorArray": [
+          8,
+          29,
+          72
+        ],
         "colorString": "8deg 29% 72%"
       }
     },
@@ -2170,27 +3538,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/1Wcm7qvVrRkOb6DR0HHulL/c8b980a6dfb5dd1845a33c01ee9e29c6/img_japan_japan-2024-00058.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [6, 37, 60],
+        "colorArray": [
+          6,
+          37,
+          60
+        ],
         "colorString": "6deg 37% 60%"
       },
       "darkvibrant": {
-        "colorArray": [13, 35, 36],
+        "colorArray": [
+          13,
+          35,
+          36
+        ],
         "colorString": "13deg 35% 36%"
       },
       "lightvibrant": {
-        "colorArray": [9, 39, 67],
+        "colorArray": [
+          9,
+          39,
+          67
+        ],
         "colorString": "9deg 39% 67%"
       },
       "muted": {
-        "colorArray": [8, 20, 51],
+        "colorArray": [
+          8,
+          20,
+          51
+        ],
         "colorString": "8deg 20% 51%"
       },
       "darkmuted": {
-        "colorArray": [9, 32, 28],
+        "colorArray": [
+          9,
+          32,
+          28
+        ],
         "colorString": "9deg 32% 28%"
       },
       "lightmuted": {
-        "colorArray": [9, 33, 71],
+        "colorArray": [
+          9,
+          33,
+          71
+        ],
         "colorString": "9deg 33% 71%"
       }
     },
@@ -2208,27 +3600,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/sBcf64aHGvNtOCoTBRTjm/b60d60c25c4627d81501c776bd19348c/img_japan_japan-2024-00059.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [2, 39, 34],
+        "colorArray": [
+          2,
+          39,
+          34
+        ],
         "colorString": "2deg 39% 34%"
       },
       "darkvibrant": {
-        "colorArray": [10, 47, 25],
+        "colorArray": [
+          10,
+          47,
+          25
+        ],
         "colorString": "10deg 47% 25%"
       },
       "lightvibrant": {
-        "colorArray": [2, 39, 74],
+        "colorArray": [
+          2,
+          39,
+          74
+        ],
         "colorString": "2deg 39% 74%"
       },
       "muted": {
-        "colorArray": [8, 23, 49],
+        "colorArray": [
+          8,
+          23,
+          49
+        ],
         "colorString": "8deg 23% 49%"
       },
       "darkmuted": {
-        "colorArray": [8, 30, 25],
+        "colorArray": [
+          8,
+          30,
+          25
+        ],
         "colorString": "8deg 30% 25%"
       },
       "lightmuted": {
-        "colorArray": [61, 2, 74],
+        "colorArray": [
+          61,
+          2,
+          74
+        ],
         "colorString": "61deg 2% 74%"
       }
     },
@@ -2246,27 +3662,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5B9Cop32KAbgrijMmKRzdz/1214582471bce1e8ba4585e8498e3098/img_japan_japan-2024-00060.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [1, 37, 51],
+        "colorArray": [
+          1,
+          37,
+          51
+        ],
         "colorString": "1deg 37% 51%"
       },
       "darkvibrant": {
-        "colorArray": [7, 74, 21],
+        "colorArray": [
+          7,
+          74,
+          21
+        ],
         "colorString": "7deg 74% 21%"
       },
       "lightvibrant": {
-        "colorArray": [97, 36, 74],
+        "colorArray": [
+          97,
+          36,
+          74
+        ],
         "colorString": "97deg 36% 74%"
       },
       "muted": {
-        "colorArray": [3, 32, 47],
+        "colorArray": [
+          3,
+          32,
+          47
+        ],
         "colorString": "3deg 32% 47%"
       },
       "darkmuted": {
-        "colorArray": [6, 34, 26],
+        "colorArray": [
+          6,
+          34,
+          26
+        ],
         "colorString": "6deg 34% 26%"
       },
       "lightmuted": {
-        "colorArray": [61, 25, 80],
+        "colorArray": [
+          61,
+          25,
+          80
+        ],
         "colorString": "61deg 25% 80%"
       }
     },
@@ -2284,27 +3724,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/7a0vbpU3f9WxqVB1II5XDS/4f89cbacfa0b8b00d327593c647ca6a9/img_japan_japan-2024-00061.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [12, 59, 32],
+        "colorArray": [
+          12,
+          59,
+          32
+        ],
         "colorString": "12deg 59% 32%"
       },
       "darkvibrant": {
-        "colorArray": [11, 60, 22],
+        "colorArray": [
+          11,
+          60,
+          22
+        ],
         "colorString": "11deg 60% 22%"
       },
       "lightvibrant": {
-        "colorArray": [12, 59, 74],
+        "colorArray": [
+          12,
+          59,
+          74
+        ],
         "colorString": "12deg 59% 74%"
       },
       "muted": {
-        "colorArray": [9, 32, 46],
+        "colorArray": [
+          9,
+          32,
+          46
+        ],
         "colorString": "9deg 32% 46%"
       },
       "darkmuted": {
-        "colorArray": [9, 25, 20],
+        "colorArray": [
+          9,
+          25,
+          20
+        ],
         "colorString": "9deg 25% 20%"
       },
       "lightmuted": {
-        "colorArray": [0, 0, 77],
+        "colorArray": [
+          0,
+          0,
+          77
+        ],
         "colorString": "0deg 0% 77%"
       }
     },
@@ -2322,27 +3786,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/7zA6Kp3igbBMEDNAqnoZHB/907a77c214623f55b2b953e431358fc4/img_japan_japan-2024-00062.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [10, 50, 41],
+        "colorArray": [
+          10,
+          50,
+          41
+        ],
         "colorString": "10deg 50% 41%"
       },
       "darkvibrant": {
-        "colorArray": [3, 72, 21],
+        "colorArray": [
+          3,
+          72,
+          21
+        ],
         "colorString": "3deg 72% 21%"
       },
       "lightvibrant": {
-        "colorArray": [9, 37, 63],
+        "colorArray": [
+          9,
+          37,
+          63
+        ],
         "colorString": "9deg 37% 63%"
       },
       "muted": {
-        "colorArray": [9, 33, 49],
+        "colorArray": [
+          9,
+          33,
+          49
+        ],
         "colorString": "9deg 33% 49%"
       },
       "darkmuted": {
-        "colorArray": [5, 33, 23],
+        "colorArray": [
+          5,
+          33,
+          23
+        ],
         "colorString": "5deg 33% 23%"
       },
       "lightmuted": {
-        "colorArray": [7, 11, 74],
+        "colorArray": [
+          7,
+          11,
+          74
+        ],
         "colorString": "7deg 11% 74%"
       }
     },
@@ -2360,27 +3848,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/4wLmmPzkwxs9pzA1odYqJM/a8571ca08066021b0fe2932b821f82ea/img_japan_japan-2024-00063.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [8, 76, 56],
+        "colorArray": [
+          8,
+          76,
+          56
+        ],
         "colorString": "8deg 76% 56%"
       },
       "darkvibrant": {
-        "colorArray": [4, 72, 26],
+        "colorArray": [
+          4,
+          72,
+          26
+        ],
         "colorString": "4deg 72% 26%"
       },
       "lightvibrant": {
-        "colorArray": [11, 96, 73],
+        "colorArray": [
+          11,
+          96,
+          73
+        ],
         "colorString": "11deg 96% 73%"
       },
       "muted": {
-        "colorArray": [8, 23, 50],
+        "colorArray": [
+          8,
+          23,
+          50
+        ],
         "colorString": "8deg 23% 50%"
       },
       "darkmuted": {
-        "colorArray": [4, 34, 26],
+        "colorArray": [
+          4,
+          34,
+          26
+        ],
         "colorString": "4deg 34% 26%"
       },
       "lightmuted": {
-        "colorArray": [61, 30, 76],
+        "colorArray": [
+          61,
+          30,
+          76
+        ],
         "colorString": "61deg 30% 76%"
       }
     },
@@ -2398,27 +3910,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/74B6VTL0nhqBqi946O9KLg/a6a0299dd528a7ef355c5cde82340944/img_japan_japan-2024-00064.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [7, 64, 53],
+        "colorArray": [
+          7,
+          64,
+          53
+        ],
         "colorString": "7deg 64% 53%"
       },
       "darkvibrant": {
-        "colorArray": [5, 79, 21],
+        "colorArray": [
+          5,
+          79,
+          21
+        ],
         "colorString": "5deg 79% 21%"
       },
       "lightvibrant": {
-        "colorArray": [11, 85, 72],
+        "colorArray": [
+          11,
+          85,
+          72
+        ],
         "colorString": "11deg 85% 72%"
       },
       "muted": {
-        "colorArray": [100, 34, 47],
+        "colorArray": [
+          100,
+          34,
+          47
+        ],
         "colorString": "100deg 34% 47%"
       },
       "darkmuted": {
-        "colorArray": [7, 35, 22],
+        "colorArray": [
+          7,
+          35,
+          22
+        ],
         "colorString": "7deg 35% 22%"
       },
       "lightmuted": {
-        "colorArray": [58, 32, 71],
+        "colorArray": [
+          58,
+          32,
+          71
+        ],
         "colorString": "58deg 32% 71%"
       }
     },
@@ -2436,27 +3972,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5BrGjpWbQ6JcSpDQAYoFUy/623fbaf0154642d743c8c2029b44ca88/img_japan_japan-2024-00065.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [9, 90, 59],
+        "colorArray": [
+          9,
+          90,
+          59
+        ],
         "colorString": "9deg 90% 59%"
       },
       "darkvibrant": {
-        "colorArray": [6, 94, 25],
+        "colorArray": [
+          6,
+          94,
+          25
+        ],
         "colorString": "6deg 94% 25%"
       },
       "lightvibrant": {
-        "colorArray": [12, 96, 72],
+        "colorArray": [
+          12,
+          96,
+          72
+        ],
         "colorString": "12deg 96% 72%"
       },
       "muted": {
-        "colorArray": [9, 33, 48],
+        "colorArray": [
+          9,
+          33,
+          48
+        ],
         "colorString": "9deg 33% 48%"
       },
       "darkmuted": {
-        "colorArray": [8, 27, 24],
+        "colorArray": [
+          8,
+          27,
+          24
+        ],
         "colorString": "8deg 27% 24%"
       },
       "lightmuted": {
-        "colorArray": [6, 30, 73],
+        "colorArray": [
+          6,
+          30,
+          73
+        ],
         "colorString": "6deg 30% 73%"
       }
     },
@@ -2474,27 +4034,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/6izSKaOYwHtD2tC0BqvuCn/2241194250862bfc2e9335334ebdb4aa/img_japan_japan-2024-00066.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [4, 46, 55],
+        "colorArray": [
+          4,
+          46,
+          55
+        ],
         "colorString": "4deg 46% 55%"
       },
       "darkvibrant": {
-        "colorArray": [8, 90, 16],
+        "colorArray": [
+          8,
+          90,
+          16
+        ],
         "colorString": "8deg 90% 16%"
       },
       "lightvibrant": {
-        "colorArray": [59, 53, 75],
+        "colorArray": [
+          59,
+          53,
+          75
+        ],
         "colorString": "59deg 53% 75%"
       },
       "muted": {
-        "colorArray": [8, 25, 50],
+        "colorArray": [
+          8,
+          25,
+          50
+        ],
         "colorString": "8deg 25% 50%"
       },
       "darkmuted": {
-        "colorArray": [5, 31, 25],
+        "colorArray": [
+          5,
+          31,
+          25
+        ],
         "colorString": "5deg 31% 25%"
       },
       "lightmuted": {
-        "colorArray": [58, 32, 73],
+        "colorArray": [
+          58,
+          32,
+          73
+        ],
         "colorString": "58deg 32% 73%"
       }
     },
@@ -2512,27 +4096,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5JN6vyxmMWtPm3lVXfLB6J/f2f06c944e6f8f0aaa46ab84d7cef427/img_japan_japan-2024-00067.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [11, 72, 50],
+        "colorArray": [
+          11,
+          72,
+          50
+        ],
         "colorString": "11deg 72% 50%"
       },
       "darkvibrant": {
-        "colorArray": [9, 95, 30],
+        "colorArray": [
+          9,
+          95,
+          30
+        ],
         "colorString": "9deg 95% 30%"
       },
       "lightvibrant": {
-        "colorArray": [14, 94, 79],
+        "colorArray": [
+          14,
+          94,
+          79
+        ],
         "colorString": "14deg 94% 79%"
       },
       "muted": {
-        "colorArray": [7, 27, 51],
+        "colorArray": [
+          7,
+          27,
+          51
+        ],
         "colorString": "7deg 27% 51%"
       },
       "darkmuted": {
-        "colorArray": [97, 32, 25],
+        "colorArray": [
+          97,
+          32,
+          25
+        ],
         "colorString": "97deg 32% 25%"
       },
       "lightmuted": {
-        "colorArray": [7, 31, 76],
+        "colorArray": [
+          7,
+          31,
+          76
+        ],
         "colorString": "7deg 31% 76%"
       }
     },
@@ -2550,27 +4158,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5gzhhBtVYd2bSZvW2Uo4JK/bfa6f8f4024cc9833b20572ae5540ae6/img_japan_japan-2024-00068.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [99, 81, 39],
+        "colorArray": [
+          99,
+          81,
+          39
+        ],
         "colorString": "99deg 81% 39%"
       },
       "darkvibrant": {
-        "colorArray": [0, 89, 22],
+        "colorArray": [
+          0,
+          89,
+          22
+        ],
         "colorString": "0deg 89% 22%"
       },
       "lightvibrant": {
-        "colorArray": [1, 95, 77],
+        "colorArray": [
+          1,
+          95,
+          77
+        ],
         "colorString": "1deg 95% 77%"
       },
       "muted": {
-        "colorArray": [7, 26, 52],
+        "colorArray": [
+          7,
+          26,
+          52
+        ],
         "colorString": "7deg 26% 52%"
       },
       "darkmuted": {
-        "colorArray": [5, 31, 25],
+        "colorArray": [
+          5,
+          31,
+          25
+        ],
         "colorString": "5deg 31% 25%"
       },
       "lightmuted": {
-        "colorArray": [8, 18, 76],
+        "colorArray": [
+          8,
+          18,
+          76
+        ],
         "colorString": "8deg 18% 76%"
       }
     },
@@ -2588,27 +4220,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/7xG5vZQRDTZVNdRhpWzvQo/56fc92059d8ec56640ddbbae4c470d88/img_japan_japan-2024-00069.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [15, 53, 40],
+        "colorArray": [
+          15,
+          53,
+          40
+        ],
         "colorString": "15deg 53% 40%"
       },
       "darkvibrant": {
-        "colorArray": [9, 90, 16],
+        "colorArray": [
+          9,
+          90,
+          16
+        ],
         "colorString": "9deg 90% 16%"
       },
       "lightvibrant": {
-        "colorArray": [14, 46, 57],
+        "colorArray": [
+          14,
+          46,
+          57
+        ],
         "colorString": "14deg 46% 57%"
       },
       "muted": {
-        "colorArray": [13, 29, 48],
+        "colorArray": [
+          13,
+          29,
+          48
+        ],
         "colorString": "13deg 29% 48%"
       },
       "darkmuted": {
-        "colorArray": [7, 30, 28],
+        "colorArray": [
+          7,
+          30,
+          28
+        ],
         "colorString": "7deg 30% 28%"
       },
       "lightmuted": {
-        "colorArray": [11, 23, 69],
+        "colorArray": [
+          11,
+          23,
+          69
+        ],
         "colorString": "11deg 23% 69%"
       }
     },
@@ -2626,27 +4282,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/6xUGVDcHHbWkuMQGZcBq4k/cd9f11c0d60e115bed56c01b99d1afdf/img_japan_japan-2024-00070.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [8, 50, 35],
+        "colorArray": [
+          8,
+          50,
+          35
+        ],
         "colorString": "8deg 50% 35%"
       },
       "darkvibrant": {
-        "colorArray": [5, 58, 27],
+        "colorArray": [
+          5,
+          58,
+          27
+        ],
         "colorString": "5deg 58% 27%"
       },
       "lightvibrant": {
-        "colorArray": [8, 50, 74],
+        "colorArray": [
+          8,
+          50,
+          74
+        ],
         "colorString": "8deg 50% 74%"
       },
       "muted": {
-        "colorArray": [6, 32, 52],
+        "colorArray": [
+          6,
+          32,
+          52
+        ],
         "colorString": "6deg 32% 52%"
       },
       "darkmuted": {
-        "colorArray": [5, 36, 27],
+        "colorArray": [
+          5,
+          36,
+          27
+        ],
         "colorString": "5deg 36% 27%"
       },
       "lightmuted": {
-        "colorArray": [8, 13, 77],
+        "colorArray": [
+          8,
+          13,
+          77
+        ],
         "colorString": "8deg 13% 77%"
       }
     },
@@ -2664,27 +4344,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/3OVYATvfWyAukXsz5GkvNw/14cfa033151dd60ce0c45822531fd546/img_japan_japan-2024-00071.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [10, 41, 50],
+        "colorArray": [
+          10,
+          41,
+          50
+        ],
         "colorString": "10deg 41% 50%"
       },
       "darkvibrant": {
-        "colorArray": [5, 79, 22],
+        "colorArray": [
+          5,
+          79,
+          22
+        ],
         "colorString": "5deg 79% 22%"
       },
       "lightvibrant": {
-        "colorArray": [7, 55, 69],
+        "colorArray": [
+          7,
+          55,
+          69
+        ],
         "colorString": "7deg 55% 69%"
       },
       "muted": {
-        "colorArray": [5, 29, 51],
+        "colorArray": [
+          5,
+          29,
+          51
+        ],
         "colorString": "5deg 29% 51%"
       },
       "darkmuted": {
-        "colorArray": [15, 32, 25],
+        "colorArray": [
+          15,
+          32,
+          25
+        ],
         "colorString": "15deg 32% 25%"
       },
       "lightmuted": {
-        "colorArray": [7, 31, 71],
+        "colorArray": [
+          7,
+          31,
+          71
+        ],
         "colorString": "7deg 31% 71%"
       }
     },
@@ -2702,27 +4406,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/nBO3N4dDoL5EsNfM9nuyu/7f1ff268781f374b4fdd86c719454ef1/img_japan_japan-2024-00072.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [6, 40, 51],
+        "colorArray": [
+          6,
+          40,
+          51
+        ],
         "colorString": "6deg 40% 51%"
       },
       "darkvibrant": {
-        "colorArray": [53, 57, 29],
+        "colorArray": [
+          53,
+          57,
+          29
+        ],
         "colorString": "53deg 57% 29%"
       },
       "lightvibrant": {
-        "colorArray": [7, 41, 61],
+        "colorArray": [
+          7,
+          41,
+          61
+        ],
         "colorString": "7deg 41% 61%"
       },
       "muted": {
-        "colorArray": [7, 29, 50],
+        "colorArray": [
+          7,
+          29,
+          50
+        ],
         "colorString": "7deg 29% 50%"
       },
       "darkmuted": {
-        "colorArray": [7, 22, 26],
+        "colorArray": [
+          7,
+          22,
+          26
+        ],
         "colorString": "7deg 22% 26%"
       },
       "lightmuted": {
-        "colorArray": [53, 7, 73],
+        "colorArray": [
+          53,
+          7,
+          73
+        ],
         "colorString": "53deg 7% 73%"
       }
     },
@@ -2740,27 +4468,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5wPCLQQBI4gZHCoZvM0PPc/f713263714f167a2ede1b5be87a2c2e3/img_japan_japan-2024-00073.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [12, 69, 50],
+        "colorArray": [
+          12,
+          69,
+          50
+        ],
         "colorString": "12deg 69% 50%"
       },
       "darkvibrant": {
-        "colorArray": [12, 69, 20],
+        "colorArray": [
+          12,
+          69,
+          20
+        ],
         "colorString": "12deg 69% 20%"
       },
       "lightvibrant": {
-        "colorArray": [12, 69, 74],
+        "colorArray": [
+          12,
+          69,
+          74
+        ],
         "colorString": "12deg 69% 74%"
       },
       "muted": {
-        "colorArray": [6, 22, 50],
+        "colorArray": [
+          6,
+          22,
+          50
+        ],
         "colorString": "6deg 22% 50%"
       },
       "darkmuted": {
-        "colorArray": [10, 30, 28],
+        "colorArray": [
+          10,
+          30,
+          28
+        ],
         "colorString": "10deg 30% 28%"
       },
       "lightmuted": {
-        "colorArray": [6, 29, 67],
+        "colorArray": [
+          6,
+          29,
+          67
+        ],
         "colorString": "6deg 29% 67%"
       }
     },
@@ -2778,27 +4530,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/2KOFS34XmgDrx1iFbOvA2y/2dbb2f283fb9cd2e50cba30ea38eaf07/img_japan_japan-2024-00074.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [6, 52, 49],
+        "colorArray": [
+          6,
+          52,
+          49
+        ],
         "colorString": "6deg 52% 49%"
       },
       "darkvibrant": {
-        "colorArray": [7, 75, 32],
+        "colorArray": [
+          7,
+          75,
+          32
+        ],
         "colorString": "7deg 75% 32%"
       },
       "lightvibrant": {
-        "colorArray": [7, 49, 67],
+        "colorArray": [
+          7,
+          49,
+          67
+        ],
         "colorString": "7deg 49% 67%"
       },
       "muted": {
-        "colorArray": [7, 37, 49],
+        "colorArray": [
+          7,
+          37,
+          49
+        ],
         "colorString": "7deg 37% 49%"
       },
       "darkmuted": {
-        "colorArray": [5, 30, 26],
+        "colorArray": [
+          5,
+          30,
+          26
+        ],
         "colorString": "5deg 30% 26%"
       },
       "lightmuted": {
-        "colorArray": [8, 21, 69],
+        "colorArray": [
+          8,
+          21,
+          69
+        ],
         "colorString": "8deg 21% 69%"
       }
     },
@@ -2816,27 +4592,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/kz7pbOc4s3LuLvvGKVbh5/a99af4136431e349fd8ae504587e2378/img_japan_japan-2024-00075.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [98, 57, 51],
+        "colorArray": [
+          98,
+          57,
+          51
+        ],
         "colorString": "98deg 57% 51%"
       },
       "darkvibrant": {
-        "colorArray": [13, 54, 28],
+        "colorArray": [
+          13,
+          54,
+          28
+        ],
         "colorString": "13deg 54% 28%"
       },
       "lightvibrant": {
-        "colorArray": [9, 54, 70],
+        "colorArray": [
+          9,
+          54,
+          70
+        ],
         "colorString": "9deg 54% 70%"
       },
       "muted": {
-        "colorArray": [8, 20, 49],
+        "colorArray": [
+          8,
+          20,
+          49
+        ],
         "colorString": "8deg 20% 49%"
       },
       "darkmuted": {
-        "colorArray": [14, 31, 25],
+        "colorArray": [
+          14,
+          31,
+          25
+        ],
         "colorString": "14deg 31% 25%"
       },
       "lightmuted": {
-        "colorArray": [72, 8, 75],
+        "colorArray": [
+          72,
+          8,
+          75
+        ],
         "colorString": "72deg 8% 75%"
       }
     },
@@ -2854,27 +4654,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/3m1bGjFKbnTzIgmnUbLyFR/8b522c2892823658ca17df29a70e75b7/img_japan_japan-2024-00076.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [58, 38, 33],
+        "colorArray": [
+          58,
+          38,
+          33
+        ],
         "colorString": "58deg 38% 33%"
       },
       "darkvibrant": {
-        "colorArray": [10, 82, 24],
+        "colorArray": [
+          10,
+          82,
+          24
+        ],
         "colorString": "10deg 82% 24%"
       },
       "lightvibrant": {
-        "colorArray": [58, 38, 74],
+        "colorArray": [
+          58,
+          38,
+          74
+        ],
         "colorString": "58deg 38% 74%"
       },
       "muted": {
-        "colorArray": [10, 21, 51],
+        "colorArray": [
+          10,
+          21,
+          51
+        ],
         "colorString": "10deg 21% 51%"
       },
       "darkmuted": {
-        "colorArray": [14, 39, 28],
+        "colorArray": [
+          14,
+          39,
+          28
+        ],
         "colorString": "14deg 39% 28%"
       },
       "lightmuted": {
-        "colorArray": [3, 16, 76],
+        "colorArray": [
+          3,
+          16,
+          76
+        ],
         "colorString": "3deg 16% 76%"
       }
     },
@@ -2892,27 +4716,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5bg8Bd4JuWEHODfAh9XM1S/5542b1cb3a6164af6a935cad141626be/img_japan_japan-2024-00077.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [6, 39, 33],
+        "colorArray": [
+          6,
+          39,
+          33
+        ],
         "colorString": "6deg 39% 33%"
       },
       "darkvibrant": {
-        "colorArray": [7, 88, 13],
+        "colorArray": [
+          7,
+          88,
+          13
+        ],
         "colorString": "7deg 88% 13%"
       },
       "lightvibrant": {
-        "colorArray": [6, 39, 74],
+        "colorArray": [
+          6,
+          39,
+          74
+        ],
         "colorString": "6deg 39% 74%"
       },
       "muted": {
-        "colorArray": [6, 14, 51],
+        "colorArray": [
+          6,
+          14,
+          51
+        ],
         "colorString": "6deg 14% 51%"
       },
       "darkmuted": {
-        "colorArray": [9, 38, 25],
+        "colorArray": [
+          9,
+          38,
+          25
+        ],
         "colorString": "9deg 38% 25%"
       },
       "lightmuted": {
-        "colorArray": [50, 6, 75],
+        "colorArray": [
+          50,
+          6,
+          75
+        ],
         "colorString": "50deg 6% 75%"
       }
     },
@@ -2930,27 +4778,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/3BNNZZi5aCNxht9ZPaBhvq/dbcd48edd9d6f368bad2e8f8d2fb9bb0/img_japan_japan-2024-00078.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [8, 41, 43],
+        "colorArray": [
+          8,
+          41,
+          43
+        ],
         "colorString": "8deg 41% 43%"
       },
       "darkvibrant": {
-        "colorArray": [12, 70, 20],
+        "colorArray": [
+          12,
+          70,
+          20
+        ],
         "colorString": "12deg 70% 20%"
       },
       "lightvibrant": {
-        "colorArray": [8, 41, 74],
+        "colorArray": [
+          8,
+          41,
+          74
+        ],
         "colorString": "8deg 41% 74%"
       },
       "muted": {
-        "colorArray": [15, 28, 50],
+        "colorArray": [
+          15,
+          28,
+          50
+        ],
         "colorString": "15deg 28% 50%"
       },
       "darkmuted": {
-        "colorArray": [4, 30, 24],
+        "colorArray": [
+          4,
+          30,
+          24
+        ],
         "colorString": "4deg 30% 24%"
       },
       "lightmuted": {
-        "colorArray": [92, 3, 75],
+        "colorArray": [
+          92,
+          3,
+          75
+        ],
         "colorString": "92deg 3% 75%"
       }
     },
@@ -2968,27 +4840,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/1IOm9yBWLPbCkEXTZRIHle/8a0dff949890937e7715722cd4abbcc4/img_japan_japan-2024-00079.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [2, 37, 51],
+        "colorArray": [
+          2,
+          37,
+          51
+        ],
         "colorString": "2deg 37% 51%"
       },
       "darkvibrant": {
-        "colorArray": [1, 81, 23],
+        "colorArray": [
+          1,
+          81,
+          23
+        ],
         "colorString": "1deg 81% 23%"
       },
       "lightvibrant": {
-        "colorArray": [2, 37, 74],
+        "colorArray": [
+          2,
+          37,
+          74
+        ],
         "colorString": "2deg 37% 74%"
       },
       "muted": {
-        "colorArray": [2, 26, 48],
+        "colorArray": [
+          2,
+          26,
+          48
+        ],
         "colorString": "2deg 26% 48%"
       },
       "darkmuted": {
-        "colorArray": [4, 18, 27],
+        "colorArray": [
+          4,
+          18,
+          27
+        ],
         "colorString": "4deg 18% 27%"
       },
       "lightmuted": {
-        "colorArray": [83, 1, 74],
+        "colorArray": [
+          83,
+          1,
+          74
+        ],
         "colorString": "83deg 1% 74%"
       }
     },
@@ -3006,27 +4902,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/4BNYhAVdecEjjm166pW7ZA/cd3767edaf3766c37061376a4c5bcb42/img_japan_japan-2024-00080.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [3, 37, 40],
+        "colorArray": [
+          3,
+          37,
+          40
+        ],
         "colorString": "3deg 37% 40%"
       },
       "darkvibrant": {
-        "colorArray": [4, 35, 36],
+        "colorArray": [
+          4,
+          35,
+          36
+        ],
         "colorString": "4deg 35% 36%"
       },
       "lightvibrant": {
-        "colorArray": [3, 37, 74],
+        "colorArray": [
+          3,
+          37,
+          74
+        ],
         "colorString": "3deg 37% 74%"
       },
       "muted": {
-        "colorArray": [7, 15, 50],
+        "colorArray": [
+          7,
+          15,
+          50
+        ],
         "colorString": "7deg 15% 50%"
       },
       "darkmuted": {
-        "colorArray": [8, 11, 27],
+        "colorArray": [
+          8,
+          11,
+          27
+        ],
         "colorString": "8deg 11% 27%"
       },
       "lightmuted": {
-        "colorArray": [6, 15, 69],
+        "colorArray": [
+          6,
+          15,
+          69
+        ],
         "colorString": "6deg 15% 69%"
       }
     },
@@ -3044,27 +4964,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/qPCBazapMrIUAexCUyFaR/874fb3bba8c5e9e156b3dc3dcbb9d968/img_japan_japan-2024-00081.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [7, 37, 42],
+        "colorArray": [
+          7,
+          37,
+          42
+        ],
         "colorString": "7deg 37% 42%"
       },
       "darkvibrant": {
-        "colorArray": [5, 61, 28],
+        "colorArray": [
+          5,
+          61,
+          28
+        ],
         "colorString": "5deg 61% 28%"
       },
       "lightvibrant": {
-        "colorArray": [6, 42, 76],
+        "colorArray": [
+          6,
+          42,
+          76
+        ],
         "colorString": "6deg 42% 76%"
       },
       "muted": {
-        "colorArray": [6, 25, 47],
+        "colorArray": [
+          6,
+          25,
+          47
+        ],
         "colorString": "6deg 25% 47%"
       },
       "darkmuted": {
-        "colorArray": [6, 37, 26],
+        "colorArray": [
+          6,
+          37,
+          26
+        ],
         "colorString": "6deg 37% 26%"
       },
       "lightmuted": {
-        "colorArray": [5, 25, 73],
+        "colorArray": [
+          5,
+          25,
+          73
+        ],
         "colorString": "5deg 25% 73%"
       }
     },
@@ -3082,27 +5026,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/6sIfXnZw2VE67IhBFDTZnS/610a7b27d5a051f6fca741e8e0a7cf04/img_japan_japan-2024-00082.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [6, 54, 54],
+        "colorArray": [
+          6,
+          54,
+          54
+        ],
         "colorString": "6deg 54% 54%"
       },
       "darkvibrant": {
-        "colorArray": [12, 57, 27],
+        "colorArray": [
+          12,
+          57,
+          27
+        ],
         "colorString": "12deg 57% 27%"
       },
       "lightvibrant": {
-        "colorArray": [3, 46, 75],
+        "colorArray": [
+          3,
+          46,
+          75
+        ],
         "colorString": "3deg 46% 75%"
       },
       "muted": {
-        "colorArray": [9, 29, 48],
+        "colorArray": [
+          9,
+          29,
+          48
+        ],
         "colorString": "9deg 29% 48%"
       },
       "darkmuted": {
-        "colorArray": [11, 24, 27],
+        "colorArray": [
+          11,
+          24,
+          27
+        ],
         "colorString": "11deg 24% 27%"
       },
       "lightmuted": {
-        "colorArray": [4, 25, 75],
+        "colorArray": [
+          4,
+          25,
+          75
+        ],
         "colorString": "4deg 25% 75%"
       }
     },
@@ -3120,27 +5088,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/4fNSGXMfZJ8qxlFmczeHUB/2d5cd252e113ecd019eab04ca168df11/img_japan_japan-2024-00083.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [3, 49, 50],
+        "colorArray": [
+          3,
+          49,
+          50
+        ],
         "colorString": "3deg 49% 50%"
       },
       "darkvibrant": {
-        "colorArray": [2, 66, 28],
+        "colorArray": [
+          2,
+          66,
+          28
+        ],
         "colorString": "2deg 66% 28%"
       },
       "lightvibrant": {
-        "colorArray": [4, 36, 60],
+        "colorArray": [
+          4,
+          36,
+          60
+        ],
         "colorString": "4deg 36% 60%"
       },
       "muted": {
-        "colorArray": [3, 37, 49],
+        "colorArray": [
+          3,
+          37,
+          49
+        ],
         "colorString": "3deg 37% 49%"
       },
       "darkmuted": {
-        "colorArray": [3, 32, 28],
+        "colorArray": [
+          3,
+          32,
+          28
+        ],
         "colorString": "3deg 32% 28%"
       },
       "lightmuted": {
-        "colorArray": [4, 27, 68],
+        "colorArray": [
+          4,
+          27,
+          68
+        ],
         "colorString": "4deg 27% 68%"
       }
     },
@@ -3158,27 +5150,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/hnqsDHyM9YCx0LrOKj6SA/0bf80be353ec4830c311610a990312e6/img_japan_japan-2024-00084.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [3, 66, 56],
+        "colorArray": [
+          3,
+          66,
+          56
+        ],
         "colorString": "3deg 66% 56%"
       },
       "darkvibrant": {
-        "colorArray": [2, 82, 26],
+        "colorArray": [
+          2,
+          82,
+          26
+        ],
         "colorString": "2deg 82% 26%"
       },
       "lightvibrant": {
-        "colorArray": [5, 94, 74],
+        "colorArray": [
+          5,
+          94,
+          74
+        ],
         "colorString": "5deg 94% 74%"
       },
       "muted": {
-        "colorArray": [0, 31, 53],
+        "colorArray": [
+          0,
+          31,
+          53
+        ],
         "colorString": "0deg 31% 53%"
       },
       "darkmuted": {
-        "colorArray": [4, 29, 25],
+        "colorArray": [
+          4,
+          29,
+          25
+        ],
         "colorString": "4deg 29% 25%"
       },
       "lightmuted": {
-        "colorArray": [92, 32, 71],
+        "colorArray": [
+          92,
+          32,
+          71
+        ],
         "colorString": "92deg 32% 71%"
       }
     },
@@ -3196,27 +5212,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5NxZ8IZDap1ScQNwhtZ9FD/430f10d27c8cab7b3b03962bc3289c71/img_japan_japan-2024-00085.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [4, 61, 52],
+        "colorArray": [
+          4,
+          61,
+          52
+        ],
         "colorString": "4deg 61% 52%"
       },
       "darkvibrant": {
-        "colorArray": [2, 79, 25],
+        "colorArray": [
+          2,
+          79,
+          25
+        ],
         "colorString": "2deg 79% 25%"
       },
       "lightvibrant": {
-        "colorArray": [5, 78, 67],
+        "colorArray": [
+          5,
+          78,
+          67
+        ],
         "colorString": "5deg 78% 67%"
       },
       "muted": {
-        "colorArray": [100, 21, 49],
+        "colorArray": [
+          100,
+          21,
+          49
+        ],
         "colorString": "100deg 21% 49%"
       },
       "darkmuted": {
-        "colorArray": [11, 27, 25],
+        "colorArray": [
+          11,
+          27,
+          25
+        ],
         "colorString": "11deg 27% 25%"
       },
       "lightmuted": {
-        "colorArray": [5, 32, 68],
+        "colorArray": [
+          5,
+          32,
+          68
+        ],
         "colorString": "5deg 32% 68%"
       }
     },
@@ -3234,27 +5274,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/4JlcBQX8Hq5Y2AcE7xaOzK/d71ba037b4678031ffd93e4c66e4922b/img_japan_japan-2024-00086.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [4, 60, 51],
+        "colorArray": [
+          4,
+          60,
+          51
+        ],
         "colorString": "4deg 60% 51%"
       },
       "darkvibrant": {
-        "colorArray": [2, 75, 23],
+        "colorArray": [
+          2,
+          75,
+          23
+        ],
         "colorString": "2deg 75% 23%"
       },
       "lightvibrant": {
-        "colorArray": [5, 48, 68],
+        "colorArray": [
+          5,
+          48,
+          68
+        ],
         "colorString": "5deg 48% 68%"
       },
       "muted": {
-        "colorArray": [2, 32, 56],
+        "colorArray": [
+          2,
+          32,
+          56
+        ],
         "colorString": "2deg 32% 56%"
       },
       "darkmuted": {
-        "colorArray": [14, 23, 24],
+        "colorArray": [
+          14,
+          23,
+          24
+        ],
         "colorString": "14deg 23% 24%"
       },
       "lightmuted": {
-        "colorArray": [17, 1, 73],
+        "colorArray": [
+          17,
+          1,
+          73
+        ],
         "colorString": "17deg 1% 73%"
       }
     },
@@ -3272,27 +5336,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/1T8n39pfaHhsZQ7ID3qEbh/74b2fee74d7757c1e9b03e603dd32af7/img_japan_japan-2024-00087.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [3, 76, 56],
+        "colorArray": [
+          3,
+          76,
+          56
+        ],
         "colorString": "3deg 76% 56%"
       },
       "darkvibrant": {
-        "colorArray": [1, 80, 25],
+        "colorArray": [
+          1,
+          80,
+          25
+        ],
         "colorString": "1deg 80% 25%"
       },
       "lightvibrant": {
-        "colorArray": [4, 89, 61],
+        "colorArray": [
+          4,
+          89,
+          61
+        ],
         "colorString": "4deg 89% 61%"
       },
       "muted": {
-        "colorArray": [7, 17, 50],
+        "colorArray": [
+          7,
+          17,
+          50
+        ],
         "colorString": "7deg 17% 50%"
       },
       "darkmuted": {
-        "colorArray": [4, 28, 29],
+        "colorArray": [
+          4,
+          28,
+          29
+        ],
         "colorString": "4deg 28% 29%"
       },
       "lightmuted": {
-        "colorArray": [7, 30, 70],
+        "colorArray": [
+          7,
+          30,
+          70
+        ],
         "colorString": "7deg 30% 70%"
       }
     },
@@ -3310,27 +5398,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5h420SMERhBrnxGZSnq5sG/da3d8d81e0ef8b45c86dc8ccfe9bfa96/img_japan_japan-2024-00088.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [2, 77, 61],
+        "colorArray": [
+          2,
+          77,
+          61
+        ],
         "colorString": "2deg 77% 61%"
       },
       "darkvibrant": {
-        "colorArray": [9, 72, 24],
+        "colorArray": [
+          9,
+          72,
+          24
+        ],
         "colorString": "9deg 72% 24%"
       },
       "lightvibrant": {
-        "colorArray": [3, 81, 73],
+        "colorArray": [
+          3,
+          81,
+          73
+        ],
         "colorString": "3deg 81% 73%"
       },
       "muted": {
-        "colorArray": [9, 28, 51],
+        "colorArray": [
+          9,
+          28,
+          51
+        ],
         "colorString": "9deg 28% 51%"
       },
       "darkmuted": {
-        "colorArray": [8, 31, 25],
+        "colorArray": [
+          8,
+          31,
+          25
+        ],
         "colorString": "8deg 31% 25%"
       },
       "lightmuted": {
-        "colorArray": [9, 31, 73],
+        "colorArray": [
+          9,
+          31,
+          73
+        ],
         "colorString": "9deg 31% 73%"
       }
     },
@@ -3348,27 +5460,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5FYqCRFwl8j61gQFarUGCl/551168be31abd5797d03e1d75311e52e/img_japan_japan-2024-00089.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [10, 46, 52],
+        "colorArray": [
+          10,
+          46,
+          52
+        ],
         "colorString": "10deg 46% 52%"
       },
       "darkvibrant": {
-        "colorArray": [10, 55, 27],
+        "colorArray": [
+          10,
+          55,
+          27
+        ],
         "colorString": "10deg 55% 27%"
       },
       "lightvibrant": {
-        "colorArray": [6, 85, 92],
+        "colorArray": [
+          6,
+          85,
+          92
+        ],
         "colorString": "6deg 85% 92%"
       },
       "muted": {
-        "colorArray": [7, 28, 50],
+        "colorArray": [
+          7,
+          28,
+          50
+        ],
         "colorString": "7deg 28% 50%"
       },
       "darkmuted": {
-        "colorArray": [17, 31, 28],
+        "colorArray": [
+          17,
+          31,
+          28
+        ],
         "colorString": "17deg 31% 28%"
       },
       "lightmuted": {
-        "colorArray": [6, 34, 75],
+        "colorArray": [
+          6,
+          34,
+          75
+        ],
         "colorString": "6deg 34% 75%"
       }
     },
@@ -3386,27 +5522,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5FSVsvL86i4z5gQBxzgnAq/0d5f98c567168f401a1114012a534f9b/img_japan_japan-2024-00090.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [2, 90, 50],
+        "colorArray": [
+          2,
+          90,
+          50
+        ],
         "colorString": "2deg 90% 50%"
       },
       "darkvibrant": {
-        "colorArray": [2, 90, 16],
+        "colorArray": [
+          2,
+          90,
+          16
+        ],
         "colorString": "2deg 90% 16%"
       },
       "lightvibrant": {
-        "colorArray": [2, 90, 74],
+        "colorArray": [
+          2,
+          90,
+          74
+        ],
         "colorString": "2deg 90% 74%"
       },
       "muted": {
-        "colorArray": [8, 22, 46],
+        "colorArray": [
+          8,
+          22,
+          46
+        ],
         "colorString": "8deg 22% 46%"
       },
       "darkmuted": {
-        "colorArray": [15, 32, 26],
+        "colorArray": [
+          15,
+          32,
+          26
+        ],
         "colorString": "15deg 32% 26%"
       },
       "lightmuted": {
-        "colorArray": [0, 0, 74],
+        "colorArray": [
+          0,
+          0,
+          74
+        ],
         "colorString": "0deg 0% 74%"
       }
     },
@@ -3424,27 +5584,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5FJiYAdeqEIOog1Yen0iD0/1cb9f0b7e278a3633ea78e164d9a5c6f/img_japan_japan-2024-00091.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [12, 49, 50],
+        "colorArray": [
+          12,
+          49,
+          50
+        ],
         "colorString": "12deg 49% 50%"
       },
       "darkvibrant": {
-        "colorArray": [18, 90, 16],
+        "colorArray": [
+          18,
+          90,
+          16
+        ],
         "colorString": "18deg 90% 16%"
       },
       "lightvibrant": {
-        "colorArray": [14, 51, 78],
+        "colorArray": [
+          14,
+          51,
+          78
+        ],
         "colorString": "14deg 51% 78%"
       },
       "muted": {
-        "colorArray": [5, 22, 50],
+        "colorArray": [
+          5,
+          22,
+          50
+        ],
         "colorString": "5deg 22% 50%"
       },
       "darkmuted": {
-        "colorArray": [14, 20, 26],
+        "colorArray": [
+          14,
+          20,
+          26
+        ],
         "colorString": "14deg 20% 26%"
       },
       "lightmuted": {
-        "colorArray": [2, 27, 73],
+        "colorArray": [
+          2,
+          27,
+          73
+        ],
         "colorString": "2deg 27% 73%"
       }
     },
@@ -3462,27 +5646,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/12rbl9QkS4bR87LwaElYnb/28d0841166dd8f824b0990f76190007e/img_japan_japan-2024-00092.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [9, 43, 47],
+        "colorArray": [
+          9,
+          43,
+          47
+        ],
         "colorString": "9deg 43% 47%"
       },
       "darkvibrant": {
-        "colorArray": [13, 80, 19],
+        "colorArray": [
+          13,
+          80,
+          19
+        ],
         "colorString": "13deg 80% 19%"
       },
       "lightvibrant": {
-        "colorArray": [11, 50, 74],
+        "colorArray": [
+          11,
+          50,
+          74
+        ],
         "colorString": "11deg 50% 74%"
       },
       "muted": {
-        "colorArray": [8, 29, 54],
+        "colorArray": [
+          8,
+          29,
+          54
+        ],
         "colorString": "8deg 29% 54%"
       },
       "darkmuted": {
-        "colorArray": [7, 28, 26],
+        "colorArray": [
+          7,
+          28,
+          26
+        ],
         "colorString": "7deg 28% 26%"
       },
       "lightmuted": {
-        "colorArray": [8, 32, 71],
+        "colorArray": [
+          8,
+          32,
+          71
+        ],
         "colorString": "8deg 32% 71%"
       }
     },
@@ -3500,27 +5708,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/6dVKvXWKjLtNibEhVd2Q3Y/0b88ce4e830f9f2ecb4c15b53ae846b0/img_japan_japan-2024-00093.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [98, 62, 50],
+        "colorArray": [
+          98,
+          62,
+          50
+        ],
         "colorString": "98deg 62% 50%"
       },
       "darkvibrant": {
-        "colorArray": [99, 72, 25],
+        "colorArray": [
+          99,
+          72,
+          25
+        ],
         "colorString": "99deg 72% 25%"
       },
       "lightvibrant": {
-        "colorArray": [97, 74, 70],
+        "colorArray": [
+          97,
+          74,
+          70
+        ],
         "colorString": "97deg 74% 70%"
       },
       "muted": {
-        "colorArray": [11, 23, 49],
+        "colorArray": [
+          11,
+          23,
+          49
+        ],
         "colorString": "11deg 23% 49%"
       },
       "darkmuted": {
-        "colorArray": [7, 31, 26],
+        "colorArray": [
+          7,
+          31,
+          26
+        ],
         "colorString": "7deg 31% 26%"
       },
       "lightmuted": {
-        "colorArray": [5, 25, 74],
+        "colorArray": [
+          5,
+          25,
+          74
+        ],
         "colorString": "5deg 25% 74%"
       }
     },
@@ -3538,27 +5770,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/74o8QWBDl6zRRVcwnuFBEz/c1dfc73245c072510d780097cbf75771/img_japan_japan-2024-00094.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [18, 61, 44],
+        "colorArray": [
+          18,
+          61,
+          44
+        ],
         "colorString": "18deg 61% 44%"
       },
       "darkvibrant": {
-        "colorArray": [19, 78, 27],
+        "colorArray": [
+          19,
+          78,
+          27
+        ],
         "colorString": "19deg 78% 27%"
       },
       "lightvibrant": {
-        "colorArray": [20, 45, 64],
+        "colorArray": [
+          20,
+          45,
+          64
+        ],
         "colorString": "20deg 45% 64%"
       },
       "muted": {
-        "colorArray": [17, 27, 49],
+        "colorArray": [
+          17,
+          27,
+          49
+        ],
         "colorString": "17deg 27% 49%"
       },
       "darkmuted": {
-        "colorArray": [13, 38, 25],
+        "colorArray": [
+          13,
+          38,
+          25
+        ],
         "colorString": "13deg 38% 25%"
       },
       "lightmuted": {
-        "colorArray": [7, 16, 74],
+        "colorArray": [
+          7,
+          16,
+          74
+        ],
         "colorString": "7deg 16% 74%"
       }
     },
@@ -3576,27 +5832,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/4amj3znThMD9ixDf04TrBp/d026f3e6639b6d4543aedd01bc07ea41/img_japan_japan-2024-00095.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [98, 68, 54],
+        "colorArray": [
+          98,
+          68,
+          54
+        ],
         "colorString": "98deg 68% 54%"
       },
       "darkvibrant": {
-        "colorArray": [0, 62, 27],
+        "colorArray": [
+          0,
+          62,
+          27
+        ],
         "colorString": "0deg 62% 27%"
       },
       "lightvibrant": {
-        "colorArray": [97, 85, 64],
+        "colorArray": [
+          97,
+          85,
+          64
+        ],
         "colorString": "97deg 85% 64%"
       },
       "muted": {
-        "colorArray": [4, 31, 46],
+        "colorArray": [
+          4,
+          31,
+          46
+        ],
         "colorString": "4deg 31% 46%"
       },
       "darkmuted": {
-        "colorArray": [10, 23, 25],
+        "colorArray": [
+          10,
+          23,
+          25
+        ],
         "colorString": "10deg 23% 25%"
       },
       "lightmuted": {
-        "colorArray": [9, 12, 73],
+        "colorArray": [
+          9,
+          12,
+          73
+        ],
         "colorString": "9deg 12% 73%"
       }
     },
@@ -3614,27 +5894,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/4Xk3bMMoET1X3kBfuXPfxG/b55f3bb04066eebc70a830d4114f7a5e/img_japan_japan-2024-00096.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [98, 66, 51],
+        "colorArray": [
+          98,
+          66,
+          51
+        ],
         "colorString": "98deg 66% 51%"
       },
       "darkvibrant": {
-        "colorArray": [12, 73, 27],
+        "colorArray": [
+          12,
+          73,
+          27
+        ],
         "colorString": "12deg 73% 27%"
       },
       "lightvibrant": {
-        "colorArray": [12, 72, 75],
+        "colorArray": [
+          12,
+          72,
+          75
+        ],
         "colorString": "12deg 72% 75%"
       },
       "muted": {
-        "colorArray": [10, 29, 50],
+        "colorArray": [
+          10,
+          29,
+          50
+        ],
         "colorString": "10deg 29% 50%"
       },
       "darkmuted": {
-        "colorArray": [7, 18, 26],
+        "colorArray": [
+          7,
+          18,
+          26
+        ],
         "colorString": "7deg 18% 26%"
       },
       "lightmuted": {
-        "colorArray": [4, 26, 73],
+        "colorArray": [
+          4,
+          26,
+          73
+        ],
         "colorString": "4deg 26% 73%"
       }
     },
@@ -3652,27 +5956,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/4OgMXZ6JjWTHyO2gbbLsTh/9b9f1698261fefe5b110ff3d9383f7b1/img_japan_japan-2024-00097.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [97, 79, 58],
+        "colorArray": [
+          97,
+          79,
+          58
+        ],
         "colorString": "97deg 79% 58%"
       },
       "darkvibrant": {
-        "colorArray": [13, 83, 27],
+        "colorArray": [
+          13,
+          83,
+          27
+        ],
         "colorString": "13deg 83% 27%"
       },
       "lightvibrant": {
-        "colorArray": [97, 79, 70],
+        "colorArray": [
+          97,
+          79,
+          70
+        ],
         "colorString": "97deg 79% 70%"
       },
       "muted": {
-        "colorArray": [11, 32, 48],
+        "colorArray": [
+          11,
+          32,
+          48
+        ],
         "colorString": "11deg 32% 48%"
       },
       "darkmuted": {
-        "colorArray": [8, 31, 23],
+        "colorArray": [
+          8,
+          31,
+          23
+        ],
         "colorString": "8deg 31% 23%"
       },
       "lightmuted": {
-        "colorArray": [6, 22, 75],
+        "colorArray": [
+          6,
+          22,
+          75
+        ],
         "colorString": "6deg 22% 75%"
       }
     },
@@ -3690,27 +6018,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/47QHRtAts5BRIRjBFRGEG8/085e8d9d926fe586a67eeb9dae505738/img_japan_japan-2024-00098.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [6, 84, 55],
+        "colorArray": [
+          6,
+          84,
+          55
+        ],
         "colorString": "6deg 84% 55%"
       },
       "darkvibrant": {
-        "colorArray": [17, 86, 23],
+        "colorArray": [
+          17,
+          86,
+          23
+        ],
         "colorString": "17deg 86% 23%"
       },
       "lightvibrant": {
-        "colorArray": [5, 86, 75],
+        "colorArray": [
+          5,
+          86,
+          75
+        ],
         "colorString": "5deg 86% 75%"
       },
       "muted": {
-        "colorArray": [17, 33, 49],
+        "colorArray": [
+          17,
+          33,
+          49
+        ],
         "colorString": "17deg 33% 49%"
       },
       "darkmuted": {
-        "colorArray": [20, 26, 25],
+        "colorArray": [
+          20,
+          26,
+          25
+        ],
         "colorString": "20deg 26% 25%"
       },
       "lightmuted": {
-        "colorArray": [8, 30, 74],
+        "colorArray": [
+          8,
+          30,
+          74
+        ],
         "colorString": "8deg 30% 74%"
       }
     },
@@ -3728,27 +6080,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/3jWp6AXFnCwmFxvvPBO6av/5ad2d5009bb2b9147785ce2ca9578c0d/img_japan_japan-2024-00099.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [12, 44, 50],
+        "colorArray": [
+          12,
+          44,
+          50
+        ],
         "colorString": "12deg 44% 50%"
       },
       "darkvibrant": {
-        "colorArray": [22, 86, 23],
+        "colorArray": [
+          22,
+          86,
+          23
+        ],
         "colorString": "22deg 86% 23%"
       },
       "lightvibrant": {
-        "colorArray": [12, 67, 72],
+        "colorArray": [
+          12,
+          67,
+          72
+        ],
         "colorString": "12deg 67% 72%"
       },
       "muted": {
-        "colorArray": [7, 23, 50],
+        "colorArray": [
+          7,
+          23,
+          50
+        ],
         "colorString": "7deg 23% 50%"
       },
       "darkmuted": {
-        "colorArray": [7, 32, 25],
+        "colorArray": [
+          7,
+          32,
+          25
+        ],
         "colorString": "7deg 32% 25%"
       },
       "lightmuted": {
-        "colorArray": [6, 30, 77],
+        "colorArray": [
+          6,
+          30,
+          77
+        ],
         "colorString": "6deg 30% 77%"
       }
     },
@@ -3766,27 +6142,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/1gH6tYcVwuJHgxP0ifgeTm/105599419bc7e6a8490c71b832620ddc/img_japan_japan-2024-00100.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [11, 92, 47],
+        "colorArray": [
+          11,
+          92,
+          47
+        ],
         "colorString": "11deg 92% 47%"
       },
       "darkvibrant": {
-        "colorArray": [3, 94, 27],
+        "colorArray": [
+          3,
+          94,
+          27
+        ],
         "colorString": "3deg 94% 27%"
       },
       "lightvibrant": {
-        "colorArray": [16, 94, 73],
+        "colorArray": [
+          16,
+          94,
+          73
+        ],
         "colorString": "16deg 94% 73%"
       },
       "muted": {
-        "colorArray": [11, 33, 49],
+        "colorArray": [
+          11,
+          33,
+          49
+        ],
         "colorString": "11deg 33% 49%"
       },
       "darkmuted": {
-        "colorArray": [6, 38, 25],
+        "colorArray": [
+          6,
+          38,
+          25
+        ],
         "colorString": "6deg 38% 25%"
       },
       "lightmuted": {
-        "colorArray": [6, 36, 74],
+        "colorArray": [
+          6,
+          36,
+          74
+        ],
         "colorString": "6deg 36% 74%"
       }
     },
@@ -3804,27 +6204,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/6lcQ369kqZ5iGPbNeWbGAq/179593a88551c9bbcfb0d12e90992678/img_japan_japan-2024-00101.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [12, 93, 49],
+        "colorArray": [
+          12,
+          93,
+          49
+        ],
         "colorString": "12deg 93% 49%"
       },
       "darkvibrant": {
-        "colorArray": [8, 92, 25],
+        "colorArray": [
+          8,
+          92,
+          25
+        ],
         "colorString": "8deg 92% 25%"
       },
       "lightvibrant": {
-        "colorArray": [17, 96, 73],
+        "colorArray": [
+          17,
+          96,
+          73
+        ],
         "colorString": "17deg 96% 73%"
       },
       "muted": {
-        "colorArray": [13, 28, 47],
+        "colorArray": [
+          13,
+          28,
+          47
+        ],
         "colorString": "13deg 28% 47%"
       },
       "darkmuted": {
-        "colorArray": [89, 30, 25],
+        "colorArray": [
+          89,
+          30,
+          25
+        ],
         "colorString": "89deg 30% 25%"
       },
       "lightmuted": {
-        "colorArray": [11, 35, 75],
+        "colorArray": [
+          11,
+          35,
+          75
+        ],
         "colorString": "11deg 35% 75%"
       }
     },
@@ -3842,27 +6266,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/6ungvIjKWncbelVDfM6CC/8ceb69f44f03a436aa240e208b931536/img_japan_japan-2024-00102.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [5, 43, 34],
+        "colorArray": [
+          5,
+          43,
+          34
+        ],
         "colorString": "5deg 43% 34%"
       },
       "darkvibrant": {
-        "colorArray": [2, 88, 13],
+        "colorArray": [
+          2,
+          88,
+          13
+        ],
         "colorString": "2deg 88% 13%"
       },
       "lightvibrant": {
-        "colorArray": [5, 43, 74],
+        "colorArray": [
+          5,
+          43,
+          74
+        ],
         "colorString": "5deg 43% 74%"
       },
       "muted": {
-        "colorArray": [5, 22, 50],
+        "colorArray": [
+          5,
+          22,
+          50
+        ],
         "colorString": "5deg 22% 50%"
       },
       "darkmuted": {
-        "colorArray": [6, 31, 27],
+        "colorArray": [
+          6,
+          31,
+          27
+        ],
         "colorString": "6deg 31% 27%"
       },
       "lightmuted": {
-        "colorArray": [4, 21, 71],
+        "colorArray": [
+          4,
+          21,
+          71
+        ],
         "colorString": "4deg 21% 71%"
       }
     },
@@ -3880,27 +6328,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5fWiUmaUyEvpaQZ16rH6AJ/e28efbed7f736b49f7b1cf96dd2a93ec/img_japan_japan-2024-00103.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [7, 42, 35],
+        "colorArray": [
+          7,
+          42,
+          35
+        ],
         "colorString": "7deg 42% 35%"
       },
       "darkvibrant": {
-        "colorArray": [6, 47, 27],
+        "colorArray": [
+          6,
+          47,
+          27
+        ],
         "colorString": "6deg 47% 27%"
       },
       "lightvibrant": {
-        "colorArray": [46, 37, 83],
+        "colorArray": [
+          46,
+          37,
+          83
+        ],
         "colorString": "46deg 37% 83%"
       },
       "muted": {
-        "colorArray": [48, 30, 47],
+        "colorArray": [
+          48,
+          30,
+          47
+        ],
         "colorString": "48deg 30% 47%"
       },
       "darkmuted": {
-        "colorArray": [5, 30, 27],
+        "colorArray": [
+          5,
+          30,
+          27
+        ],
         "colorString": "5deg 30% 27%"
       },
       "lightmuted": {
-        "colorArray": [47, 32, 75],
+        "colorArray": [
+          47,
+          32,
+          75
+        ],
         "colorString": "47deg 32% 75%"
       }
     },
@@ -3918,27 +6390,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/5NZiEkav5iSiPGr5xLB3u/1b76d40230096af7c157a694373aed6b/img_japan_japan-2024-00104.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [6, 48, 39],
+        "colorArray": [
+          6,
+          48,
+          39
+        ],
         "colorString": "6deg 48% 39%"
       },
       "darkvibrant": {
-        "colorArray": [8, 81, 24],
+        "colorArray": [
+          8,
+          81,
+          24
+        ],
         "colorString": "8deg 81% 24%"
       },
       "lightvibrant": {
-        "colorArray": [6, 48, 74],
+        "colorArray": [
+          6,
+          48,
+          74
+        ],
         "colorString": "6deg 48% 74%"
       },
       "muted": {
-        "colorArray": [6, 35, 50],
+        "colorArray": [
+          6,
+          35,
+          50
+        ],
         "colorString": "6deg 35% 50%"
       },
       "darkmuted": {
-        "colorArray": [7, 29, 25],
+        "colorArray": [
+          7,
+          29,
+          25
+        ],
         "colorString": "7deg 29% 25%"
       },
       "lightmuted": {
-        "colorArray": [5, 28, 64],
+        "colorArray": [
+          5,
+          28,
+          64
+        ],
         "colorString": "5deg 28% 64%"
       }
     },
@@ -3956,27 +6452,51 @@
     "file": "https://images.ctfassets.net/cuehicrlqnvu/wMuwlZBGZjvC0sXY8PMEg/c86f470eda4305a84f20c48c19c7b064/img_japan_japan-2024-00209.jpeg",
     "palette": {
       "vibrant": {
-        "colorArray": [7, 49, 55],
+        "colorArray": [
+          7,
+          49,
+          55
+        ],
         "colorString": "7deg 49% 55%"
       },
       "darkvibrant": {
-        "colorArray": [7, 92, 20],
+        "colorArray": [
+          7,
+          92,
+          20
+        ],
         "colorString": "7deg 92% 20%"
       },
       "lightvibrant": {
-        "colorArray": [9, 95, 77],
+        "colorArray": [
+          9,
+          95,
+          77
+        ],
         "colorString": "9deg 95% 77%"
       },
       "muted": {
-        "colorArray": [7, 35, 49],
+        "colorArray": [
+          7,
+          35,
+          49
+        ],
         "colorString": "7deg 35% 49%"
       },
       "darkmuted": {
-        "colorArray": [4, 35, 28],
+        "colorArray": [
+          4,
+          35,
+          28
+        ],
         "colorString": "4deg 35% 28%"
       },
       "lightmuted": {
-        "colorArray": [6, 29, 70],
+        "colorArray": [
+          6,
+          29,
+          70
+        ],
         "colorString": "6deg 29% 70%"
       }
     },

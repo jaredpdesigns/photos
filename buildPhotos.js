@@ -112,7 +112,7 @@ const buildPhotoData = async () => {
         upload
       );
       const fileName = await upload.fields.file["en-US"].url;
-      console.log(`⬆️ Uploaded: https${filename}`);
+      console.log(`⬆️ Uploaded: https${fileName}`);
 
       const palette = await Vibrant.from(file)
         .maxColorCount(256)
@@ -132,12 +132,13 @@ const buildPhotoData = async () => {
       console.log("🎨 Extracted palette");
 
       const exifOptions = [
-        "Make",
-        "Model",
         "CreateDate",
         "FNumber",
+        "FocalLength",
         "ISO",
-        "FocalLength"
+        "Make",
+        "Model",
+        "OffsetTime"
       ];
 
       const exif = await exifr.parse(file, exifOptions);

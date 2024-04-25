@@ -1,13 +1,13 @@
 <div class="photo" :style="`--bg: ${photo.palette.lightmuted.colorString}`">
   <button class="radius__m" :popovertarget="`${photo.directory}-${index}`" popovertargetaction="show">
     <figure class="photo__preview flow__grid flow__align--block-center flow__align--inline-center">
-      <image-get :alt="`${photo.directory} photo #${index}`" class="radius__m shadow" :directory="photo.directory"
-        :src="photo.file" sizes="(min-width: 640px) 640px, 320px" widths="320, 640" fetchpriority="high" loading="lazy"
-        webc:nokeep></image-get>
+      <image-get :alt="`${photo.directory} photo #${index}`" class="radius__m shadow" :src="photo.file"
+        sizes="(min-width: 640px) 640px, 320px" widths="320, 640" fetchpriority="high" loading="lazy" :square="true"
+        meta="&f=face&fit=fill" webc:nokeep></image-get>
     </figure>
   </button>
   <dialog :id="`${photo.directory}-${index}`" class="photo__details" popover>
-    <section class="flow__grid flow__gap--l overflow__hidden padding__m width__xl">
+    <section class="flow__grid overflow__hidden padding__m width__xl">
       <nav class="photo__nav flow__grid padding__m position__absolute">
         <button class="flow__inline flow__align--block-center flow__align--inline-center" title="Close open photo"
           :popovertarget="`${photo.directory}-${index}`" popovertargetaction="hide">
@@ -24,12 +24,12 @@
           </button>
         </section>
       </nav>
-      <image-get :alt="`${photo.directory} photo #${index}`" class="radius__m shadow" :directory="photo.directory"
-        :src="photo.file" sizes="(min-width: 640px) 640px, (min-width:800px) 960px, (min-width: 1008px) 1280px, 320px"
+      <image-get :alt="`${photo.directory} photo #${index}`" class="radius__m shadow" :src="photo.file"
+        sizes="(min-width: 640px) 640px, (min-width:800px) 960px, (min-width: 1008px) 1280px, 320px"
         widths="320, 640, 960, 1280" fetchpriority="low" webc:nokeep></image-get>
       <figcaption class="photo__meta">
         <p class="padding__inline--l type__size--s-m"
-          @text="`${photo.exif.Make} ${photo.exif.Model.replace(photo.exif.Make, '')} • ${new Date(photo.exif.CreateDate).toLocaleDateString('en-US', {year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric'})} • ƒ${photo.exif.FNumber} • ISO ${photo.exif.ISO} • ${Math.round(photo.exif.FocalLength)}mm`">
+          @text="`${photo.exif.Make} ${photo.exif.Model.replace(photo.exif.Make, '')} • ${new Date(photo.exif.CreateDate.replace('.000Z',photo.exif.OffsetTime)).toLocaleDateString('en-US', {year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', timeZone: 'UTC'})} • ƒ${photo.exif.FNumber} • ISO ${photo.exif.ISO} • ${Math.round(photo.exif.FocalLength)}mm`">
         </p>
       </figcaption>
     </section>
