@@ -7,40 +7,50 @@
     --outline__offset: var(--size__xs);
     --outline__size: calc(var(--size__xxs) * 2);
     --outline__style: dotted;
-    --type__family--primary: "degular-variable", sans-serif;
+    --type__family--primary: sole-sans-variable, sans-serif;
+    --type__family--secondary: sole-serif-small-variable, serif;
+    --type__family--secondary-titles: sole-serif-titling-variable, serif;
   }
 
-  strong,
+  body {
+    font-feature-settings: "ss01";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: 'wght' 300, 'wdth' 100;
+  }
+
   h1,
   h2,
-  h3,
+  h4,
+  h5 {
+    font-family: var(--type__family--secondary-titles);
+  }
+
+  h2,
   h4,
   h5 {
     font-weight: 600;
-    font-variation-settings: 'opsz' 6, 'wght' 600;
-
-    em {
-      font-variation-settings: 'opsz' 6, 'wght' 600, 'ital' 1;
-    }
+    font-variation-settings: 'wght' 600, 'opsz' 400;
   }
 
-  h2,
-  h3,
-  h4,
-  h5 {
-    font-variation-settings: 'opsz' 12, 'wght' 600;
+  h3 {
+    font-variation-settings: 'wght' 600, 'wdth' 100;
   }
 
   h1 {
     font-size: var(--type__size--xxxl);
     font-weight: 700;
-    font-variation-settings: 'opsz' 24, 'wght' 700;
+    font-variation-settings: 'wght' 700, 'opsz' 400;
     line-height: var(--type__lineheight--xxxl);
 
     @media (min-width: 79rem) {
       font-size: var(--type__size--xxxxl);
       line-height: var(--type__lineheight--xxxxl);
     }
+  }
+
+  strong {
+    font-variation-settings: 'wght' 500, 'wdth' 100;
   }
 
   a[class] {
@@ -209,6 +219,7 @@
     &__details {
       --background: color-mix(in oklab, hsl(var(--bg)) 25%, var(--color__set--contrast));
       --color: color-mix(in oklab, hsl(var(--bg)) 50%, var(--color__base));
+      --outline__color: color-mix(in oklab, hsl(var(--bg)) 75%, var(--color__set--contrast));
       display: none;
 
       &::backdrop {
@@ -267,7 +278,7 @@
       inset: 0;
 
       button {
-        --outline__offset: 0;
+        --outline__offset: calc(var(--size__xxs)*-1);
         background-color: var(--background);
         block-size: var(--size__xl);
         border-radius: 50%;
