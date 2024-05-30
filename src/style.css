@@ -7,40 +7,33 @@
     --outline__offset: var(--size__xs);
     --outline__size: calc(var(--size__xxs) * 2);
     --outline__style: dotted;
-    --type__family--primary: sole-sans-variable, sans-serif;
-    --type__family--secondary: sole-serif-small-variable, serif;
-    --type__family--secondary-titles: sole-serif-titling-variable, serif;
+    --type__family--primary: iki-mono-variable, monospace;
   }
 
   body {
     font-feature-settings: "ss01";
     font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings: 'wght' 300, 'wdth' 100;
+    font-variation-settings: 'wght' 300, 'wdth' 75;
   }
 
   h1,
   h2,
   h4,
   h5 {
-    font-family: var(--type__family--secondary-titles);
+    font-variation-settings: "wdth" 100, "wght" 700;
   }
 
   h2,
+  h3,
   h4,
   h5 {
     font-weight: 600;
-    font-variation-settings: 'wght' 600, 'opsz' 400;
-  }
-
-  h3 {
-    font-variation-settings: 'wght' 600, 'wdth' 100;
+    font-variation-settings: "wdth" 75, "wght" 600;
   }
 
   h1 {
     font-size: var(--type__size--xxxl);
-    font-weight: 700;
-    font-variation-settings: 'wght' 700, 'opsz' 400;
     line-height: var(--type__lineheight--xxxl);
 
     @media (min-width: 79rem) {
@@ -50,7 +43,7 @@
   }
 
   strong {
-    font-variation-settings: 'wght' 500, 'wdth' 100;
+    font-variation-settings: 'wght' 400, 'wdth' 100;
   }
 
   a[class] {

@@ -3,5 +3,6 @@ node_modules/
 imgsToProcess/
 .DS_Store
 .env
+.gz
 # Local Netlify folder
 .netlify
