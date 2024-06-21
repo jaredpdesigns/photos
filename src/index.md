@@ -5,7 +5,11 @@ pageClass: overview
 layout: overview.webc
 ---
 
-<a class="radius__m shadow" webc:for="album of this.albums" :href="`/albums/${album.directory}`">
-    <photo-card :token="this.mapbox" :album="album" sizes="(min-width: 640px) 960px, 480px"
-    widths="480, 960" webc:nokeep></photo-card>
-</a>
+<ul class="flow__grid flow__gap--m cards" :style="`--numcards: ${this.albums.length}`">
+    <li webc:for="(album,index) of this.albums" :style="`--index: ${index + 1}`">
+        <a class="flow__block radius__m" :href="`/albums/${album.directory}`">
+            <photo-card :token="this.mapbox" :album="album" sizes="(min-width: 640px) 960px, 480px"
+            widths="480, 960" webc:nokeep></photo-card>
+        </a>
+    </li>
+</ul>

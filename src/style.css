@@ -123,23 +123,23 @@
     }
 
     &__card {
-      >* {
-        grid-area: 1/1;
-      }
-
       img {
         aspect-ratio: 1;
         background-color: var(--color__base--ghost);
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
         inline-size: 100%;
         object-fit: cover;
         object-position: center;
+
+        @media(min-width: 600px) {
+          border-bottom-left-radius: 0;
+          border-top-right-radius: var(--size__m);
+        }
       }
 
       figcaption {
-        background-color: color-mix(in srgb, var(--color__set--contrast) 75%, transparent);
-        backdrop-filter: blur(32px);
-        align-self: end;
-        justify-content: center;
+        align-content: center;
 
         >* {
           margin-inline: auto;
@@ -165,7 +165,7 @@
     }
 
     &__header {
-      padding-block-end: 0;
+      padding-block-end: var(--size__l);
       padding-inline-start: calc(var(--size__m) + env(safe-area-inset-left));
       padding-inline-end: calc(var(--size__m) + env(safe-area-inset-right));
 
@@ -180,7 +180,6 @@
 
       a,
       button {
-        color: var(--color__contrast--fixed);
 
         &:focus,
         &:hover {
@@ -193,9 +192,8 @@
       }
 
       img {
-        @media(min-width: 600px) {
-          aspect-ratio: 16/4.5;
-        }
+        aspect-ratio: unset;
+        block-size: 100%;
       }
 
       figcaption section {
@@ -291,9 +289,63 @@
       }
     }
   }
+
+  .cards {
+    list-style: none;
+
+    @media (prefers-reduced-motion: no-preference) {
+      @supports (animation-timeline: view()) {
+        --card-top-offset: var(--size__m);
+        margin-block-end: var(--size__l);
+        padding-block-end: calc(var(--numcards) * var(--card-top-offset));
+        view-timeline-name: --cards-element-scrolls-in-body;
+
+        li {
+          --index0: calc(var(--index) - 1);
+          --reverse-index: calc(var(--numcards) - var(--index0));
+
+          inset-block-start: 0;
+          margin-bottom: calc(var(--index) * var(--card-top-offset) * -1);
+          padding-top: calc(var(--index) * var(--card-top-offset));
+          position: sticky;
+
+          @keyframes scale {
+            to {
+              scale: calc(1.1 - calc(0.1 * var(--reverse-index)));
+            }
+          }
+
+          a {
+            --end-range: calc((var(--index)) / var(--numcards) * 100%);
+            --start-range: calc(var(--index0) / var(--numcards) * 100%);
+
+            animation: linear scale forwards;
+            animation-range: exit-crossing var(--start-range) exit-crossing var(--end-range);
+            animation-timeline: --cards-element-scrolls-in-body;
+            will-change: scale;
+          }
+        }
+      }
+    }
+  }
 }
 
 @layer pages {
+
+  .overview header,
+  .error header,
+  .detail header {
+
+    a,
+    button {
+      color: var(--color__base--mid);
+
+      &:focus,
+      &:hover {
+        color: var(--color__base--ish);
+      }
+    }
+  }
 
   .overview article,
   .error article {
@@ -304,22 +356,12 @@
     header {
       padding-inline-start: calc(var(--size__m) + env(safe-area-inset-left));
       padding-inline-end: calc(var(--size__m) + env(safe-area-inset-right));
-
-      button {
-        color: var(--color__base--mid);
-
-        &:focus,
-        &:hover {
-          color: var(--color__base--ish);
-        }
-      }
     }
 
     >section {
       align-items: start;
       display: grid;
       gap: var(--size__m);
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
       justify-items: center;
       padding-inline-start: calc(var(--size__m) + env(safe-area-inset-left));
       padding-inline-end: calc(var(--size__m) + env(safe-area-inset-right));
@@ -341,6 +383,20 @@
   .detail article {
     display: grid;
     min-block-size: 100dvh;
+
+    header {
+      @media(min-width: 600px) {
+        button {
+          color: var(--color__contrast--fixed);
+
+          &:focus,
+          &:hover {
+            color: var(--color__contrast--fixed);
+            opacity: 0.75;
+          }
+        }
+      }
+    }
 
     >section {
       grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));

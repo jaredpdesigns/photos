@@ -1,8 +1,5 @@
-<figure class="photo__card flow__grid">
-  <img :alt="`Primary photo for ${album.directory}`" class="radius__m"
-    :src="`${album.file}${header ? '1280x360':'480x480'}@2x?access_token=${token}`" />
-  <figcaption
-    class="flow__grid flow__align--block-center flow__align--inline-center flow__gap--m padding__m radius__bl--m radius__br--m">
+<figure class="photo__card color__bg--contrast--adaptive flow__grid flow__grid--columns-auto radius__m shadow">
+  <figcaption class="flow__grid flow__gap--m padding__l radius__m">
     <h1 webc:if="header" @text="album.name"></h1>
     <h2 webc:else @text="album.name"></h2>
     <section class="flow__flex flow__align--inline-center flow__flex--wrap flow__gap--m">
@@ -16,4 +13,6 @@
       </p>
     </section>
   </figcaption>
+  <img :alt="`Primary photo for ${album.directory}`" class="radius__m"
+    :src="`${album.file}${header ? '1280x360':'480x480'}@2x?access_token=${token}`" />
 </figure>
