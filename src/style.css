@@ -165,14 +165,8 @@
     }
 
     &__header {
-      padding-block-end: var(--size__l);
       padding-inline-start: calc(var(--size__m) + env(safe-area-inset-left));
       padding-inline-end: calc(var(--size__m) + env(safe-area-inset-right));
-
-      @media (hover: hover) {
-        inset-block-start: 0;
-        position: sticky;
-      }
 
       >* {
         grid-area: 1/1;
@@ -188,12 +182,14 @@
       }
 
       figure {
+        aspect-ratio: 16/4;
         inline-size: 100%;
       }
 
       img {
         aspect-ratio: unset;
         block-size: 100%;
+        overflow: hidden;
       }
 
       figcaption section {
@@ -406,6 +402,22 @@
 
       >* {
         min-inline-size: 0;
+      }
+
+      .photo {
+        @media (prefers-reduced-motion: no-preference) {
+          @supports (animation-timeline: view()) {
+            @keyframes reveal {
+              from {
+                scale: .90;
+              }
+            }
+
+            animation: reveal linear both;
+            animation-timeline: scroll();
+            animation-range: 25vh 75vh;
+          }
+        }
       }
     }
   }
