@@ -35,16 +35,16 @@
   <link rel="manifest" href="/manifest.json">
   <link rel="preconnect" href="https://use.typekit.net" />
   <link rel="preconnect" href="https://p.typekit.net" />
-  <link webc:keep rel="preload" href="https://use.typekit.net/xan8cjb.css" as="style"
+  <link webc:keep rel="preload" href="https://use.typekit.net/wqr8sqa.css" as="style"
     onload="this.onload=null;this.rel='stylesheet'" rel="stylesheet">
   <noscript webc:keep>
-    <link href="https://use.typekit.net/xan8cjb.css" rel="stylesheet">
+    <link href="https://use.typekit.net/wqr8sqa.css" rel="stylesheet">
   </noscript>
   <link rel="stylesheet" href="/style.css" webc:raw />
   <style webc:keep @html="getCSS(page.url)"></style>
   <script webc:keep @html="getJS(page.url)"></script>
 </head>
 
-<body @html="content"></body>
+<body class="color__bg--base--ghost" @html="content"></body>
 
 </html>

@@ -7,33 +7,27 @@
     --outline__offset: var(--size__xs);
     --outline__size: calc(var(--size__xxs) * 2);
     --outline__style: dotted;
-    --type__family--primary: iki-mono-variable, monospace;
+    --type__family--primary: articulat-cf, sans-serif;
+    --type__family--secondary: argent-cf, serif;
+    --type__family--tertiary: cartograph-cf, monospace;
   }
 
   body {
-    font-feature-settings: "ss01";
     font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings: 'wght' 300, 'wdth' 75;
   }
 
   h1,
   h2,
   h4,
   h5 {
-    font-variation-settings: "wdth" 100, "wght" 700;
-  }
-
-  h2,
-  h3,
-  h4,
-  h5 {
-    font-weight: 600;
-    font-variation-settings: "wdth" 75, "wght" 600;
+    font-family: var(--type__family--secondary);
+    font-weight: 800;
   }
 
   h1 {
     font-size: var(--type__size--xxxl);
+    letter-spacing: -0.10625rem;
     line-height: var(--type__lineheight--xxxl);
 
     @media (min-width: 79rem) {
@@ -42,8 +36,16 @@
     }
   }
 
-  strong {
-    font-variation-settings: 'wght' 400, 'wdth' 100;
+  h2 {
+    letter-spacing: -0.03125rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: var(--color__base--ish);
   }
 
   a[class] {
@@ -61,7 +63,7 @@
   p {
     svg {
       flex-shrink: 0;
-      margin-block-start: calc(var(--size__xs) * -1);
+      margin-block-start: calc((var(--size__xxs) * 2) * -1);
     }
 
     &:empty {
@@ -182,12 +184,12 @@
       }
 
       figure {
-        aspect-ratio: 16/4;
         inline-size: 100%;
+        min-inline-size: 0;
       }
 
       img {
-        aspect-ratio: unset;
+        aspect-ratio: 16/9;
         block-size: 100%;
         overflow: hidden;
       }

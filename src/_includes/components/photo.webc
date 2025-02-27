@@ -27,7 +27,7 @@
       <image-get :alt="`${photo.directory} photo #${index}`" class="radius__m shadow" :src="photo.file"
         sizes="(min-width: 640px) 640px, (min-width:800px) 960px, (min-width: 1008px) 1280px, 320px"
         widths="320, 640, 960, 1280" fetchpriority="low" webc:nokeep></image-get>
-      <figcaption class="photo__meta">
+      <figcaption class="photo__meta type__family--tertiary">
         <p class="padding__inline--l type__size--s-m"
           @text="`${photo.exif.Make} ${photo.exif.Model.replace(photo.exif.Make, '')} • ${new Date(photo.exif.CreateDate.replace('.000Z',photo.exif.OffsetTime)).toLocaleDateString('en-US', {year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', timeZone: 'UTC'})} • ƒ${photo.exif.FNumber} • ISO ${photo.exif.ISO} • ${Math.round(photo.exif.FocalLength)}mm`">
         </p>

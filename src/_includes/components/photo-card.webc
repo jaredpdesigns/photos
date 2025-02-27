@@ -1,7 +1,7 @@
 <figure class="photo__card color__bg--contrast--adaptive flow__grid flow__grid--columns-auto radius__m shadow">
   <figcaption class="flow__grid flow__gap--m padding__l radius__m">
-    <h1 webc:if="header" @text="album.name"></h1>
-    <h2 webc:else @text="album.name"></h2>
+    <h1 webc:if="header" @text="album.name" class="type__align--center"></h1>
+    <h2 webc:else @text="album.name" class="type__align--center"></h2>
     <section class="flow__flex flow__align--inline-center flow__flex--wrap flow__gap--m">
       <p class="flow__flex flow__align--block-center flow__align--inline-center flow__gap--s">
         <icon name="calendar" size="24" webc:nokeep></icon>
