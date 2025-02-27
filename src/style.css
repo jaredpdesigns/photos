@@ -204,9 +204,9 @@
     }
 
     &__details {
-      --background: color-mix(in oklab, hsl(var(--bg)) 25%, var(--color__set--contrast));
+      --background: color-mix(in oklab, hsl(var(--bg)) 25%, var(--color__contrast));
       --color: color-mix(in oklab, hsl(var(--bg)) 50%, var(--color__base));
-      --outline__color: color-mix(in oklab, hsl(var(--bg)) 75%, var(--color__set--contrast));
+      --outline__color: color-mix(in oklab, hsl(var(--bg)) 75%, var(--color__contrast));
       display: none;
 
       &::backdrop {
@@ -248,7 +248,7 @@
           }
 
           img {
-            background-color: color-mix(in oklab, hsl(var(--bg)) 38%, var(--color__set--contrast));
+            background-color: color-mix(in oklab, hsl(var(--bg)) 38%, var(--color__contrast));
             inline-size: auto;
             max-block-size: calc(100dvh - (var(--size__l) * 2) - 64px);
           }
