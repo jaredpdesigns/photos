@@ -18,34 +18,32 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     dryRun: true,
-    formats: ["avif", "webp"],
+    formats: ["avif", "webp", "jpeg"],
     htmlOptions: {
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 1024px",
       imgAttributes: {
         decoding: "async",
         loading: "lazy"
       }
     },
-    urlFormat: ({ src, width, format, imgAttributes }) => {
-      /* Only transform images from images.jaredpendergraft.com */
+    urlFormat: ({ src, width, format }) => {
+      // Only transform images from your image host
       if (!src.startsWith("https://images.jaredpendergraft.com/")) return src;
 
-      const params = [`w=${width}`, `f=${format}`, "q=auto", "metadata=none"];
+      const params = [
+        `w=${width}`,
+        `f=${format}`,
+        "q=auto",
+        "metadata=none",
+        "onerror=redirect"
+      ];
 
-      /*
-       * Handle square/crop images with face detection
-       */
-      if (imgAttributes && imgAttributes["data-square"] === "true") {
-        params.push(`h=${width}`, "fit=crop", "gravity=face");
-      }
-
-      const finalUrl = src.replace(
-        /^https:\/\/([^\/]+)/,
+      return src.replace(
+        /^https:\/\/([^/]+)/,
         `$&/cdn-cgi/image/${params.join(",")}`
       );
-
-      return finalUrl;
     },
-    widths: [320, 480, 640, 1024, 1440]
+    widths: [320, 480, 640, 1024, 1440, 1920] // consider a 2x/hero size if needed
   });
 
   /*
