@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Japan",
+    "directory": "japan-2025",
+    "dates": "October 5–12, 2025",
+    "file": "https://images.jaredpendergraft.com/japan-2025/img_japan_japan-2025-00014.jpeg",
+    "locations": ["Tokyo", "Kyoto"]
+  },
+  {
+    "name": "Japan",
+    "directory": "japan-2024",
+    "dates": "March 17–26, 2024",
+    "file": "https://images.jaredpendergraft.com/japan/img_japan_japan-2024-00027.jpeg",
+    "locations": ["Tokyo", "Kyoto", "Nara", "Hiroshima", "Osaka"]
+  },
+  {
+    "name": "Alaska & Vancouver",
+    "directory": "alaska-vancouver-2023",
+    "dates": "May 27–April 3, 2023",
+    "file": "https://images.jaredpendergraft.com/alaska-vancouver/img_alaska-vancouver_alaska-vancouver-2023-00024.jpeg",
+    "locations": ["Alaska", "Vancouver"]
+  },
+  {
+    "name": "Vancouver",
+    "directory": "vancouver-2022",
+    "dates": "October 1–7, 2022",
+    "file": "https://images.jaredpendergraft.com/vancouver/img_vancouver_vancouver-2022-00005.jpeg",
+    "locations": ["Vancouver", "Squamish"]
+  }
+]

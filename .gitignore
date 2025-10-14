@@ -1,8 +1,9 @@
 dist/
 node_modules/
-imgsToProcess/
 .DS_Store
 .env
 *.gz
-# Local Netlify folder
-.netlify
+.wrangler
+.pnp.cjs
+.pnp.loader.mjs
+imgsToProcess/

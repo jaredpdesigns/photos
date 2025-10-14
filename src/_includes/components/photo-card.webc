@@ -13,6 +13,5 @@
       </p>
     </section>
   </figcaption>
-  <img :alt="`Primary photo for ${album.directory}`" class="radius__m"
-    :src="`${album.file}${header ? '1280x360':'480x480'}@2x?access_token=${token}`" />
+  <img :alt="`Primary photo for ${album.directory}`" class="radius__m" :src="album.file" eleventy:widths="480, 960" />
 </figure>

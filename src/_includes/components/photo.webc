@@ -1,9 +1,9 @@
 <div class="photo" :style="`--bg: ${photo.palette.lightmuted.colorString}`">
   <button class="radius__m" :popovertarget="`${photo.directory}-${index}`" popovertargetaction="show">
     <figure class="photo__preview flow__grid flow__align--block-center flow__align--inline-center">
-      <image-get :alt="`${photo.directory} photo #${index}`" class="radius__m shadow" :src="photo.file"
-        sizes="(min-width: 640px) 320px, 160px" widths="160, 320" fetchpriority="high" loading="lazy" :square="true"
-        meta="&f=face&fit=fill" webc:nokeep></image-get>
+      <img :alt="`${photo.directory} photo #${index}`" class="radius__m shadow" :src="photo.file"
+        sizes="(min-width: 640px) 320px, 160px" eleventy:widths="160, 320" fetchpriority="high" loading="lazy"
+        data-square="true" />
     </figure>
   </button>
   <dialog :id="`${photo.directory}-${index}`" class="photo__details" popover>
@@ -24,9 +24,9 @@
           </button>
         </section>
       </nav>
-      <image-get :alt="`${photo.directory} photo #${index}`" class="radius__m shadow" :src="photo.file"
+      <img :alt="`${photo.directory} photo #${index}`" class="radius__m shadow" :src="photo.file"
         sizes="(min-width: 640px) 640px, (min-width:800px) 960px, (min-width: 1008px) 1280px, 320px"
-        widths="320, 640, 960, 1280" fetchpriority="low" webc:nokeep></image-get>
+        fetchpriority="low" />
       <figcaption class="photo__meta type__family--tertiary">
         <p class="padding__inline--l type__size--s-m"
           @text="`${photo.exif.Make} ${photo.exif.Model.replace(photo.exif.Make, '')} • ${new Date(photo.exif.CreateDate.replace('.000Z',photo.exif.OffsetTime)).toLocaleDateString('en-US', {year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', timeZone: 'UTC'})} • ƒ${photo.exif.FNumber} • ISO ${photo.exif.ISO} • ${Math.round(photo.exif.FocalLength)}mm`">
