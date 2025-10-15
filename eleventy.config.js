@@ -17,7 +17,12 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-    dryRun: true,
+    statsOnly: true,
+    cacheOptions: {
+      duration: "30d",
+      directory: ".cache/eleventy-img",
+      removeUrlQueryParams: false
+    },
     formats: ["avif", "webp", "jpeg"],
     htmlOptions: {
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 1024px",
