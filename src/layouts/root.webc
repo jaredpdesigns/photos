@@ -42,6 +42,7 @@
   </noscript>
   <link rel="stylesheet" href="/style.css" webc:raw />
   <style webc:keep @html="getCSS(page.url)"></style>
+  <script src="/script.js" webc:raw></script>
   <script webc:keep @html="getJS(page.url)"></script>
 </head>
 

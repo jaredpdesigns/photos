@@ -4,12 +4,29 @@
 
 @layer project {
   :root {
+    --background: color-mix(in oklab, hsl(var(--bg)) 25%, var(--color__contrast));
+    --color: color-mix(in oklab, hsl(var(--bg)) 50%, var(--color__base));
+    --outline__color: color-mix(in oklab, hsl(var(--bg)) 75%, var(--color__contrast));
     --outline__offset: var(--size__xs);
     --outline__size: calc(var(--size__xxs) * 2);
     --outline__style: dotted;
     --type__family--primary: articulat-cf, sans-serif;
     --type__family--secondary: argent-cf, serif;
     --type__family--tertiary: cartograph-cf, monospace;
+
+    &:has([popover]:popover-open) {
+      background-color: var(--background);
+
+      body {
+        background: none;
+        inset: 0;
+        position: fixed;
+      }
+
+      article {
+        opacity: 0;
+      }
+    }
   }
 
   body {
@@ -69,10 +86,6 @@
     &:empty {
       display: none;
     }
-  }
-
-  body:has([popover]:popover-open) {
-    overflow: hidden;
   }
 
   header {
@@ -206,18 +219,15 @@
     }
 
     &__details {
-      --background: color-mix(in oklab, hsl(var(--bg)) 25%, var(--color__contrast));
-      --color: color-mix(in oklab, hsl(var(--bg)) 50%, var(--color__base));
-      --outline__color: color-mix(in oklab, hsl(var(--bg)) 75%, var(--color__contrast));
       display: none;
 
       &::backdrop {
-        background-color: var(--background);
+        background: none;
         backdrop-filter: unset;
       }
 
       &:popover-open {
-        background: unset;
+        background: none;
         border: unset;
         align-items: center;
         block-size: 100dvh;
@@ -250,8 +260,8 @@
           }
 
           img {
-            background-color: color-mix(in oklab, hsl(var(--bg)) 38%, var(--color__contrast));
             inline-size: auto;
+            max-inline-size: 100%;
             max-block-size: calc(100dvh - (var(--size__l) * 2) - 64px);
           }
 

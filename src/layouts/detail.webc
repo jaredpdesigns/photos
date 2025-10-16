@@ -11,7 +11,7 @@ layout: base.webc
     <icon name="moon" size="24" webc:nokeep></icon>
     <icon name="sun" size="24" webc:nokeep></icon>
   </button>
-  <photo-card :token="this.mapbox" :album="album" :header="true" webc:nokeep></photo-card>
+  <photo-card :album="album" :header="true" webc:nokeep></photo-card>
 </header>
 <section class="flow__grid flow__gap--m padding__m">
   <template @html="content" webc:nokeep></template>
