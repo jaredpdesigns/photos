@@ -299,6 +299,7 @@
   }
 
   .cards {
+    inline-size: 100%;
     list-style: none;
 
     @media (prefers-reduced-motion: no-preference) {
