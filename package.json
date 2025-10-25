@@ -8,8 +8,7 @@
   "scripts": {
     "build": "eleventy",
     "buildPhotos": "node buildPhotos.js --input=imgsToProcess/[album-name] --output=src/_data",
-    "dev": "eleventy --serve",
-    "deploy": "npm run build && wrangler pages deploy"
+    "dev": "eleventy --serve"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
@@ -26,8 +25,7 @@
     "postcss-each": "^1.1.0",
     "postcss-import": "^16.1.1",
     "postcss-minify": "^1.2.0",
-    "postcss-nested": "^7.0.2",
-    "wrangler": "^4.43.0"
+    "postcss-nested": "^7.0.2"
   },
   "devDependencies": {
     "dotenv": "^17.2.3",
