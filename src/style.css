@@ -11,7 +11,7 @@
     --outline__size: calc(var(--size__xxs) * 2);
     --outline__style: dotted;
     --type__family--primary: articulat-cf, sans-serif;
-    --type__family--secondary: argent-cf, serif;
+    --type__family--secondary: greycliff-cf, sans-serif;
     --type__family--tertiary: cartograph-cf, monospace;
 
     &:has([popover]:popover-open) {
