@@ -124,8 +124,8 @@ const processAlbum = async (directory, inputDir, outputDir, dryRun, rewrite) => 
   let skippedCount = 0;
 
   for (const file of files) {
-    /* Generate sequential filename */
-    const paddedNumber = String(photoNumber).padStart(5, "0");
+    /* Generate sequential filename (pad to 3 digits for proper sorting) */
+    const paddedNumber = String(photoNumber).padStart(3, "0");
     const newFileName = `img_${
       directory.split("-")[0]
     }_${directory}-${paddedNumber}.jpeg`;
