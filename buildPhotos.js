@@ -8,6 +8,85 @@ import sharp from "sharp";
 const require = createRequire(import.meta.url);
 const { Vibrant } = require("node-vibrant/node");
 
+const parseOffsetMinutes = (offset) => {
+  const m = /^([+-])(\d{2}):(\d{2})$/.exec(offset ?? "");
+  if (!m) return null;
+  const sign = m[1] === "-" ? -1 : 1;
+  return sign * (Number(m[2]) * 60 + Number(m[3]));
+};
+
+const safeStringify = (obj) => {
+  return JSON.stringify(
+    obj,
+    (key, value) => {
+      if (value instanceof Date) return value.toISOString();
+      if (typeof value === "bigint") return value.toString();
+      return value;
+    },
+    2
+  );
+};
+
+const inspectPhoto = async (filePath) => {
+  try {
+    const exif = await exifr.parse(filePath, {
+      /*
+       * Keep this “wide” so we can see what the file actually contains.
+       * We intentionally skip maker notes and binary tags to avoid huge output.
+       */
+      tiff: true,
+      exif: true,
+      gps: true,
+      xmp: true,
+      iptc: true,
+      makerNote: false,
+      reviveValues: true,
+      translateValues: false,
+      skipBinaryTags: true
+    });
+
+    if (!exif) {
+      console.log("No EXIF data found.");
+      return;
+    }
+
+    const interesting = {
+      /* Identity */
+      Make: exif.Make,
+      Model: exif.Model,
+
+      /* Common timestamps */
+      CreateDate: exif.CreateDate,
+      DateTimeOriginal: exif.DateTimeOriginal,
+      ModifyDate: exif.ModifyDate,
+
+      /* Offsets (these are the key to timezone correctness) */
+      OffsetTime: exif.OffsetTime,
+      OffsetTimeOriginal: exif.OffsetTimeOriginal,
+      OffsetTimeDigitized: exif.OffsetTimeDigitized,
+
+      /* GPS (if present, this is an independent time source) */
+      GPSDateStamp: exif.GPSDateStamp,
+      GPSTimeStamp: exif.GPSTimeStamp,
+      GPSLatitude: exif.GPSLatitude,
+      GPSLongitude: exif.GPSLongitude,
+
+      /* Camera settings */
+      FNumber: exif.FNumber,
+      ISO: exif.ISO,
+      FocalLength: exif.FocalLength
+    };
+
+    console.log("=== EXIF inspection ===");
+    console.log("file:", filePath);
+    console.log(safeStringify(interesting));
+  } catch (err) {
+    console.error("Failed to inspect file:", filePath);
+    console.error(err?.message ?? err);
+    throw err;
+  }
+};
+
 /*
  * Build photo data script - processes local images and uploads to R2
  * Usage: node buildPhotos.js [--dry-run] [--album=album-name] [--rewrite]
@@ -81,7 +160,7 @@ const getFileList = async (dirName) => {
 /**
  * Process a single album directory
  */
-const processAlbum = async (directory, inputDir, outputDir, dryRun, rewrite) => {
+const processAlbum = async (directory, inputDir, outputDir, dryRun, rewrite, options = {}) => {
   console.log(`\n📸 Processing album: ${directory}`);
   console.log("━".repeat(50));
 
@@ -179,16 +258,117 @@ const processAlbum = async (directory, inputDir, outputDir, dryRun, rewrite) => 
       /* Extract EXIF data */
       const exifOptions = [
         "CreateDate",
+        "DateTimeOriginal",
+        "ModifyDate",
         "FNumber",
         "FocalLength",
         "ISO",
         "Make",
         "Model",
-        "OffsetTime"
+        "OffsetTime",
+        "OffsetTimeOriginal",
+        "OffsetTimeDigitized",
+        "GPSDateStamp",
+        "GPSTimeStamp",
+        "GPSLatitude",
+        "GPSLongitude"
       ];
 
       const exif = await exifr.parse(file, exifOptions);
       console.log("📷 Extracted exif data");
+
+      /* Optional filter: only apply offset remaps (and any dependent behavior) to certain makes. */
+      if (options.includeMake && exif?.Make !== options.includeMake) {
+        /* Proceed without remap/write behavior */
+        options = { ...options, offsetRemap: new Map(), writeRemappedOffset: false };
+      }
+      if (options.excludeMake && exif?.Make === options.excludeMake) {
+        /* Proceed without remap/write behavior */
+        options = { ...options, offsetRemap: new Map(), writeRemappedOffset: false };
+      }
+
+      /*
+       * Normalize CreateDate:
+       * EXIF CreateDate is typically a *naive* local timestamp (no timezone).
+       * If OffsetTime is present, treat the CreateDate wall-clock components as being in that offset
+       * and convert to a true UTC instant for storage (ISO string with trailing 'Z').
+       */
+      if (exif?.CreateDate instanceof Date) {
+        const rawOffset =
+          exif.OffsetTime ?? exif.OffsetTimeOriginal ?? exif.OffsetTimeDigitized;
+
+        const remapOffset =
+          typeof rawOffset === "string" ? options.offsetRemap?.get(rawOffset) : undefined;
+
+        const effectiveOffset =
+          typeof remapOffset === "string" ? remapOffset : rawOffset;
+
+        const offsetMinutes = parseOffsetMinutes(effectiveOffset);
+        if (typeof offsetMinutes === "number") {
+          const localWallClockUtcMs = Date.UTC(
+            exif.CreateDate.getFullYear(),
+            exif.CreateDate.getMonth(),
+            exif.CreateDate.getDate(),
+            exif.CreateDate.getHours(),
+            exif.CreateDate.getMinutes(),
+            exif.CreateDate.getSeconds(),
+            exif.CreateDate.getMilliseconds()
+          );
+
+          exif.CreateDate = new Date(localWallClockUtcMs - offsetMinutes * 60_000).toISOString();
+
+          /*
+           * Optionally rewrite the offset tag for display, so the UI shows the capture timezone.
+           * This is useful when the camera's timezone offset tags were incorrect (e.g. stuck on home TZ),
+           * even though the wall-clock time was adjusted.
+           */
+          if (options.writeRemappedOffset && typeof remapOffset === "string") {
+            exif.OffsetTime = remapOffset;
+            exif.OffsetTimeOriginal = remapOffset;
+            exif.OffsetTimeDigitized = remapOffset;
+          }
+        } else {
+          exif.CreateDate = exif.CreateDate.toISOString();
+        }
+      } else if (exif?.CreateDate instanceof Date) {
+        exif.CreateDate = exif.CreateDate.toISOString();
+      }
+
+      /*
+       * Optional integrity check: if GPS time exists, compare it to CreateDate.
+       * GPS time is UTC and is an independent reference (when present).
+       *
+       * If we see a large delta here, it often means the camera clock was wrong,
+       * or a timezone/offset tag is missing/incorrect.
+       */
+      if (typeof exif?.CreateDate === "string" && exif?.GPSDateStamp && exif?.GPSTimeStamp) {
+        const createDateMs = Date.parse(exif.CreateDate);
+        const gpsDateStamp =
+          typeof exif.GPSDateStamp === "string" ? exif.GPSDateStamp : null;
+        const gpsTimeStamp = exif.GPSTimeStamp;
+
+        const parts = gpsDateStamp ? gpsDateStamp.split(":").map(Number) : [];
+        const isGpsTimeArray =
+          Array.isArray(gpsTimeStamp) && gpsTimeStamp.length >= 3;
+
+        if (
+          Number.isFinite(createDateMs) &&
+          parts.length === 3 &&
+          parts.every(Number.isFinite) &&
+          isGpsTimeArray &&
+          gpsTimeStamp.slice(0, 3).every((n) => Number.isFinite(Number(n)))
+        ) {
+          const [y, m, d] = parts;
+          const [hh, mm, ss] = gpsTimeStamp.slice(0, 3).map(Number);
+          const gpsUtcMs = Date.UTC(y, m - 1, d, hh, mm, ss);
+          const deltaMin = Math.round((createDateMs - gpsUtcMs) / 60000);
+          if (Math.abs(deltaMin) >= 30) {
+            console.log(
+              `⚠️  Possible clock skew: CreateDate differs from GPS time by ~${deltaMin} minute(s)`
+            );
+          }
+        }
+      }
 
       /* Add to array (or replace if rewriting) */
       if (rewrite) {
@@ -267,9 +447,42 @@ const buildPhotoData = async () => {
   const args = process.argv.slice(2);
   const dryRun = args.includes("--dry-run");
   const rewrite = args.includes("--rewrite");
+  const inspect = args
+    .find((arg) => arg.startsWith("--inspect="))
+    ?.replace("--inspect=", "");
+  const writeRemappedOffset = args.includes("--remap-offset-write");
+  const excludeMake = args
+    .find((arg) => arg.startsWith("--exclude-make="))
+    ?.replace("--exclude-make=", "");
+  const includeMake = args
+    .find((arg) => arg.startsWith("--only-make="))
+    ?.replace("--only-make=", "");
+
+  const offsetRemap = new Map();
+  for (const arg of args.filter((a) => a.startsWith("--remap-offset="))) {
+    const value = arg.replace("--remap-offset=", "");
+    const parts = value.split(":");
+    if (parts.length === 5) {
+      /* Format: -10:00:-07:00 (split yields ["-10","00","-07","00"]) */
+      const from = `${parts[0]}:${parts[1]}`;
+      const to = `${parts[2]}:${parts[3]}`;
+      offsetRemap.set(from, to);
+    } else if (parts.length === 4) {
+      /* Format: -10:00:+09:00 (split yields ["-10","00","+09","00"]) */
+      const from = `${parts[0]}:${parts[1]}`;
+      const to = `${parts[2]}:${parts[3]}`;
+      offsetRemap.set(from, to);
+    }
+  }
+
   const specificAlbum = args
     .find((arg) => arg.startsWith("--album="))
     ?.replace("--album=", "");
+
+  if (inspect) {
+    await inspectPhoto(inspect);
+    return;
+  }
 
   const inputDir = "imgsToProcess";
   const outputDir = "src/_data";
@@ -316,13 +529,23 @@ const buildPhotoData = async () => {
       );
       return;
     }
-    await processAlbum(specificAlbum, inputDir, outputDir, dryRun, rewrite);
+    await processAlbum(specificAlbum, inputDir, outputDir, dryRun, rewrite, {
+      offsetRemap,
+      writeRemappedOffset,
+      excludeMake,
+      includeMake
+    });
   } else {
     console.log(`📂 Found ${albums.length} album(s) to process:`);
     albums.forEach((album) => console.log(`   • ${album}`));
 
     for (const album of albums) {
-      await processAlbum(album, inputDir, outputDir, dryRun, rewrite);
+      await processAlbum(album, inputDir, outputDir, dryRun, rewrite, {
+        offsetRemap,
+        writeRemappedOffset,
+        excludeMake,
+        includeMake
+      });
     }
 
     console.log(`\n${"=".repeat(50)}`);
