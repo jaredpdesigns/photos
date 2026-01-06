@@ -346,7 +346,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-27T19:48:25.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 18.4
     }
   },
@@ -385,7 +385,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-27T20:25:20.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 54.5
     }
   },
@@ -424,7 +424,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-27T20:28:58.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 24.7
     }
   },
@@ -463,7 +463,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-27T20:47:57.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 18.4
     }
   },
@@ -502,7 +502,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-27T20:48:19.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 80
     }
   },
@@ -541,7 +541,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-27T20:49:28.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 20.2
     }
   },
@@ -580,7 +580,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-28T20:00:59.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 18.4
     }
   },
@@ -619,7 +619,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-28T20:12:04.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 48.5
     }
   },
@@ -658,7 +658,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-28T20:13:29.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 16
     }
   },
@@ -697,7 +697,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-28T20:18:42.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 37.6
     }
   },
@@ -736,7 +736,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-28T20:20:59.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 78.1
     }
   },
@@ -775,7 +775,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-28T20:30:43.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 37.6
     }
   },
@@ -814,7 +814,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-28T20:34:34.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 22.3
     }
   },
@@ -853,7 +853,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-29T20:55:16.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 35.8
     }
   },
@@ -892,7 +892,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-29T20:57:04.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 80
     }
   },
@@ -931,7 +931,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-29T21:08:38.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 23.5
     }
   },
@@ -970,7 +970,7 @@
       "FNumber": 5,
       "ISO": 500,
       "CreateDate": "2025-12-31T22:02:52.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 32.5
     }
   },
@@ -1009,7 +1009,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-31T22:04:27.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 16
     }
   },
@@ -1048,7 +1048,7 @@
       "FNumber": 5,
       "ISO": 500,
       "CreateDate": "2025-12-31T22:32:32.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 80
     }
   },
@@ -1087,7 +1087,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-31T22:43:14.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 23.5
     }
   },
@@ -1126,7 +1126,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-31T22:44:27.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 22.3
     }
   },
@@ -1165,7 +1165,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2025-12-31T22:57:05.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 35.8
     }
   },
@@ -1204,7 +1204,7 @@
       "FNumber": 5.6,
       "ISO": 500,
       "CreateDate": "2026-01-01T00:10:37.000Z",
-      "OffsetTime": "-07:00",
+      "OffsetTime": "-10:00",
       "FocalLength": 26
     }
   }

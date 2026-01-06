@@ -28,8 +28,33 @@
         sizes="(min-width: 1008px) 1280px, (min-width: 800px) 960px, (min-width: 640px) 640px, 100vw"
         fetchpriority="low" />
       <figcaption class="photo__meta type__family--tertiary">
-        <p class="padding__inline--l type__size--s-m"
-          @text="`${photo.exif.Make} ${photo.exif.Model.replace(photo.exif.Make, '')} • ${new Date(photo.exif.CreateDate.replace('.000Z',photo.exif.OffsetTime)).toLocaleDateString('en-US', {year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', timeZone: 'UTC'})} • ƒ${photo.exif.FNumber} • ISO ${photo.exif.ISO} • ${Math.round(photo.exif.FocalLength)}mm`">
+        <p class="padding__inline--l type__size--s-m" @text="`${photo.exif.Make} ${photo.exif.Model.replace(photo.exif.Make, '')} • ${(() => {
+            const createDateMs = Date.parse(photo.exif.CreateDate);
+            if (!Number.isFinite(createDateMs)) {
+              return '';
+            }
+
+            const offsetMatch = /^([+-])(\d{2}):(\d{2})$/.exec(photo.exif.OffsetTime ?? '');
+            const offsetMinutes = offsetMatch
+              ? (offsetMatch[1] === '-' ? -1 : 1) *
+                (Number(offsetMatch[2]) * 60 + Number(offsetMatch[3]))
+              : 0;
+
+            /* Apply the capture offset for display, then format in UTC to avoid viewer-local timezone shifts. */
+            const displayDate = new Date(createDateMs + offsetMinutes * 60_000);
+
+            return displayDate.toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+              hour: 'numeric',
+              minute: 'numeric',
+              timeZone: 'UTC'
+            });
+          })()} • ƒ${(() => {
+            const fNumber = Number(photo.exif.FNumber);
+            return Number.isFinite(fNumber) ? fNumber.toFixed(1) : '';
+          })()} • ISO ${photo.exif.ISO} • ${Math.round(photo.exif.FocalLength)}mm`">
         </p>
       </figcaption>
     </section>
