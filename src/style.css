@@ -4,10 +4,6 @@
 
 @layer project {
   :root {
-    --background: color-mix(in oklab, hsl(var(--bg)) 25%, var(--color__contrast));
-    --color: color-mix(in oklab, hsl(var(--bg)) 50%, var(--color__base));
-    --outline__color: color-mix(in oklab, hsl(var(--bg)) 75%, var(--color__contrast));
-    --outline__offset: var(--size__xs);
     --outline__size: calc(var(--size__xxs) * 2);
     --outline__style: dotted;
     --type__family--primary: articulat-cf, sans-serif;
@@ -15,6 +11,9 @@
     --type__family--tertiary: cartograph-cf, monospace;
 
     &:has([popover]:popover-open) {
+      --background: color-mix(in oklab, hsl(var(--bg)) 25%, var(--color__contrast));
+      --color: color-mix(in oklab, hsl(var(--bg)) 50%, var(--color__base));
+      --outline__color: color-mix(in oklab, hsl(var(--bg)) 75%, var(--color__contrast));
       background-color: var(--background);
 
       body {
@@ -110,6 +109,7 @@
     }
 
     button {
+      --outline__offset: calc(var(--size__xs) * -1);
       align-self: start;
       background-color: unset;
       border: unset;
@@ -276,8 +276,12 @@
       grid-template-rows: auto 1fr;
       inset: 0;
 
+      a,
       button {
-        --outline__offset: calc(var(--size__xxs)*-1);
+        --outline__offset: calc(var(--size__xs)*-1);
+      }
+
+      button {
         background-color: var(--background);
         block-size: var(--size__xl);
         border-radius: 50%;
@@ -347,6 +351,7 @@
 
     a,
     button {
+      --outline__offset: calc(var(--size__xs)*-1);
       color: var(--color__base--mid);
 
       &:focus,
