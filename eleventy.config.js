@@ -7,6 +7,7 @@ import autoprefixer from "autoprefixer";
 import postcssImport from "postcss-import";
 import postcssNested from "postcss-nested";
 import postcssEach from "postcss-each";
+import { execSync } from "child_process";
 
 export default function (eleventyConfig) {
   /*
@@ -25,10 +26,12 @@ export default function (eleventyConfig) {
     },
     formats: ["avif", "webp", "jpeg"],
     htmlOptions: {
-      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 1024px",
+      fallback: "smallest",
       imgAttributes: {
         decoding: "async",
-        loading: "lazy"
+        fetchPriority: "high",
+        loading: "lazy",
+        sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 1024px"
       }
     },
     urlFormat: ({ src, width, format }) => {
@@ -64,9 +67,23 @@ export default function (eleventyConfig) {
         postcssNested,
         postcssEach,
         autoprefixer
-      ]).process(inputContent, { from: undefined, to: undefined });
+      ]).process(inputContent, {
+        from: this.inputPath,
+        to: undefined
+      });
 
       return async () => result.css;
+    }
+  });
+
+  /*
+   * Global data - Git commit hash for cache busting
+   */
+  eleventyConfig.addGlobalData("gitHash", () => {
+    try {
+      return execSync("git rev-parse --short HEAD").toString().trim();
+    } catch (e) {
+      return Date.now().toString();
     }
   });
 

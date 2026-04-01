@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: "📷 from {{ album.name }} • {{ album.dates }}"
+  title: "{{ album.name }}"
   description: "Photos from {{ album.name }}, {{ album.dates}}"
   image: "{{ album.file | replace('images.jaredpendergraft.com', 'images.jaredpendergraft.com/cdn-cgi/image/w=1200,h=630,fit=cover,f=auto,q=auto,metadata=none') }}"
 pageClass: detail

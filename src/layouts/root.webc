@@ -40,7 +40,8 @@
   <noscript webc:keep>
     <link href="https://use.typekit.net/wqr8sqa.css" rel="stylesheet">
   </noscript>
-  <link rel="stylesheet" href="/style.css" webc:raw />
+  <link rel="preload" webc:keep :href="`/style.css?v=${gitHash}`" as="style" />
+  <link rel="stylesheet" webc:keep :href="`/style.css?v=${gitHash}`" />
   <style webc:keep @html="getCSS(page.url)"></style>
   <script src="/script.js" webc:raw></script>
   <script webc:keep @html="getJS(page.url)"></script>
