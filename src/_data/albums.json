@@ -1,5 +1,12 @@
 [
   {
+    "name": "Japan",
+    "directory": "japan-2026",
+    "dates": "March 17–25, 2025",
+    "file": "https://images.jaredpendergraft.com/japan-2026/img_japan_japan-2026-106.jpeg",
+    "locations": ["Tokyo", "Nagoya"]
+  },
+  {
     "name": "Lake Louise",
     "directory": "lake-louise-winter-2025",
     "dates": "December 26, 2025 to January 1, 2026",
